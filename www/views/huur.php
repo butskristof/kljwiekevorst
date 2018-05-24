@@ -13,12 +13,14 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 
 	<p class="lead">Ons lokaal is te huur voor familiefeesten, communiefeesten, barbecues, enz. Wij verhuren ons lokaal <strong>niet</strong> voor overnachtingen of weekends. </p>
 
-	<figure id="lokaal_picture">
+	<figure id="lokaal_picture" class="photo_huur">
 		<a href="http://placehold.it/1000x750" class="mfp-link">
 			<img src="http://placehold.it/1000x750" alt="Straataanzicht lokaal KLJ Wiekevorst" class="img-responsive">
 		</a>
 		<figcaption>Straataanzicht lokaal KLJ Wiekevorst</figcaption>
 	</figure>
+
+	<h2>Verhuurmogelijkheden</h2>
 
 	<p>
 		Wij bieden u twee formules aan:
@@ -33,7 +35,7 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 					<li>Inkomhal</li>
 					<li>Opbergruimte onder de trap met het nodige poetsgerief, toiletpapier en vuilniszakken</li>
 					<br>
-					<li><strong>TARIEF: 100 EUR + poetswaarborg van 50 EUR</strong></li>
+					<li><strong>TARIEF: &euro; 100 + poetswaarborg van &euro; 50</strong></li>
 				</ul>
 			</li>
 
@@ -49,7 +51,7 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 					<li>Afwasbak</li>
 					<li>Bij de documenten onderaan deze pagina kan u de inventaris van ons keukenmateriaal vinden</li>
 					<br>
-					<li><strong>TARIEF: 175 EUR + poetswaarborg van 75 EUR</strong></li>
+					<li><strong>TARIEF: &euro; 175 + poetswaarborg van &euro; 75</strong></li>
 				</ul>
 			</li>
 		</ul>
@@ -58,19 +60,19 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 	<p></p>
 
 
-	<p>Enkele opmerkingen:
+	<h2>Enkele opmerkingen</h2>
+
 		<ul>
 			<li>Vuilniszakken zijn in het lokaal voorhanden, maar <u><b>dient u zelf mee te nemen naar huis</b></u>.</li>
-			<li>Voor springkastelen of grote tenten, vragen wij een extra waarborg voor de staat van ons gras. Deze bedraagt dan €200 in plaats van €75.</li>
-			<li>Er is 1 koelkast ter beschikking voor de huurders. Vanaf 1 september 2014 wordt de tweede koelkast <u><strong>NIET</strong></u> verhuurd.</li>
+			<li>Voor springkastelen of grote tenten, vragen wij een extra waarborg voor de staat van ons gras. Deze bedraagt dan &euro; 200 in plaats van &euro; 75.</li>
+			<li>Er is 1 koelkast ter beschikking voor de huurders. </li>
 			<li>Het lokaal dient te worden opgeleverd vòòr 12h30 op de dag na het gebruik.</li>
 			<li>Parkeren kan op de voorziene parkeerplaatsen. Indien er te weinig plaats is, moet er achter de haag worden geparkeerd, zoals aangeduid op onderstaand plan.</li>
 			<li><strong>Voor speciale gelegenheden is het aangeraden tijdig de huurverantwoordelijken in te lichten!</strong></li>
 		</ul>
-	</p>
 
 	<p>
-		<figure>
+		<figure class="photo_huur">
 			<a href="http://placehold.it/1000x750" class="mfp-link">
 				<img src="http://placehold.it/1000x750" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
 			</a>
@@ -82,52 +84,58 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 
 	<p>Wegens geplande bouwwerken nemen we momenteel enkel verhuurmogelijkheden aan die voor eind 2018 vallen.</p>
 
-	<p>Contacteer één van onze huurverantwoordelijken: </p>
-	<div class="table-responsive"><table width="60%">
-			<tr>
-				<th>Joppe Van den Sande</th>
-				<th>Michiel Hoefkens</th>
-			</tr>
-			<tr>
-				<td>Lindestraat 13</td>
-				<td>Itegemseweg 106A</td>
-			</tr>
-			<tr>
-				<td>2222 Wiekevorst</td>
-				<td>2222 Wiekevorst</td>
-			</tr>
-			<tr>
-				<td>+32 470 51 16 50</td>
-				<td>+32 497 45 10 87</td>
-			</tr>
-			<tr>
-<!--				TODO-->
-				<td><a href="mailto:huur@kljwiekevorst.be">huur@kljwiekevorst.be</a></td>
-				<td><a href="mailto:huur@kljwiekevorst.be">huur@kljwiekevorst.be</a></td>
-			</tr>
-		</table></div><!-- /table-responsive -->
-	<h4>Documenten:</h4>
+	<h2>Contact</h2>
+
+	<p>Contacteer één van onze huurverantwoordelijken</p>
+
+	<div class="row">
+		<div class="col-md-3">
+			<address>
+				<strong>Joppe Van den Sande</strong> <br>
+				Lindestraat 13 <br>
+				2222 Wiekevorst <br>
+				+32 470 51 16 50
+			</address>
+		</div><!-- /col-md-3 -->
+		<div class="col-md-3">
+			<address>
+				<strong>Michiel Hoefkens</strong> <br>
+				Itegemseweg 106A <br>
+				2222 Wiekevorst <br>
+				+32 497 45 10 87
+			</address>
+		</div><!-- /col-md-3 -->
+	</div><!-- /row -->
+
+	<h2>Documenten</h2>
 	<ul>
-		<li><a href="files/HUURREGLEMENT-KLJ-WIEKEVORST.pdf">Huurreglement</a></li>
-		<li><a href="files/Huisregels.pdf">Huisregels</a></li>
-		<li><a href="files/inventarisKeuken.pdf">Inventaris keuken</a></li>
-		<li><a href="files/plan.pdf">Plan van het lokaal</a></li>
+		<li><a href="files/HUURREGLEMENT-KLJ-WIEKEVORST.pdf" target="_blank">Huurreglement</a></li>
+		<li><a href="/static/files/verhuur/huisregels.pdf" target="_blank">Huisregels</a></li>
+		<li><a href="/static/files/verhuur/inventaris_keuken.pdf" target="_blank">Inventaris keuken</a></li>
+		<li><a href="/static/files/verhuur/grondplan.pdf" target="_blank">Plan van het lokaal</a></li>
 	</ul>
-	<div class="photos">
-		<h4>Foto's: </h4>
-		<figure>
-			<a href="http://placehold.it/1000x750" class="mfp-link">
-				<img src="http://placehold.it/1000x750" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
-			</a>
-			<figcaption>Grondplan terrein KLJ Wiekevorst</figcaption>
-		</figure>
-		<figure>
-			<a href="http://placehold.it/1000x750" class="mfp-link">
-				<img src="http://placehold.it/1000x750" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
-			</a>
-			<figcaption>Keuken: 5,5m x 4m</figcaption>
-		</figure>
-	</div>
+
+
+	<h2>Foto's</h2>
+	<div class="row">
+		<div class="col-md-6">
+			<figure class="photo_huur">
+				<a href="http://placehold.it/1000x750" class="mfp-link">
+					<img src="http://placehold.it/1000x750" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
+				</a>
+				<figcaption>Grondplan terrein KLJ Wiekevorst</figcaption>
+			</figure>
+		</div><!-- /col-md-6 -->
+		<div class="col-md-6">
+			<figure class="photo_huur">
+				<a href="http://placehold.it/1000x750" class="mfp-link">
+					<img src="http://placehold.it/1000x750" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
+				</a>
+				<figcaption>Keuken: 5,5m x 4m</figcaption>
+			</figure>
+		</div><!-- /col-md-6 -->
+	</div><!-- /row -->
+
 
 </div><!-- /container -->
 

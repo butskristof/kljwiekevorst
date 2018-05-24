@@ -1,7 +1,10 @@
-figure {
+.photo_huur {
   max-width: 75%;
   margin: 25px auto; }
-  figure img {
+  @media (min-width: 992px) {
+    .photo_huur {
+      max-width: 60%; } }
+  .photo_huur img {
     width: 100%; }
 
 #lokaal_picture {

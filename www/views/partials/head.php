@@ -15,6 +15,8 @@
 	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="/static/css/main.min.css">
+	<link rel="stylesheet" href="/static/css/magnific-popup.css">
+
 	<link rel="stylesheet" href="/static/css/custom.css">
 	<?php
 	if ($this->e($extracss)) { ?>
@@ -22,5 +24,4 @@
 	<?php }
 	?>
 
-	<link rel="stylesheet" href="/static/css/magnific-popup.css">
 

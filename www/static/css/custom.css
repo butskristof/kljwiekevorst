@@ -30,11 +30,20 @@ body {
   -moz-hyphens: auto;
   hyphens: auto; }
 
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  margin: 20px auto; }
+
 .navbar {
   padding: 0.25rem 1rem; }
 
 .navbar-brand img {
   width: 30px; }
+
+.nav-item {
+  margin: auto 10px; }
 
 .dropdown-menu {
   -webkit-border-radius: 0px;
@@ -44,3 +53,10 @@ body {
 
 .dropdown-item.active, .dropdown-item:active {
   background-color: red; }
+
+.dropdown-toggle[aria-expanded="true"]:after {
+  transform: rotate(180deg); }
+
+.dropdown-toggle::after {
+  margin-left: 0.5em;
+  vertical-align: 0.15em; }

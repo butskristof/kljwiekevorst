@@ -8,13 +8,23 @@
 
 namespace Spatie\Menu;
 
-	$submenu = Menu::new()
+	$acts = Menu::new()
+		->setWrapperTag('div')
+		->withoutParentTag()
+		->addClass('dropdown-menu')
+		->setActiveClassOnLink(true)
+		->add(
+			Link::to('/-9', '-9')
+				->addClass('dropdown-item')
+	);
+
+	$info = Menu::new()
 	->setWrapperTag('div')
 	->withoutParentTag()
 	->addClass('dropdown-menu')
 	->setActiveClassOnLink(true)
 	->add(
-		Link::to('/huur', 'Huur')
+		Link::to('/bestuur', 'Bestuur')
 			->addClass('dropdown-item')
 	);
 
@@ -25,16 +35,37 @@ $menu = Menu::new()
 		->addClass('nav-link')
 		->addParentClass('nav-item')
 	)
-	->add(
-		Link::to('/contact', 'Contact')
-			->addClass('nav-link')
-			->addParentClass('nav-item')
+	->submenu(
+		Link::to('#', 'Activiteiten')
+			->addClass('nav-link dropdown-toggle')
+			->setAttribute('data-toggle', 'dropdown'),
+		$acts->addParentClass('nav-item dropdown')
 	)
 	->submenu(
 		Link::to('#', 'Info')
 			->addClass('nav-link dropdown-toggle')
 			->setAttribute('data-toggle', 'dropdown'),
-		$submenu->addParentClass('nav-item dropdown')
+		$info->addParentClass('nav-item dropdown')
+	)
+	->add(
+		Link::to('/leiding', 'Leiding')
+			->addClass('nav-link')
+			->addParentClass('nav-item')
+	)
+	->add(
+		Link::to('/huur', 'Huur')
+			->addClass('nav-link')
+			->addParentClass('nav-item')
+	)
+	->add(
+		Link::to('/fotos', "Foto's")
+			->addClass('nav-link')
+			->addParentClass('nav-item')
+	)
+	->add(
+		Link::to('/contact', 'Contact')
+			->addClass('nav-link')
+			->addParentClass('nav-item')
 	)
 	->setActive('/' . $this->e($id)); // '/' + id form the url
 
