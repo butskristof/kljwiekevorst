@@ -6,11 +6,38 @@
  * Time: 14:23
  */
 
-$menu = Spatie\Menu\Menu::new()
-	->addClass("navbar-nav mr-auto") // mr puts menu items on left side
-	->add(Spatie\Menu\Link::to("/home", "Home")->addClass("nav-link")->addParentClass("nav-item"))
-	->add(Spatie\Menu\Link::to("/contact", "Contact")->addClass("nav-link")->addParentClass("nav-item"))
+namespace Spatie\Menu;
+
+	$submenu = Menu::new()
+	->setWrapperTag('div')
+	->withoutParentTag()
+	->addClass('dropdown-menu')
+	->setActiveClassOnLink(true)
+	->add(
+		Link::to('/huur', 'Huur')
+			->addClass('dropdown-item')
+	);
+
+$menu = Menu::new()
+	->addClass('navbar-nav mr-auto')
+	->add(
+		Link::to('/', 'Home')
+		->addClass('nav-link')
+		->addParentClass('nav-item')
+	)
+	->add(
+		Link::to('/contact', 'Contact')
+			->addClass('nav-link')
+			->addParentClass('nav-item')
+	)
+	->submenu(
+		Link::to('#', 'Info')
+			->addClass('nav-link dropdown-toggle')
+			->setAttribute('data-toggle', 'dropdown'),
+		$submenu->addParentClass('nav-item dropdown')
+	)
 	->setActive('/' . $this->e($id)); // '/' + id form the url
+
 
 echo $menu->render();
 

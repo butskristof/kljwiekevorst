@@ -23,6 +23,9 @@ switch ($request_uri[0]) {
 	case '/home':
 		echo $templates->render('home');
 		break;
+	case '/huur':
+		echo $templates->render('huur');
+		break;
 	default:
 		header('HTTP/1.0 404 Not Found');
 		echo $templates->render('404');
