@@ -29,16 +29,20 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 
 	<div class="row">
 		<div class="col-md-3 leftmargin">
-			<strong>Kristof Buts</strong> <br>
-			+32 477 43 08 65
+			<p>
+				<strong>Kristof Buts</strong> <br>
+				+32 477 43 08 65
+			</p>
 		</div><!-- /col-md-3 -->
 		<div class="col-md-3">
-			<strong>Joppe Van den Sande</strong> <br>
-			+32 477 43 08 65
+			<p>
+				<strong>Joppe Van den Sande</strong> <br>
+				+32 477 43 08 65
+			</p>
 		</div><!-- /col-md-3 -->
 	</div><!-- /row -->
 
-	<p>Je kan hen beide bereiken via mail op hoofdleiding@kljwiekevorst.be of langs het contactformulier.</p>
+	<p>Je kan hen beide bereiken via mail op <a href="#">hoofdleiding@kljwiekevorst.be</a>.</p>
 
 	<p>Heb je post en wil je dat die bekend gemaakt wordt voor heel het bestuur? Dan is het best dat je deze naar onze secretaris verstuurd.</p>
 	<div class="row">
@@ -47,7 +51,9 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 				<strong>Michelle Cuylaerts</strong> <br>
 				Wiekevorstse Goorweg 17 <br>
 				2222 Wiekevorst <br>
-				secretaris@kljwiekevorst.be
+				<a href="#">
+					secretaris@kljwiekevorst.be
+				</a>
 			</address>
 		</div><!-- /col-md-3 offset-md-3 -->
 	</div><!-- /row -->
