@@ -1,0 +1,7 @@
+{
+	"require": {
+		"league/plates": "^3.3",
+		"spatie/menu": "^2.5",
+		"phpmailer/phpmailer": "^6.0"
+	}
+}
