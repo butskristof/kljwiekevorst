@@ -1,5 +1,10 @@
-<?php $this->layout('template', ['title' => 'KLJ Wiekevorst', 'id' => 'home']) ?>
+<?php $this->layout('template', ['title' => 'KLJ Wiekevorst', 'id' => 'home', 'extracss' => '/static/css/home.css']) ?>
 
-<div class="container">
-	<h1>Welkom</h1>
-</div><!-- /container -->
+<!-- JUMBOTRON -->
+
+<div class="jumbotron" id="jumbo_main">
+	<div class="container">
+		<h1>Welkom bij KLJ Wiekevorst</h1>
+		<p class="lead">Tekst</p>
+	</div><!-- /container -->
+</div><!-- /jumbotron -->

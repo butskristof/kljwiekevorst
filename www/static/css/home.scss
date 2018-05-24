@@ -1,0 +1,51 @@
+/*
+Styling specifically for home page
+ */
+
+.jumbotron {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	margin: 0;
+
+	// vertical center
+	display: flex;
+	align-items: center;
+
+	.container {
+		padding: 20px;
+		background: rgba(255, 255, 255, 0.7);
+
+		h1 {
+			margin: 0;
+		}
+	}
+
+	/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+	@media only screen and (max-device-width: 1366px) {
+		background-attachment: scroll;
+	}
+}
+
+#jumbo_main {
+	background-image: url("/static/img/bg/cover.png");
+	height: 65vh;
+	@media (min-height: 800px) {
+		height: 50vh;
+	}
+
+	text-align: center;
+
+	h1 {
+		font-size: 5em;
+	}
+
+	.lead {
+		font-size: 2em;
+	}
+
+}
