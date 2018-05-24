@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    webserver:
+        build: ./docker/webserver
+        image: phpserver
+        ports:
+            - "80:80"
+        volumes:
+            - ./www:/var/www/html
+            - ./secrets:/var/www/secrets
