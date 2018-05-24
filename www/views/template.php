@@ -12,7 +12,7 @@
 <![endif]-->
 
 <?php
-//$this->insert('partials/nav', ['id' => $this->e($id)]);
+	$this->insert('partials/nav', ['id' => $this->e($id)]);
 ?>
 
 <main role="main">

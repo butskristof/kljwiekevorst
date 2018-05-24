@@ -1,0 +1,11 @@
+##------Forceer HTTPS verbinding geheel domein------##
+RewriteEngine On
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+##
+
+# taken from https://gist.github.com/RaVbaker/2254618
+#RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]

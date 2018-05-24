@@ -1,1 +1,10 @@
 
+body {
+	padding-top: 3.5rem; // move down content because of fixed navbar
+}
+
+.navbar-brand {
+	img {
+		width: 30px;
+	}
+}
