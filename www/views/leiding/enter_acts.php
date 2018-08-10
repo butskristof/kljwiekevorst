@@ -2,6 +2,15 @@
 	$this->layout('template', ['title' => 'Activiteiten ingeven - KLJ Wiekevorst', 'id' => 'enter_acts', 'extracss' => '/static/css/acts.css'])
 ?>
 
+<?php
+function test_input($data) {
+	$data = trim($data);
+	$data = stripslashes($data);
+	$data = htmlspecialchars($data);
+	return $data;
+}
+?>
+
 <div class="container">
 	<h1>Activiteiten ingeven</h1>
 
@@ -12,13 +21,20 @@
 
 		if (!empty($_POST)) {
 			// handle submission
-			$agegroup = $_POST['acts_for'];
+
+			$agegroup = test_input($_POST['acts_for']);
 
 			foreach ($_POST['acts'] as $act) {
+
+				$act_date = test_input($act[time]);
+				$act_name = test_input($act[name]);
+				$act_remarks = test_input($act[remarks]);
+				$act_responsible = test_input($act[responsible]);
+
 				// insert into db
 				$query = "INSERT INTO `acts`(`agegroup`, `date`, `name`, `remark`, `responsible`) VALUES ('{$agegroup}','{$act[time]}','{$act[name]}','{$act[remarks]}','{$act[responsible]}')";
 
-				$result = $db->query($query);
+//				$result = $db->query($query);
 			}
 
 
