@@ -4,6 +4,7 @@
 	<?php
 	$this->insert('partials/head', ['title' => $this->e($title), 'extracss' => $this->e($extracss)]);
 	?>
+	<?=$this->section('extracss')?>
 </head>
 <body>
 
@@ -22,6 +23,8 @@
 </main>
 
 <?php $this->insert('partials/footer'); ?>
+
+<?=$this->section('extrajs')?>
 
 </body>
 </html>

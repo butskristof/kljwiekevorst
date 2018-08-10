@@ -16,6 +16,7 @@
 
 <script src="/static/js/jquery.magnific-popup.min.js"></script>
 
+
 <script>
 	$(document).ready(function () {
 		$('.mfp-link').magnificPopup({

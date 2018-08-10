@@ -16,33 +16,38 @@ function addActSection() {
 		`					<legend>Activiteit ${actCount}</legend>`+
 		``+
 		`						<div class="form-group row">`+
-		`							<label class="col-sm-3 col-form-label" for="acts[act${actCount}][time]">Datum</label>`+
+		`							<label class="col-sm-3 col-form-label" for="act${actCount}_time">Datum</label>`+
 		`							<div class="col-sm-9">`+
-		`								<input type="date" name="acts[act${actCount}][time]" id="acts[act${actCount}][time]" class="form-control" autocomplete="off">` +
+		`								<input class="form-control" name="acts[act${actCount}][time]" id="act${actCount}_time">` +
 		`							</div>`+
 		`						</div>`+
 		``+
 		`						<div class="form-group row">`+
-		`							<label class="col-sm-3 col-form-label" for="acts[act${actCount}][name]">Activiteit</label>`+
+		`							<label class="col-sm-3 col-form-label" for="act${actCount}_name">Activiteit</label>`+
 		`							<div class="col-sm-9">`+
-		`								<input type="text" name="acts[act${actCount}][name]" id="acts[act${actCount}][name]" class="form-control" autocomplete="off">` +
+		`								<input type="text" name="acts[act${actCount}][name]" id="act${actCount}_name" class="form-control" autocomplete="off">` +
 		`							</div>`+
 		`						</div>`+
 		``+
 		`						<div class="form-group row">`+
-		`							<label class="col-sm-3 col-form-label" for="acts[act${actCount}][remarks]">Opmerkingen</label>`+
+		`							<label class="col-sm-3 col-form-label" for="act${actCount}_remarks">Opmerkingen</label>`+
 		`							<div class="col-sm-9">`+
-		`								<input type="text" name="acts[act${actCount}][remarks]" id="acts[act${actCount}][remarks]" class="form-control" autocomplete="off">` +
+		`								<input type="text" name="acts[act${actCount}][remarks]" id="act${actCount}_remarks" class="form-control" autocomplete="off">` +
 		`							</div>`+
 		`						</div>`+
 		``+
 		`						<div class="form-group row">`+
-		`							<label class="col-sm-3 col-form-label" for="acts[act${actCount}][responsible]">Responsible</label>`+
+		`							<label class="col-sm-3 col-form-label" for="act${actCount}_responsible">Verantwoordelijke</label>`+
 		`							<div class="col-sm-9">`+
-		`								<input type="text" name="acts[act${actCount}][responsible]" id="acts[act${actCount}][responsible]" class="form-control" autocomplete="off">` +
+		`								<input type="text" name="acts[act${actCount}][responsible]" id="act${actCount}_responsible" class="form-control" autocomplete="off">` +
 		`							</div>`+
 		`						</div>`+
 		`					</fieldset>`;
 
 	document.querySelector("#acts").appendChild(section);
+
+	let $datepicker = $(`#act${actCount}_time`).datetimepicker({
+		uiLibrary: 'bootstrap4',
+		format: 'yyyy-mm-dd HH:MM'
+	});
 }

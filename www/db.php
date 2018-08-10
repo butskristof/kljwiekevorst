@@ -26,6 +26,12 @@ class Db {
 		return $result;
 	}
 
+	public function multi_query($query) {
+		$connection = $this->connect();
+		$result = $connection->multi_query($query);
+		return $result;
+	}
+
 	public function select($query) {
 		$rows = array();
 		$result = $this->query($query);
