@@ -1,5 +1,5 @@
 <?php
-	$this->layout('template', ['title' => 'Activiteiten ingeven - KLJ Wiekevorst', 'id' => 'enter_acts', 'extracss' => '/static/css/acts.css'])
+	$this->layout('template', ['title' => 'Activiteiten ingeven - KLJ Wiekevorst', 'id' => 'enter_acts'])
 ?>
 
 <?php

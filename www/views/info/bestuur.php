@@ -31,7 +31,7 @@ $this->layout('template', ['title' => 'Bestuur - KLJ Wiekevorst', 'id' => 'info/
 			</li>
 		</ul>
 		<p>Ook de volwassenbegeleider (Kurt Vets) maakt deel uit van ons bestuur.</p>
-		<p>Wil je meer te weten komen over onze leiding? Kijk dan op de <a href="leiding.php">leidingspagina</a>!</p>
+		<p>Wil je meer te weten komen over onze leiding? Kijk dan op de <a href="/leiding">leidingspagina</a>!</p>
 		<br />
 		<div class="photos">
 			<p><a class="popup thumb mfp-link" href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" class="img-rounded" alt="Leiding KLJ Wiekevorst 2016-2017" /></a> </p>
