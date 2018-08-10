@@ -5,14 +5,14 @@
 // VARIABLES
 
 // TODO
-$textselectionbg: red;
+$textselectionbg: #b10000;
 $textselectioncolour: white;
 
 // General page settings
 
 body {
 	padding-top: 3.5rem; // move down content because of fixed navbar
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	padding-bottom: 40px;
 	color: #5a5a5a;
 }
@@ -83,6 +83,7 @@ footer {
 	border-radius: 0px;
 
 	margin-top: 0.25rem;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 
 .dropdown-item.active, .dropdown-item:active {

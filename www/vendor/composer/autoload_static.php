@@ -18,6 +18,10 @@ class ComposerStaticInita9dbd3d6268cf909725d2697f9638ec1
             'Psr\\Http\\Message\\' => 17,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
+        'M' => 
+        array (
+            'Moment\\' => 7,
+        ),
         'L' => 
         array (
             'League\\Plates\\' => 14,
@@ -44,6 +48,10 @@ class ComposerStaticInita9dbd3d6268cf909725d2697f9638ec1
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'Moment\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fightbulc/moment/src',
         ),
         'League\\Plates\\' => 
         array (

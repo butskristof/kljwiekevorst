@@ -29,6 +29,9 @@ switch ($request_uri[0]) {
 	case '/contact':
 		echo $templates->render('contact');
 		break;
+	case '/-9':
+		echo $templates->render('acts/-9');
+		break;
 	default:
 		header('HTTP/1.0 404 Not Found');
 		echo $templates->render('404');

@@ -5,3 +5,5 @@
 prepros-6.config
 secrets/*
 old/*
+db/*
+www/vendor/*

@@ -16,7 +16,8 @@ namespace Spatie\Menu;
 		->add(
 			Link::to('/-9', '-9')
 				->addClass('dropdown-item')
-	);
+		)
+	;
 
 	$info = Menu::new()
 	->setWrapperTag('div')
@@ -26,7 +27,8 @@ namespace Spatie\Menu;
 	->add(
 		Link::to('/bestuur', 'Bestuur')
 			->addClass('dropdown-item')
-	);
+	)
+	;
 
 $menu = Menu::new()
 	->addClass('navbar-nav mr-auto')
