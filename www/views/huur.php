@@ -11,7 +11,8 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 <div class="container">
 	<h1>Huur</h1>
 
-	<p class="lead">Ons lokaal is te huur voor familiefeesten, communiefeesten, barbecues, enz. Wij verhuren ons lokaal <strong>niet</strong> voor overnachtingen of weekends. </p>
+	<p class="lead">Ons lokaal is te huur voor familiefeesten, communiefeesten, barbecues, ... <br>
+		Wij verhuren ons lokaal <strong>niet</strong> voor overnachtingen of weekends. </p>
 
 	<figure id="lokaal_picture" class="photo_huur">
 		<a href="http://placehold.it/1000x750" class="mfp-link">

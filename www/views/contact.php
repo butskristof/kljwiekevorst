@@ -37,7 +37,7 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 		<div class="col-md-3">
 			<p>
 				<strong>Joppe Van den Sande</strong> <br>
-				+32 477 43 08 65
+				+32 470 51 16 50‬
 			</p>
 		</div><!-- /col-md-3 -->
 	</div><!-- /row -->
@@ -57,8 +57,6 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 			</address>
 		</div><!-- /col-md-3 offset-md-3 -->
 	</div><!-- /row -->
-
-	<p>Heb je post (afdelingszending) en wil je dat die bekend wordt gemaakt voor heel KLJ Wiekevorst? Dan is het best dat je deze post stuurt naar onze secretaris. Anders kunnen we niet garanderen dat iedereen op de hoogte is.
 
 	</p>
 </div>

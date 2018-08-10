@@ -25,7 +25,11 @@ namespace Spatie\Menu;
 	->addClass('dropdown-menu')
 	->setActiveClassOnLink(true)
 	->add(
-		Link::to('/bestuur', 'Bestuur')
+		Link::to('/info/wiezijnwij', 'Wie zijn wij')
+			->addClass('dropdown-item')
+	)
+	->add(
+		Link::to('/info/bestuur', 'Bestuur')
 			->addClass('dropdown-item')
 	)
 	;
