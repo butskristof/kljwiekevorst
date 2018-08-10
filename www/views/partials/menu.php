@@ -17,6 +17,22 @@ namespace Spatie\Menu;
 			Link::to('/-9', '-9')
 				->addClass('dropdown-item')
 		)
+		->add(
+			Link::to('/-12', '-12')
+				->addClass('dropdown-item')
+		)
+		->add(
+			Link::to('/-14', '-14')
+				->addClass('dropdown-item')
+		)
+		->add(
+			Link::to('/+14', '+14')
+				->addClass('dropdown-item')
+		)
+		->add(
+			Link::to('/+16', '+16')
+				->addClass('dropdown-item')
+		)
 	;
 
 	$info = Menu::new()

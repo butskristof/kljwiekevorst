@@ -16,7 +16,7 @@ include_once 'db.php';
 <body>
 <?php
 $db = new Db();
-$result = $db->select("SELECT * FROM `-9`");
+$result = $db->select("SELECT * FROM `acts`");
 
 var_dump($result);
 ?>

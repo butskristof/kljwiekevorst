@@ -29,9 +29,23 @@ switch ($request_uri[0]) {
 	case '/contact':
 		echo $templates->render('contact');
 		break;
+	// ACTS
 	case '/-9':
-		echo $templates->render('acts/-9');
+		echo $templates->render('acts/acts_template', ['id' => '-9', 'groep' => '-9', 'normalday' => 0, 'normalhour' => 14]);
 		break;
+	case '/-12':
+		echo $templates->render('acts/acts_template', ['id' => '-12', 'groep' => '-12', 'normalday' => 0, 'normalhour' => 14]);
+		break;
+	case '/-14':
+		echo $templates->render('acts/acts_template', ['id' => '-14', 'groep' => '-14', 'normalday' => 0, 'normalhour' => 14]);
+		break;
+	case '/+14':
+		echo $templates->render('acts/acts_template', ['id' => '+14', 'groep' => '+14', 'normalday' => 0, 'normalhour' => 14]);
+		break;
+	case '/+16':
+		echo $templates->render('acts/acts_template', ['id' => '+16', 'groep' => '+16', 'normalday' => 5, 'normalhour' => 20]);
+		break;
+	// INFO
 	case '/info/wiezijnwij':
 		echo $templates->render('info/wiezijnwij');
 		break;
