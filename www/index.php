@@ -49,6 +49,15 @@ switch ($request_uri[0]) {
 	case '/info/wiezijnwij':
 		echo $templates->render('info/wiezijnwij');
 		break;
+	case '/info/bestuur':
+		echo $templates->render('info/bestuur');
+		break;
+	case '/info/geschiedenis':
+		echo $templates->render('info/geschiedenis');
+		break;
+	case '/info/uniform':
+		echo $templates->render('info/uniform');
+		break;
 	// LEIDING
 	case '/leiding/enter_acts':
 		echo $templates->render('leiding/enter_acts');

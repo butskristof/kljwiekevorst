@@ -48,6 +48,14 @@ namespace Spatie\Menu;
 		Link::to('/info/bestuur', 'Bestuur')
 			->addClass('dropdown-item')
 	)
+	->add(
+		Link::to('/info/geschiedenis', 'Geschiedenis')
+			->addClass('dropdown-item')
+	)
+	->add(
+		Link::to('/info/uniform', 'Uniform')
+			->addClass('dropdown-item')
+	)
 	;
 
 $menu = Menu::new()
