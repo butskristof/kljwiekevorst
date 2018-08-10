@@ -49,8 +49,9 @@ switch ($request_uri[0]) {
 	case '/info/wiezijnwij':
 		echo $templates->render('info/wiezijnwij');
 		break;
-	case '/leiding/-9':
-		echo $templates->render('leiding/-9');
+	// LEIDING
+	case '/leiding/enter_acts':
+		echo $templates->render('leiding/enter_acts');
 		break;
 	default:
 		header('HTTP/1.0 404 Not Found');
