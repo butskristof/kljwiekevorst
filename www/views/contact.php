@@ -12,7 +12,7 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 	<h1>Contact</h1>
 
 	<div class="row">
-		<div class="col">
+		<div class="col-md-6">
 			Het (factuur)adres van onze lokalen is <br>
 			<address class="leftmargin">
 				<strong>KLJ Wiekevorst</strong> <br>
@@ -20,8 +20,8 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 				2222 Wiekevorst
 			</address>
 		</div><!-- /col -->
-		<div class="col">
-			GOOGLE MAPS
+		<div class="col-md-6 google-maps">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.5952140995037!2d4.784802615835191!3d51.115928179572734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c150e68dabd247%3A0xe1b7d5d8347668b!2sKLJ+Wiekevorst!5e0!3m2!1sen!2sbe!4v1533914331076" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div><!-- /col -->
 	</div><!-- /row -->
 
