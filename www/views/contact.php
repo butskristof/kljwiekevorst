@@ -15,7 +15,7 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 		<div class="col-md-6">
 			Het (factuur)adres van onze lokalen is <br>
 			<address class="leftmargin">
-				<strong>KLJ Wiekevorst</strong> <br>
+				<strong>KLJ Wiekevorst vzw</strong> <br>
 				Dalstraat 22A <br>
 				2222 Wiekevorst
 			</address>
@@ -44,7 +44,7 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 
 	<p>Je kan hen beide bereiken via mail op <a href="#">hoofdleiding@kljwiekevorst.be</a>.</p>
 
-	<p>Heb je post en wil je dat die bekend gemaakt wordt voor heel het bestuur? Dan is het best dat je deze naar onze secretaris verstuurd.</p>
+	<p>Heb je post en wil je dat die bekend gemaakt wordt voor heel het bestuur? Dan is het best dat je deze naar onze secretaris verstuurt.</p>
 	<div class="row">
 		<div class="col-md-3 leftmargin">
 			<address>

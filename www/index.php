@@ -26,6 +26,9 @@ switch ($request_uri[0]) {
 	case '/huur':
 		echo $templates->render('huur');
 		break;
+	case '/leiding':
+		echo $templates->render('leiding');
+		break;
 	case '/contact':
 		echo $templates->render('contact');
 		break;
