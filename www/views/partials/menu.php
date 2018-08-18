@@ -56,6 +56,18 @@ namespace Spatie\Menu;
 		Link::to('/info/uniform', 'Uniform')
 			->addClass('dropdown-item')
 	)
+	->add(
+		Link::to('/info/kljinklj', 'KLJ in KLJ')
+			->addClass('dropdown-item')
+	)
+	->add(
+		Link::to('/info/reglement', 'Reglement')
+			->addClass('dropdown-item')
+	)
+	->add(
+		Link::to('/info/kamp', 'Kamp')
+			->addClass('dropdown-item')
+	)
 	;
 
 $menu = Menu::new()

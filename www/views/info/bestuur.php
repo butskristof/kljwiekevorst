@@ -34,7 +34,7 @@ $this->layout('template', ['title' => 'Bestuur - KLJ Wiekevorst', 'id' => 'info/
 		<p>Wil je meer te weten komen over onze leiding? Kijk dan op de <a href="/leiding">leidingspagina</a>!</p>
 		<br />
 		<div class="photos">
-			<p><a class="popup thumb mfp-link" href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" class="img-rounded" alt="Leiding KLJ Wiekevorst 2016-2017" /></a> </p>
+			<p><a class="popup thumb mfp-link" href="/static/img/leiding1718.jpg"><img src="/static/img/leiding1718.jpg" class="img-rounded" alt="Leiding KLJ Wiekevorst 2017-2018" /></a> </p>
 		</div>
 	</div>
 </div>
