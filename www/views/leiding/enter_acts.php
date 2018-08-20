@@ -29,6 +29,10 @@ function test_input($data) {
 
 			// initialise empty query string
 			$fullquery = "";
+			// initialise new email string
+			$mail = "Activiteiten " . $agegroup . "<br><br>";
+			$mail .= "<table><thead><tr><td>Datum</td><td>Act</td><td>Opmerkingen</td><td>Verantwoordelijke</td></tr><tbody>";
+			$mailfooter = "</tbody></table>";
 
 			$actctr = 0;
 			foreach ($_POST['acts'] as $act) {
@@ -40,14 +44,25 @@ function test_input($data) {
 					$errors[] = "Activiteit {$actctr}: datum ligt in het verleden of is ongeldig.";
 				}
 
+//				$mail .= $act_date . "&nbsp;&nbsp;&nbsp;&nbsp;";
+				$mail .= "<tr><td>{$act_date}</td>";
+
 				$act_name = test_input($act[name]);
 				if ( !$act_name ) {
 					$errors[] = "Activiteit {$actnr}: naam is leeg.";
 				}
+//				$mail .= $act_name . "&nbsp;&nbsp;&nbsp;&nbsp;";
+				$mail .= "<td>{$act_name}</td>";
 
 				// these can be null
 				$act_remarks = test_input($act[remarks]);
+				$mail .= "<td>{$act_remarks}</td>";
+//				if ($act_remarks) {
+//					$mail .= "<br>" . $act_remarks . "<br>";
+//				}
 				$act_responsible = test_input($act[responsible]);
+//				$mail .= $act_responsible . "&nbsp;&nbsp;&nbsp;&nbsp;";
+				$mail .= "<td>{$act_responsible}</td></tr>";
 
 				// insert into db
 				$query = "INSERT INTO `acts`(`agegroup`, `date`, `name`, `remark`, `responsible`) VALUES ('{$agegroup}','{$act_date}','{$act_name}','{$act_remarks}','{$act_responsible}'); ";
@@ -58,6 +73,37 @@ function test_input($data) {
 			if (empty($errors)) {
 				$result = $db->multi_query($fullquery);
 
+				// send email
+				$subject = 'Activiteiten';
+
+				// load configuration
+				$config = parse_ini_file('../secrets/mailconfig.ini');
+
+				$mailer = new \PHPMailer\PHPMailer\PHPMailer(true);
+				try {
+					// server settings
+					$mailer->isSMTP();
+					$mailer->Host = $config['host'];
+					$mailer->SMTPAuth = true;
+					$mailer->Username = $config['username'];
+					$mailer->Password = $config['password'];
+					$mailer->SMTPSecure = 'ssl';
+					$mailer->Port = 465;
+
+					// recipients
+					$mailer->setFrom($config['username'], $config['name']);
+					$mailer->addAddress($config['username'], $config['username']);
+
+					// content
+					$mailer->isHTML(true);
+					$mailer->Subject = $subject;
+					$mailer->Body = $mail;
+
+					$mailer->send();
+				} catch (Exception $e) {
+					echo "failed";
+					echo $e;
+				}
 				echo '<div class="alert alert-success">Activiteiten doorgestuurd!</div>';
 			} else {
 				foreach ($errors as $error) {

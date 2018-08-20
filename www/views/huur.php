@@ -15,8 +15,8 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 		Wij verhuren ons lokaal <strong>niet</strong> voor overnachtingen of weekends. </p>
 
 	<figure id="lokaal_picture" class="photo_huur">
-		<a href="http://placehold.it/1000x750" class="mfp-link">
-			<img src="http://placehold.it/1000x750" alt="Straataanzicht lokaal KLJ Wiekevorst" class="img-responsive">
+		<a href="/static/img/huur/lokaal.jpg" class="mfp-link">
+			<img src="/static/img/huur/lokaal.jpg" alt="Straataanzicht lokaal KLJ Wiekevorst" class="img-responsive">
 		</a>
 		<figcaption>Straataanzicht lokaal KLJ Wiekevorst</figcaption>
 	</figure>
@@ -74,8 +74,8 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 
 	<p>
 		<figure class="photo_huur">
-			<a href="http://placehold.it/1000x750" class="mfp-link">
-				<img src="http://placehold.it/1000x750" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
+			<a href="/static/img/huur/grondplan.jpg" class="mfp-link">
+				<img src="/static/img/huur/grondplan.jpg" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
 			</a>
 			<figcaption>Grondplan terrein KLJ Wiekevorst</figcaption>
 		</figure>
@@ -121,16 +121,16 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 	<div class="row">
 		<div class="col-md-6">
 			<figure class="photo_huur">
-				<a href="http://placehold.it/1000x750" class="mfp-link">
-					<img src="http://placehold.it/1000x750" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
+				<a href="/static/img/huur/grondplan.jpg" class="mfp-link">
+					<img src="/static/img/huur/grondplan.jpg" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
 				</a>
 				<figcaption>Grondplan terrein KLJ Wiekevorst</figcaption>
 			</figure>
 		</div><!-- /col-md-6 -->
 		<div class="col-md-6">
 			<figure class="photo_huur">
-				<a href="http://placehold.it/1000x750" class="mfp-link">
-					<img src="http://placehold.it/1000x750" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
+				<a href="/static/img/huur/keuken.jpg" class="mfp-link">
+					<img src="/static/img/huur/keuken.jpg" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
 				</a>
 				<figcaption>Keuken: 5,5m x 4m</figcaption>
 			</figure>
