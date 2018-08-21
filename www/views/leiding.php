@@ -25,7 +25,7 @@ shuffle($result);
 						<?php
 						} else {
 							?>
-							<p><a class="popup thumb" href="/static/img/leiding/<?=$r[imgpath]?>"><img src="/static/img/leiding/<?=$r[imgpath]?>" alt="<?=$r[name]?>" /></a> </p>
+							<p><a class="mfp-link" href="/static/img/leiding/<?=$r[imgpath]?>"><img src="/static/img/leiding/<?=$r[imgpath]?>" alt="<?=$r[name]?>" /></a> </p>
 						<?php
 						}
 						?>

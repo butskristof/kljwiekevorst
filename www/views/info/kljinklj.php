@@ -8,7 +8,10 @@ $this->layout('template', ['title' => 'KLJ in KLJ - KLJ Wiekevorst', 'id' => 'in
 	</h1>
 
 	<div class="col-md-10 offset-md-1">
-		<p>KLJ Wiekevorst wordt nationaal ondersteund door de nationale koepel die in Oud-Heverlee gevestigd is. Ook zijn er voor de provincie Antwerpen 2 vrijgestelden om de Antwerpse afdelingen te begeleiden. Tot slot behoort KLJ Wiekevorst tot een regionaal gewest: het gewest Nete. Het gewest Nete omvat andere KLJ's uit de omgeving van Wiekevorst. Het gaat hier om Lier-Noord, Lier-Zuid, Herenthout, Bouwel, Berlaar en Noorderwijk. Elke afdeling heeft zijn vertegenwoordiging in het gewest. Gewest Nete organiseert regelmatig activiteiten voor zowel -16 als +16. Er wordt een aantal keer per jaar ook een vormingsavond gegeven voor alle bestuursleden uit het gewest.</p>
+		<p>KLJ Wiekevorst wordt nationaal ondersteund door de nationale koepel die in Oud-Heverlee gevestigd is. Ook zijn er voor de provincie Antwerpen twee vrijgestelden om de Antwerpse afdelingen te begeleiden. Tot slot behoort KLJ Wiekevorst tot een regionaal gewest: het gewest Zuiderkempen. Het gewest Zuiderkempen omvat andere KLJ's uit de omgeving van Wiekevorst. Het gaat hier om Noorderwijk, Houtvenne, Voortkapel, Herenthout en Tongerlo. Elke afdeling heeft zijn vertegenwoordiging in het gewest.
+			<br>
+			Vanuit het gewest worden er regelmatig activiteiten georganiseerd voor de +16 en de leiding. Maandelijks wordt er vergaderd om de stand van zaken in onze naburige KLJ's te bespreken.
+		</p>
 		<p>Voor meer informatie kan u terecht op de website van <a href="http://www.klj.be/">KLJ nationaal</a>.</p>
 	</div>
 </div>
