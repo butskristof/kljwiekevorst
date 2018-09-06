@@ -4,3 +4,19 @@
 		height: auto;
 	}
 }
+
+#uniform {
+	.row {
+		img {
+			height: auto;
+			width: auto;
+			max-height: 150px;
+			display: block;
+			margin: auto;
+		}
+		.col-md-4 {
+			max-height: 150px;
+			margin: 10px auto;
+		}
+	}
+}
