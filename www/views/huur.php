@@ -92,18 +92,14 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 	<div class="row">
 		<div class="col-md-3">
 			<address>
-				<strong>Joppe Van den Sande</strong> <br>
-				Lindestraat 13 <br>
-				2222 Wiekevorst <br>
-				+32 470 51 16 50
+				<strong>Lander Van den Sande</strong> <br>
+				+32 471 41 35 58‬ <br>
 			</address>
 		</div><!-- /col-md-3 -->
 		<div class="col-md-3">
 			<address>
-				<strong>Michiel Hoefkens</strong> <br>
-				Itegemseweg 106A <br>
-				2222 Wiekevorst <br>
-				+32 497 45 10 87
+				<strong>Volker Goossens</strong> <br>
+				‭+32 468 15 74 27‬
 			</address>
 		</div><!-- /col-md-3 -->
 	</div><!-- /row -->
