@@ -9,3 +9,17 @@
 	</div>
 </div>
 
+<div class="container" id="fbbox">
+	<div id="famax" class="famax">
+	</div>
+</div>
+
+<?php $this->start("extrajs") ?>
+<!-- famax -->
+<script src="/static/famax/js/jquery.famax.min.js"></script>
+<link rel="stylesheet" href="/static/famax/css/famax_grey.css">
+
+<script>
+	$("#famax").famax({accessToken:"547069738820042|lxBFa8Z5Ov3iEAbmBx1lC4I_1cM",fanPage:"https://www.facebook.com/kljwiekevorst",album:[],selectedTab:"p",alwaysUseDropdown:false,displayMetricsForPosts:true,displayMetricsForTags:false,skin:"grey",onClickAction:"popup",maxAttachments:3,notFoundImage:"",maxItemsDisplayed:25,maxResults:4,maxComments:12,innerOffset:40,outerOffset:40,minItemWidth:300,maxItemWidth:450,maxContainerWidth:1000});
+</script>
+<?php $this->stop("extrajs") ?>
