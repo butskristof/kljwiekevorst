@@ -10,8 +10,16 @@ shuffle($result);
 
 ?>
 
+<div class="hero-image">
+</div>
+
 <div class="container">
 	<h1>Leiding</h1>
+
+	<p class="lead">
+		Ook het werkjaar 2018-2019 staat er weer een sterke leidingsploeg klaar om elke week het beste van zichzelf te geven. Hieronder kom je alles te weten over onze 26 leid(st)ers!
+		<br>
+	</p>
 
 	<div class="content">
 

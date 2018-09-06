@@ -26,3 +26,14 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: justify; } }
+
+.hero-image {
+  background-image: url("/static/img/leiding1718.jpg");
+  min-height: 200px;
+  height: 45vh;
+  max-height: 600px;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative; }
