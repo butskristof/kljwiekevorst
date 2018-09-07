@@ -71,8 +71,8 @@ switch ($request_uri[0]) {
 		echo $templates->render('info/kamp');
 		break;
 	// LEIDING
-	case '/leiding/enter_acts':
-		echo $templates->render('leiding/enter_acts');
+	case '/leiding/acts':
+		echo $templates->render('leiding/acts');
 		break;
 	case '/leiding/inschrijven':
 		echo $templates->render('leiding/inschrijven');
