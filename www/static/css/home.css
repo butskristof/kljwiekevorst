@@ -2,7 +2,7 @@
 Styling specifically for home page
  */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/header.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/header_sm.jpg");
   min-height: 200px;
   height: 450px;
   max-height: 600px;
@@ -13,7 +13,7 @@ Styling specifically for home page
   position: relative; }
   @media only screen and (min-width: 769px) {
     .hero-image {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/header_sm.jpg"); } }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/header.jpg"); } }
   @media (max-width: 768px) {
     .hero-image {
       height: 350px; } }
