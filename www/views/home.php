@@ -9,17 +9,19 @@
 	</div>
 </div>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=791162621043738&autoLogAppEvents=1';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="container" id="fbbox">
-	<div id="famax" class="famax">
+	<div class="fbheader">
+		<div class="fb-page" data-href="https://www.facebook.com/KLJWiekevorst/" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/KLJWiekevorst/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KLJWiekevorst/">KLJ Wiekevorst</a></blockquote></div>
 	</div>
+	<div class="taggbox-container" style="width:100%;height:100%;overflow: auto;"><script defer src="//taggbox.com/app/js/embed.min.js" type="text/javascript"></script><div class="taggbox-socialwall" data-wall-id="kljwkv">  </div></div>
 </div>
 
-<?php $this->start("extrajs") ?>
-<!-- famax -->
-<script src="/static/famax/js/jquery.famax.min.js"></script>
-<link rel="stylesheet" href="/static/famax/css/famax_grey.css">
-
-<script>
-	$("#famax").famax({accessToken:"547069738820042|lxBFa8Z5Ov3iEAbmBx1lC4I_1cM",fanPage:"https://www.facebook.com/kljwiekevorst",album:[],selectedTab:"p",alwaysUseDropdown:false,displayMetricsForPosts:true,displayMetricsForTags:false,skin:"grey",onClickAction:"popup",maxAttachments:3,notFoundImage:"",maxItemsDisplayed:25,maxResults:4,maxComments:12,innerOffset:40,outerOffset:40,minItemWidth:300,maxItemWidth:450,maxContainerWidth:1000});
-</script>
-<?php $this->stop("extrajs") ?>

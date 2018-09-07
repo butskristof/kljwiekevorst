@@ -88,4 +88,12 @@ Styling specifically for home page
 
 #fbbox {
 	margin-top: 20px;
+	.fbheader {
+	//	width: 100%;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	//iframe {
+	//	//margin: 0 auto;
+	//}
 }

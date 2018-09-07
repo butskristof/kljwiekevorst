@@ -64,3 +64,6 @@ Styling specifically for home page
 
 #fbbox {
   margin-top: 20px; }
+  #fbbox .fbheader {
+    max-width: 500px;
+    margin: 0 auto; }
