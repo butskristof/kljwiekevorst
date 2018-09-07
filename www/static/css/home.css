@@ -1,39 +1,6 @@
 /*
 Styling specifically for home page
  */
-.jumbotron {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */ }
-  .jumbotron .container {
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.7); }
-    .jumbotron .container h1 {
-      margin: 0; }
-  @media only screen and (max-device-width: 1366px) {
-    .jumbotron {
-      background-attachment: scroll; } }
-
-#jumbo_main {
-  background-image: url("/static/img/bg/cover.png");
-  height: 65vh;
-  text-align: center; }
-  @media (min-height: 800px) {
-    #jumbo_main {
-      height: 50vh; } }
-  #jumbo_main h1 {
-    font-size: 5em; }
-  #jumbo_main .lead {
-    font-size: 2em; }
-
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/header.jpg");
   min-height: 200px;
@@ -44,6 +11,9 @@ Styling specifically for home page
   -webkit-background-size: cover;
   background-size: cover;
   position: relative; }
+  @media only screen and (min-width: 769px) {
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/header_sm.jpg"); } }
   @media (max-width: 768px) {
     .hero-image {
       height: 350px; } }
