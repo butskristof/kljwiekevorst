@@ -7,7 +7,7 @@ class Db {
 		// if no connection yet, try to connect to db
 		if ( !isset(self::$connection) ) {
 			// load config file as array
-			$config = parse_ini_file('../secrets/config.ini');
+			$config = parse_ini_file('../private/secrets/config.ini');
 			self::$connection = new mysqli($config[host], $config[username], $config[password], $config[dbname]);
 			self::$connection->set_charset("utf8");
 		}

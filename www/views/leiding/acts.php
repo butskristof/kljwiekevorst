@@ -17,7 +17,7 @@ function test_input($data) {
 }
 
 // load configuration
-$config = parse_ini_file('../secrets/leiding.ini');
+$config = parse_ini_file('../private/secrets/leiding.ini');
 $pwhash = $config['pwhash'];
 
 require_once 'db.php';
@@ -128,7 +128,7 @@ $db = new Db();
 							$subject = 'Activiteiten';
 
 							// load configuration
-							$config = parse_ini_file('../secrets/mailconfig.ini');
+							$config = parse_ini_file('../private/secrets/mailconfig.ini');
 
 							$mailer = new \PHPMailer\PHPMailer\PHPMailer(true);
 							try {

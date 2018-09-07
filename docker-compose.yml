@@ -7,7 +7,7 @@ services:
             - "8000:80"
         volumes:
             - ./www:/var/www/html
-            - ./secrets:/var/www/secrets
+            - ./private/secrets:/var/www/private/secrets
         depends_on:
           - database
         links:
@@ -19,13 +19,13 @@ services:
         volumes:
             - ./db:/var/lib/mysql
         env_file:
-          - ./secrets/db_env
+          - ./private/secrets/db_env
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
         ports:
             - "8080:80"
         env_file:
-          - ./secrets/phpmyadmin_env
+          - ./private/secrets/phpmyadmin_env
         depends_on:
           - database
         links:

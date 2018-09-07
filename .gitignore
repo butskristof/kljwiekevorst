@@ -3,6 +3,7 @@
 *.swp
 .DS_Store
 prepros-6.config
+private/secrets/*
 secrets/*
 old/*
 db/*
