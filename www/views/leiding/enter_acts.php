@@ -6,7 +6,7 @@
 function test_input($data) {
 	$data = trim($data);
 	$data = stripslashes($data);
-	$data = htmlspecialchars($data);
+	$data = htmlspecialchars($data, ENT_QUOTES);
 	return $data;
 }
 ?>
@@ -48,6 +48,7 @@ function test_input($data) {
 				$mail .= "<tr><td>{$act_date}</td>";
 
 				$act_name = test_input($act[name]);
+				var_dump($act_name);
 				if ( !$act_name ) {
 					$errors[] = "Activiteit {$actnr}: naam is leeg.";
 				}
