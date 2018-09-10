@@ -5,6 +5,12 @@
 	<meta name="description" content="KLJ Wiekevorst is een jeugdbeweging voor jongeren van 5 tot 35 jaar.">
 	<meta name="author" content="Kristof Buts">
 
+	<meta property="og:url" content="https://www.kljwiekevorst.be/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="KLJ Wiekevorst" />
+	<meta property="og:description" content="KLJ Wiekevorst is een bruisende jeugdbeweging die reeds 90 jaar bestaat, waar kinderen en jongeren van 6 tot 35 zich kunnen uitleven en plezier maken, week na week." />
+	<meta property="og:image" content="https://kljwiekevorst.be/static/img/header.jpg" />
+
 	<!-- TITLE -->
 	<title><?=$this->e($title)?></title>
 
