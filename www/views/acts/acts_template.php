@@ -15,7 +15,7 @@ require_once 'db.php';
 
 $db = new Db();
 // edit query for dates later than current
-$query = "SELECT * FROM `acts` WHERE `agegroup`='" . $this->e($groep) . "' ORDER BY `date`";
+$query = "SELECT * FROM `acts` WHERE `agegroup`='" . $this->e($groep) . "' AND `date` > NOW() ORDER BY `date`";
 $result = $db->select($query);
 
 ?>
