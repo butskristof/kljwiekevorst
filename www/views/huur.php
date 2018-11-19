@@ -11,8 +11,13 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 <div class="container">
 	<h1>Huur</h1>
 
-	<p class="lead">Ons lokaal is te huur voor familiefeesten, communiefeesten, barbecues, ... <br>
-		Wij verhuren ons lokaal <strong>niet</strong> voor overnachtingen of weekends. </p>
+	<p class="lead" id="geennieuweaanvragen">Omdat er momenteel druk gewerkt wordt aan onze nieuwbouw zullen er vanaf heden geen nieuwe huuraanvragen meer worden aangenomen.
+		<br>Alle geplande huren gaan wel door zoals afgesproken.</p>
+
+	<?php
+	/*
+
+	<p class="lead">Ons lokaal is te huur voor familiefeesten, communiefeesten, barbecues, ... </p>
 
 	<figure id="lokaal_picture" class="photo_huur">
 		<a href="/static/img/huur/lokaal.jpg" class="mfp-link">
@@ -132,6 +137,8 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 			</figure>
 		</div><!-- /col-md-6 -->
 	</div><!-- /row -->
+	*/
+	?>
 
 
 </div><!-- /container -->
