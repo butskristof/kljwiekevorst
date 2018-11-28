@@ -48,6 +48,9 @@ switch ($request_uri[0]) {
 	case '/+16':
 		echo $templates->render('acts/acts_template', ['id' => '+16', 'groep' => '+16', 'normalday' => 5, 'normalhour' => 20]);
 		break;
+	case '/+20':
+		echo $templates->render('acts/acts_template', ['id' => '+20', 'groep' => '+20', 'normalday' => 6, 'normalhour' => 20]);
+		break;
 	// INFO
 	case '/info/wiezijnwij':
 		echo $templates->render('info/wiezijnwij');

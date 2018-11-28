@@ -33,6 +33,10 @@ namespace Spatie\Menu;
 			Link::to('/+16', '+16')
 				->addClass('dropdown-item')
 		)
+		->add(
+			Link::to('/+20', '+20')
+				->addClass('dropdown-item')
+		)
 	;
 
 	$info = Menu::new()
