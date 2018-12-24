@@ -54,9 +54,13 @@ $db = new Db();
 					// determine whether logged in or submitted acts
 
 					if (!empty($_POST['submit_login'])) {
-						// show act input form
-						$query = "SELECT `name` FROM `agegroups`";
-						$agegroups = $db->select($query);
+						if (!password_verify($_POST['password'], $pwhash)) {
+							// show error
+							echo '<div class="alert alert-danger">Verkeerd wachtwoord.</div>';
+						} else {
+							// show act input form
+							$query = "SELECT `name` FROM `agegroups`";
+							$agegroups = $db->select($query);
 						?>
 			<form action="#" method="post">
 
@@ -76,6 +80,7 @@ $db = new Db();
 
 			</form>
 			<?php
+						}
 					} else if (!empty($_POST['submit_acts'])) {
 						// process form input data
 
