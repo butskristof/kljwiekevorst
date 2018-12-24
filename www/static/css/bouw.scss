@@ -1,0 +1,29 @@
+.photo {
+	max-width: 75%;
+	@media (min-width: 992px) {
+		max-width: 60%;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	margin: 25px auto;
+}
+
+#lokaal_picture {
+	@media (min-width: 768px) {
+		width: 40%;
+		float: right;
+		margin: 10px;
+	}
+}
+
+#geennieuweaanvragen {
+	//margin: 10rem 0;
+	//line-height: 1.5em;
+}
+
+#intro {
+	text-align: justify;
+}

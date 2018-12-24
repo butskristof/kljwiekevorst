@@ -83,6 +83,9 @@ switch ($request_uri[0]) {
 	case '/leiding/acts':
 		echo $templates->render('leiding/acts');
 		break;
+	case '/leiding/bouw':
+		echo $templates->render('leiding/bouw');
+		break;
 	case '/leiding/inschrijven':
 		echo $templates->render('leiding/inschrijven');
 		break;
