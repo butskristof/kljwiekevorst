@@ -2,11 +2,11 @@
 /**
  * Created by IntelliJ IDEA.
  * User: butskristof
- * Date: 07/09/2018
- * Time: 11:50
+ * Date: 2018-12-24
+ * Time: 19:08
  */
 
-$this->layout('template', ['title' => 'Activiteiten ingeven - KLJ Wiekevorst', 'id' => 'enter_acts']);
+$this->layout('template', ['title' => 'Activiteiten bouw ingeven - KLJ Wiekevorst', 'id' => 'enter_bouw']);
 
 // function for form input validation/escaping
 function test_input($data) {
@@ -17,7 +17,7 @@ function test_input($data) {
 }
 
 // load configuration
-$config = parse_ini_file('../private/secrets/leiding.ini');
+$config = parse_ini_file('../private/secrets/bouw.ini');
 $pwhash = $config['pwhash'];
 
 require_once 'db.php';
@@ -27,11 +27,10 @@ $db = new Db();
 ?>
 
 <div class="container">
-	<h1>Activiteiten ingeven</h1>
+	<h1>Activiteiten bouw ingeven</h1>
 
 	<div class="row">
 		<div class="col-md-10 offset-1">
-
 			<?php
 
 				if (empty($_POST)) {
@@ -58,43 +57,28 @@ $db = new Db();
 							// show error
 							echo '<div class="alert alert-danger">Verkeerd wachtwoord.</div>';
 						} else {
-							// show act input form
-							$query = "SELECT `name` FROM `agegroups`";
-							$agegroups = $db->select($query);
+						// show act input form
+						$query = "SELECT `name` FROM `agegroups`";
+						$agegroups = $db->select($query);
 						?>
-			<form action="#" method="post">
+						<form action="#" method="post">
 
-				<div class="form-group">
-					<label for="acts_for">Activiteiten voor</label>
-					<select class="form-control" id="acts_for" name="acts_for">
-						<?php foreach ($agegroups as $ag) {
-							?><option><?=$ag[name]?></option>
-						<?php } ?>
-					</select>
-					</div>
+							<div id="acts"></div>
 
-				<div id="acts"></div>
+							<button type="button" id="btnAddAct" class="btn btn-secondary">Activiteit toevoegen</button>
+							<input type="submit" class="btn btn-primary" name="submit_acts" value="Indienen">
 
-				<button type="button" id="btnAddAct" class="btn btn-secondary">Activiteit toevoegen</button>
-				<input type="submit" class="btn btn-primary" name="submit_acts" value="Indienen">
-
-			</form>
-			<?php
+						</form>
+						<?php
 						}
 					} else if (!empty($_POST['submit_acts'])) {
 						// process form input data
-
-						$agegroup = test_input($_POST['acts_for']);
 
 						// initialise empty error array
 						$errors = [];
 
 						// initialise empty query string
 						$fullquery = "";
-						// initialise new email string
-						$mail = "Activiteiten " . $agegroup . "<br><br>";
-						$mail .= "<table><thead><tr><td>Datum</td><td>Act</td><td>Opmerkingen</td><td>Verantwoordelijke</td></tr><tbody>";
-						$mailfooter = "</tbody></table>";
 
 						$actctr = 0;
 						foreach ($_POST['acts'] as $act) {
@@ -106,22 +90,17 @@ $db = new Db();
 								$errors[] = "Activiteit {$actctr}: datum ligt in het verleden of is ongeldig.";
 							}
 
-							$mail .= "<tr><td>{$act_date}</td>";
-
 							$act_name = test_input($act[name]);
 							if ( !$act_name ) {
 								$errors[] = "Activiteit {$actnr}: naam is leeg.";
 							}
-							$mail .= "<td>{$act_name}</td>";
 
 							// these can be null
 							$act_remarks = test_input($act[remarks]);
-							$mail .= "<td>{$act_remarks}</td>";
 							$act_responsible = test_input($act[responsible]);
-							$mail .= "<td>{$act_responsible}</td></tr>";
 
 							// insert into db
-							$query = "INSERT INTO `acts`(`agegroup`, `date`, `name`, `remark`, `responsible`) VALUES ('{$agegroup}','{$act_date}','{$act_name}','{$act_remarks}','{$act_responsible}'); ";
+							$query = "INSERT INTO `planningbouw`(`date`, `name`, `remark`) VALUES ('{$act_date}','{$act_name}','{$act_remarks}'); ";
 
 							$fullquery .= $query;
 						}
@@ -129,38 +108,6 @@ $db = new Db();
 						if (empty($errors)) {
 							$result = $db->multi_query($fullquery);
 
-							// send email
-							$subject = 'Activiteiten';
-
-							// load configuration
-							$config = parse_ini_file('../private/secrets/mailconfig.ini');
-
-							$mailer = new \PHPMailer\PHPMailer\PHPMailer(true);
-							try {
-								// server settings
-								$mailer->isSMTP();
-								$mailer->Host = $config['host'];
-								$mailer->SMTPAuth = true;
-								$mailer->Username = $config['username'];
-								$mailer->Password = $config['password'];
-								$mailer->SMTPSecure = 'ssl';
-								$mailer->Port = 465;
-
-								// recipients
-								$mailer->setFrom($config['username'], $config['name']);
-								$mailer->addAddress($config['username'], $config['username']);
-                                $mailer->addAddress($config['recipient'], $config['recipient']);
-
-								// content
-								$mailer->isHTML(true);
-								$mailer->Subject = $subject;
-								$mailer->Body = $mail;
-
-								$mailer->send();
-							} catch (Exception $e) {
-								echo "failed";
-								echo $e;
-							}
 							echo '<div class="alert alert-success">Activiteiten doorgestuurd!</div>';
 						} else {
 							foreach ($errors as $error) {
@@ -183,5 +130,6 @@ $db = new Db();
 
 <?php $this->start('extrajs') ?>
 <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.10/js/gijgo.min.js" type="text/javascript"></script>
-<script src="/static/js/enter_acts_form.js"></script>
+<script src="/static/js/enter_bouw_form.js"></script>
 <?php $this->stop() ?>
+

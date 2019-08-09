@@ -1,5 +1,5 @@
 <?php
-$this->layout('template', ['title' => 'Bouw - KLJ Wiekevorst', 'id' => 'bouw', 'extracss' => '']); ?>
+$this->layout('template', ['title' => 'Bouw - KLJ Wiekevorst', 'id' => 'bouw', 'extracss' => '/static/css/bouw.css']); ?>
 
 <?php
 require_once 'db.php';
@@ -16,7 +16,19 @@ $result = $db->select($query);
 	<div class="col-md-10 offset-md-1">
 
 		<h2>Wat zijn de plannen?</h2>
-		<p>Naast het huidige lokaal bouwen wij een tweede lokaal met speelzaal, wc’s en douches, een vergaderruimte en slaapzalen. Daarnaast komen er nog 4 materiaallokalen, voor de KLJ zelf, de Landelijke Gilde, de KWB en de Koninklijke Fanfare Onafhankelijkheid Wiekevorst.
+
+		<figure id="lokaal_picture" class="photo">
+			<a href="/static/img/bouw/lokaal_kantschuifraam_md.png" class="mfp-link">
+				<img src="/static/img/bouw/lokaal_kantschuifraam_md.png" alt="Bouwtekening nieuw KLJ-lokaal" class="img-responsive">
+			</a>
+			<p></p>
+			<a href="/static/img/bouw/lokaal_kantgarages_md.png" class="mfp-link">
+				<img src="/static/img/bouw/lokaal_kantgarages_md.png" alt="Bouwtekening nieuw KLJ-lokaal" class="img-responsive">
+			</a>
+			<figcaption>Bouwtekeningen nieuw KLJ-lokaal</figcaption>
+		</figure>
+
+		<p id="intro">Naast het huidige lokaal bouwen wij een tweede lokaal met speelzaal, wc’s en douches, een vergaderruimte en slaapzalen. Daarnaast komen er nog 4 materiaallokalen, voor de KLJ zelf, de Landelijke Gilde, de KWB en de Koninklijke Fanfare Onafhankelijkheid Wiekevorst.
 			<br>
 			Verder zal ons lokaal in de zomer verhuurd worden als kampplaats. Daarom zijn er op de bovenverdieping slaapzalen. Ook zal de huidige keuken uitgebreid worden zodat men daar ook voor een hele bende kan koken.</p>
 		<p>Zo zie je maar, grote plannen, maar uiteraard ook veel werk aan de winkel en dus veel centjes nodig om dit te kunnen realiseren.</p>
@@ -151,6 +163,6 @@ $result = $db->select($query);
 </div>
 
 <?php $this->start("extracss") ?>
-<link rel="stylesheet" href="/static/css/info.css">
+<link rel="stylesheet" href="/static/css/bouw.css">
 <?php $this->stop() ?>
 
