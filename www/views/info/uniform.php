@@ -1,5 +1,12 @@
 <?php
 $this->layout('template', ['title' => 'Uniform - KLJ Wiekevorst', 'id' => 'info/uniform', 'extracss' => '/static/css/info.css']);
+
+require_once 'db.php';
+
+$db = new Db();
+
+$prices = $db->select("SELECT price FROM `kledij_prijs` WHERE (id = 1) OR (id = 2) OR (id = 13) OR (id = 22)");
+
 ?>
 
 <div class="container" id="uniform">
@@ -12,10 +19,10 @@ $this->layout('template', ['title' => 'Uniform - KLJ Wiekevorst', 'id' => 'info/
 		<p>In de toekomst kan je enkel nog een uniform kopen op bepaalde dagen voor en na de activiteit. Deze dagen zullen gecommuniceerd worden via het KLJ'ke, de website en Facebook. <br />
 			Indien mogelijk vragen we om zo veel mogelijk met gepast geld te betalen.</p>
 		<ul>
-			<li>T-shirt jongens/meisjes: 7,50 EUR - <b>verplicht!</b></li>
-			<li>Sjaaltje: 4,50 EUR - <b>verplicht!</b></li>
-			<li>Trui: 15,50 EUR</li>
-			<li>Hoodie +16 (trui met kap): 21,00 EUR</li>
+			<li>T-shirt jongens/meisjes: <?=$prices[1][price]?> EUR - <b>verplicht!</b></li>
+			<li>Sjaaltje: <?=$prices[0][price]?> EUR - <b>verplicht!</b></li>
+			<li>Trui: <?=$prices[2][price]?> EUR</li>
+			<li>Hoodie +16 (trui met kap): <?=$prices[3][price]?> EUR</li>
 		</ul>
 
 		<div class="row">
