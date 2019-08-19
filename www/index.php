@@ -89,6 +89,9 @@ switch ($request_uri[0]) {
 	case '/leiding/inschrijven':
 		echo $templates->render('leiding/inschrijven');
 		break;
+	case '/leiding/kledij':
+		echo $templates->render('leiding/kledij');
+		break;
 	default:
 		header('HTTP/1.0 404 Not Found');
 		echo $templates->render('404');
