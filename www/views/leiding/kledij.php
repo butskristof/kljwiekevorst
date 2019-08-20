@@ -17,6 +17,10 @@ $db2 = new Db();
 $query2 = "SELECT * FROM `kledij_stock`";
 $result2 = $db2->select($query2);
 
+$db6 = new Db();
+$query6 = "SELECT * FROM `kledij_log`";
+$result3 = $db6->select($query6);
+
 if(isset($_POST["add_to_cart"]))
 {
 	if(isset($_SESSION["shopping_cart"]))
@@ -82,9 +86,14 @@ if(isset($_GET["action"]))
 			unset($_SESSION["shopping_cart"][$keys]);
 			$quantity = $values["item_quantity"];
 			$itemid = $values["item_id"];
-			$query3 = "UPDATE `kledij_stock` SET `amount` = `amount` - '$quantity' WHERE `id` = '$itemid';";
+			$itemname = $values["item_name"];
 			$db3 = new Db();
+			$query3 = "UPDATE `kledij_stock` SET `amount` = `amount` - '$quantity' WHERE `id` = '$itemid';";
 			$db3->update($query3);
+			
+			$db5 = new Db();
+			$query5 = "INSERT INTO `kledij_log` (`date`, `id`, `item`, `amount`) VALUES (CURRENT_DATE(), '$itemid', '$itemname', '$quantity');";
+			$db5->update($query5);
 		}
 		echo '<script type="text/javascript">alert("kostprijs: €'.$_GET["price"].'");</script>';
 		echo '<script>window.location="kledij.php"</script>';
@@ -209,5 +218,27 @@ if(isset($_GET["action"]))
 		?>
 	<input type="submit" name="update_stock" style="margin-top:5px;" class="btn btn-success" value="Update stock" />
 	</div>
+	
+	<div class="content">
+		<?php
+			echo "<b>Kledij Logboek</b>";
+			echo "<table border='1'>
+			<tr>
+			<th>Date</th>
+			<th>Id</th>
+			<th>Item</th>
+			<th>Hoeveelheid verkocht</th>
+			</tr>";
+			foreach ($result3 as $r)
+			{
+				echo "<tr>";
+					echo "<td>" . $r[date] . "</td>";
+					echo "<td>" . $r[id] . "</td>";
+					echo "<td>" . $r[item] . "</td>";
+					echo "<td>" . $r[amount] . "</td>";
+				echo "<tr>";
+			}
+			echo "</table>";
+		?>
 </div>
 
