@@ -47,6 +47,11 @@ class Db {
 			return $rows;
 		}
 	}
+	
+	public function update($query) {
+		$connection = $this->connect();
+		$connection->query($query);
+	}
 }
 ?>
 
