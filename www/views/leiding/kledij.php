@@ -49,7 +49,19 @@ if(isset($_POST["add_to_cart"]))
 		$_SESSION["shopping_cart"][0] = $item_array;
 	}
 }
- 
+
+if(isset($_POST["update_stock"]))
+{
+	for ($x = 1; $x <= 24; $x++) {
+		$db4 = new Db();
+		$location = "quantity_change_'$x'";
+		$query4 = "UPDATE `kledij_stock` SET `amount` = '$_POST[$location]' WHERE `kledij_stock`.`id` = '$x';";
+		$db4->update($query4);
+	} 
+	echo '<script type="text/javascript">alert("UPDATED STOCK");</script>';
+	echo '<script>window.location="kledij.php"</script>';
+}
+
 if(isset($_GET["action"]))
 {
 	if($_GET["action"] == "delete")
@@ -178,17 +190,24 @@ if(isset($_GET["action"]))
 			<th>Id</th>
 			<th>Item</th>
 			<th>Hoeveelheid</th>
+			<th>action</th>
 			</tr>";
 			foreach ($result2 as $r)
-			{
-				echo "<tr>";
-					echo "<td>" . $r[id] . "</td>";
+			{?>
+				<form method="post" action="kledij.php?action=update">
+				<?echo "<tr>";
+					echo "<td name='id'>" . $r[id] . "</td>";
 					echo "<td>" . $r[item] . "</td>";
 					echo "<td>" . $r[amount] . "</td>";
+				?>
+					<td><input type="text" name="quantity_change_'<?php echo $r[id]?>'" value="<?php echo $r[amount]?>" class="form-control" /></td>
+				<?php
 				echo "</tr>";
+				
 			}
 			echo "</table>";
 		?>
+	<input type="submit" name="update_stock" style="margin-top:5px;" class="btn btn-success" value="Update stock" />
 	</div>
 </div>
 
