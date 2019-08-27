@@ -111,7 +111,7 @@ if(isset($_GET["action"]))
 	<?php
 	foreach ($kledij_items as $item) {
 	?>
-	   <div class="col-md-4 kledij-item">
+	   <div class="col-md-4 col-sm-6 kledij-item">
 		   <form method="post" action="kledij.php?action=add&id=<?php echo $item["id"]; ?>">
 			   <div class="kledij-item-inner">
 				   <img
@@ -127,30 +127,35 @@ if(isset($_GET["action"]))
 					   € <?= $item["price"] ?>
 				   </h4>
 
+				   <div class="row d-flex">
+					   <div class="col quantity-wrapper">
+						   <input
+							   type="text"
+							   name="quantity"
+							   value="1"
+							   class="form-control"
+						   />
+					   </div>
+					   <div class="col ml-auto">
+						   <input
+							   type="submit"
+							   name="add_to_cart"
+							   class="btn btn-success"
+							   value="Add to Cart"
+						   />
+					   </div>
+				   </div>
+
 				   <input
-						   type="text"
-						   name="quantity"
-						   value="1"
-						   class="form-control"
+					   type="hidden"
+					   name="hidden_name"
+					   value="<?= $item["item"] ?>"
 				   />
 
 				   <input
-						   type="hidden"
-						   name="hidden_name"
-						   value="<?= $item["item"] ?>"
-				   />
-
-				   <input
-						   type="hidden"
-						   name="hidden_price"
-						   value="<?= $item["price"] ?>"
-				   />
-
-				   <input
-						   type="submit"
-						   name="add_to_cart"
-						   style="margin-top:5px;" class="btn btn-success"
-						   value="Add to Cart"
+					   type="hidden"
+					   name="hidden_price"
+					   value="<?= $item["price"] ?>"
 				   />
 
 			   </div>

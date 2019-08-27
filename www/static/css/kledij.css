@@ -7,13 +7,21 @@
   background-color: whitesmoke;
   border-radius: 5px;
   padding: 16px;
+  min-height: 350px;
 }
 .kledij-item-inner img {
   display: block;
-  width: 100%;
+  max-height: 200px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .kledij-item-inner h4 {
   text-align: center;
+}
+
+.quantity-wrapper {
+  padding-right: 0;
 }
 
 /*# sourceMappingURL=kledij.css.map */
