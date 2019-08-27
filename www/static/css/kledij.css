@@ -24,4 +24,9 @@
   padding-right: 0;
 }
 
+.submit-wrapper input {
+  width: 100%;
+  text-align: center;
+}
+
 /*# sourceMappingURL=kledij.css.map */

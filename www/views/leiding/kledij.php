@@ -130,18 +130,19 @@ if(isset($_GET["action"]))
 				   <div class="row d-flex">
 					   <div class="col quantity-wrapper">
 						   <input
-							   type="text"
+							   type="number"
+							   min="0"
 							   name="quantity"
 							   value="1"
 							   class="form-control"
 						   />
 					   </div>
-					   <div class="col ml-auto">
+					   <div class="col submit-wrapper">
 						   <input
 							   type="submit"
 							   name="add_to_cart"
 							   class="btn btn-success"
-							   value="Add to Cart"
+							   value="Toevoegen"
 						   />
 					   </div>
 				   </div>
