@@ -1,0 +1,19 @@
+.kledij-item {
+  margin: 10px auto;
+}
+
+.kledij-item-inner {
+  border: 3px solid #5cb85c;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 16px;
+}
+.kledij-item-inner img {
+  display: block;
+  width: 100%;
+}
+.kledij-item-inner h4 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=kledij.css.map */
