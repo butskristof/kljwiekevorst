@@ -58,8 +58,8 @@ switch ($request_uri[0]) {
 	case '/info/wiezijnwij':
 		echo $templates->render('info/wiezijnwij');
 		break;
-	case '/info/bestuur':
-		echo $templates->render('info/bestuur');
+	case '/info/werking':
+		echo $templates->render('info/werking');
 		break;
 	case '/info/geschiedenis':
 		echo $templates->render('info/geschiedenis');

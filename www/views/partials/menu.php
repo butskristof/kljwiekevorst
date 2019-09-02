@@ -49,7 +49,7 @@ namespace Spatie\Menu;
 			->addClass('dropdown-item')
 	)
 	->add(
-		Link::to('/info/bestuur', 'Bestuur')
+		Link::to('/info/werking', 'Werking')
 			->addClass('dropdown-item')
 	)
 	->add(

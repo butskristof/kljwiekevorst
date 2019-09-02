@@ -37,7 +37,7 @@ h2 {
 }
 
 .hero-image {
-	background-image: url("/static/img/leiding1718.jpg");
+	background-image: url("/static/img/leiding1819.jpg");
 	min-height: 200px;
 	height: 45vh;
 	max-height: 600px;
@@ -46,4 +46,22 @@ h2 {
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
+}
+
+.leader-block-wrapper {
+	padding: 1em;
+}
+
+.leader-block {
+	padding: 1em;
+
+	h3 {
+		margin-top: 0.5em;
+		text-align: left;
+		font-size: 1.1em;
+	}
+
+	img {
+		max-width: 100%;
+	}
 }

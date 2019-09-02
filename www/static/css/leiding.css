@@ -1,34 +1,40 @@
 h2 {
-  margin: 10px 0; }
+  margin: 10px 0;
+}
 
 .leiding p {
-  text-align: justify; }
+  text-align: justify;
+}
 
 .leiding img {
   width: 99%;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 .leidingpic {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 @media (max-width: 992px) {
   .content img {
     max-width: 50%;
-    max-height: 50%; } }
-
+    max-height: 50%;
+  }
+}
 @media (min-width: 768px) {
   .content {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify; } }
-
+    text-align: justify;
+  }
+}
 .hero-image {
-  background-image: url("/static/img/leiding1718.jpg");
+  background-image: url("/static/img/leiding1819.jpg");
   min-height: 200px;
   height: 45vh;
   max-height: 600px;
@@ -36,4 +42,23 @@ h2 {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-  position: relative; }
+  position: relative;
+}
+
+.leader-block-wrapper {
+  padding: 1em;
+}
+
+.leader-block {
+  padding: 1em;
+}
+.leader-block h3 {
+  margin-top: 0.5em;
+  text-align: left;
+  font-size: 1.1em;
+}
+.leader-block img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=leiding.css.map */

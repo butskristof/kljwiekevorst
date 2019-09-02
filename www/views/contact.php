@@ -15,7 +15,7 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 		<div class="col-md-6">
 			Het (factuur)adres van onze lokalen is <br>
 			<address class="leftmargin">
-				<strong>KLJ Wiekevorst vzw</strong> <br>
+				<strong>KLJ Wiekevorst</strong> <br>
 				Dalstraat 22A <br>
 				2222 Wiekevorst
 			</address>
@@ -30,14 +30,14 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 	<div class="row">
 		<div class="col-md-3 leftmargin">
 			<p>
-				<strong>Kristof Buts</strong> <br>
-				+32 477 43 08 65
+				<strong>Joppe Van den Sande</strong> <br>
+				+32 470 51 16 50
 			</p>
 		</div><!-- /col-md-3 -->
 		<div class="col-md-3 leftmargin">
 			<p>
-				<strong>Joppe Van den Sande</strong> <br>
-				+32 470 51 16 50
+				<strong>Michelle Cuylaerts</strong> <br>
+				+32 492 55 86 83‬
 			</p>
 		</div><!-- /col-md-3 -->
 	</div><!-- /row -->
@@ -48,8 +48,8 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 	<div class="row">
 		<div class="col-md-3 leftmargin">
 			<address>
-				<strong>Michelle Cuylaerts</strong> <br>
-				Wiekevorstse Goorweg 17 <br>
+				<strong>Lander Van den Sande</strong> <br>
+				Lindestraat 13<br>
 				2222 Wiekevorst <br>
 				<a href="#">
 					secretaris@kljwiekevorst.be
