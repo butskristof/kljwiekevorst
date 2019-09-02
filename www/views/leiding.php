@@ -46,7 +46,7 @@ $groups = $db->select($query);
 					?>
 						<div class="col-6 col-sm-4 col-md-3 leader-block-wrapper">
 							<div class="leader-block">
-								<img src="<?= file_exists($pic_location) ? $pic_location : "https://via.placeholder.com/400" ?>" alt="">
+								<img src="<?= file_exists($pic_location) ? $pic_location : "https://via.placeholder.com/400" ?>" alt="<?=$groupleader["name"]?>">
 								<h3><?=$groupleader["name"]?></h3>
 							</div>
 						</div>

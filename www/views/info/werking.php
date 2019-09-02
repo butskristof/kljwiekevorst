@@ -55,7 +55,7 @@ $this->layout('template', ['title' => 'Werking - KLJ Wiekevorst', 'id' => 'info/
 		<p>Wil je meer te weten komen over onze leiding? Kijk dan op de <a href="/leiding">leidingspagina</a>!</p>
 		<br />
 		<div class="photos">
-			<p><a class="popup thumb mfp-link" href="/static/img/leiding1718.jpg"><img src="/static/img/leiding1718.jpg" alt="Leiding KLJ Wiekevorst 2017-2018" /></a> </p>
+			<p><a class="popup thumb mfp-link" href="/static/img/leiding1819.jpg"><img src="/static/img/leiding1819.jpg" alt="Leiding KLJ Wiekevorst 2018-2019" /></a> </p>
 		</div>
 	</div>
 </div>
