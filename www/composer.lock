@@ -99,8 +99,8 @@
             "authors": [
                 {
                     "name": "Jonathan Reinink",
-                    "email": "jonathan@reinink.ca",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "jonathan@reinink.ca"
                 }
             ],
             "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
@@ -263,9 +263,9 @@
             "authors": [
                 {
                     "name": "Freek Van der Herten",
+                    "role": "Developer",
                     "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
+                    "homepage": "https://spatie.be"
                 }
             ],
             "description": "A trait to dynamically add methods to a class",
@@ -359,9 +359,9 @@
             "authors": [
                 {
                     "name": "Sebastian De Deyne",
+                    "role": "Developer",
                     "email": "sebastian@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
+                    "homepage": "https://spatie.be"
                 }
             ],
             "description": "Parse, build and manipulate URL's",
