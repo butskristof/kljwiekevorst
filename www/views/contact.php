@@ -15,7 +15,7 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 		<div class="col-md-6">
 			Het (factuur)adres van onze lokalen is <br>
 			<address class="leftmargin">
-				<strong>KLJ Wiekevorst vzw</strong> <br>
+				<strong>KLJ Wiekevorst</strong> <br>
 				Dalstraat 22A <br>
 				2222 Wiekevorst
 			</address>
