@@ -3,10 +3,15 @@ $this->layout('template', ['title' => 'Leiding - KLJ Wiekevorst', 'id' => 'leidi
 
 require_once 'db.php';
 
+$img_location = "static/img/leiding/";
+$img_extension = ".jpg";
+
 $db = new Db();
-$query = "SELECT * FROM `leiding`";
+$query = "SELECT `name`, `leader_of` FROM `leiding`";
 $result = $db->select($query);
 shuffle($result);
+$query = "SELECT `name` FROM `agegroups`";
+$groups = $db->select($query);
 
 ?>
 
@@ -17,52 +22,43 @@ shuffle($result);
 	<h1>Leiding</h1>
 
 	<p class="lead">
-		Ook het werkjaar 2018-2019 staat er weer een sterke leidingsploeg klaar om elke week het beste van zichzelf te geven. Hieronder kom je alles te weten over onze 26 leid(st)ers!
+		Ook het werkjaar 2019-2020 staat er weer een sterke leidingsploeg klaar om elke week het beste van zichzelf te geven. Hieronder kom je alles te weten over onze <?= count($result) ?> leid(st)ers!
 		<br>
 	</p>
 
 	<div class="content">
 
 		<?php
-			foreach ($result as $r) { ?>
-				<div class="row leiding">
-					<div class="col-md-4 leidingpic">
-						<?php
-						if (empty($r[imgpath])) {
-							?><img src="http://placehold.it/500x500" alt="">
-						<?php
-						} else {
-							?>
-							<p><a class="mfp-link" href="/static/img/leiding/<?=$r[imgpath]?>"><img src="/static/img/leiding/<?=$r[imgpath]?>" alt="<?=$r[name]?>" /></a> </p>
-						<?php
+		foreach ($groups as $group) {
+		?>
+			<div class="group-block">
+				<h2><?=$group["name"]?></h2>
+				<div class="row">
+					<?php
+					$groupleaders = [];
+					foreach ($result as $leader) {
+						if (strpos($leader["leader_of"], $group["name"]) !== false) {
+							$groupleaders[] = $leader;
 						}
-						?>
-					</div>
-					<div class="col-md-8">
-						<h2><?=$r[name]?></h2>
-						<p>
-							<b>Naam:</b> <?=$r[name]?><br>
-							<b>Bijnaam:</b> <?=$r[nickname]?><br>
-							<b>Geboortedatum:</b> <?php
-								// format date
-								$moment = new \Moment\Moment($r[dateofbirth]);
-								$moment::setLocale("nl_NL");
-								echo $moment->format("j F Y");
-							?><br>
-							<b>Studie/werk:</b> <?=$r[studies]?><br>
-							<b>Leiding sinds:</b> <?=$r[leader_since]?><br>
-							<b>Leiding van:</b> <?=$r[leader_of]?><br>
-							<b>Functie(s):</b> <?=$r[functions]?><br>
-							<b>Hobby's:</b> <?=$r[hobbies]?><br>
-							<b>Anekdote:</b> <?=$r[memory]?>
-						</p>
-					</div>
+					}
+					foreach ($groupleaders as $groupleader) {
+						$pic_location = $img_location . str_replace(' ', '', strtolower($groupleader["name"])) . $img_extension;
+					?>
+						<div class="col-6 col-sm-4 col-md-3 leader-block-wrapper">
+							<div class="leader-block">
+								<img src="<?= file_exists($pic_location) ? $pic_location : "https://via.placeholder.com/400" ?>" alt="">
+								<h3><?=$groupleader["name"]?></h3>
+							</div>
+						</div>
+					<?php
+					}
+					?>
 				</div>
-				<hr>
-			<?php }	?>
-
+			</div>
+		<?php
+		}
+		?>
 	</div>
-
 </div>
 
 <?php $this->start("extracss") ?>

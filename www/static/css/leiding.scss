@@ -47,3 +47,21 @@ h2 {
 	background-size: cover;
 	position: relative;
 }
+
+.leader-block-wrapper {
+	padding: 1em;
+}
+
+.leader-block {
+	padding: 1em;
+
+	h3 {
+		margin-top: 0.5em;
+		text-align: left;
+		font-size: 1.1em;
+	}
+
+	img {
+		max-width: 100%;
+	}
+}

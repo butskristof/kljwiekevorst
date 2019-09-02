@@ -7,4 +7,5 @@ private/secrets/*
 secrets/*
 old/*
 db/*
-www/vendor/*
+**/www/vendor/*
+www/vendor
