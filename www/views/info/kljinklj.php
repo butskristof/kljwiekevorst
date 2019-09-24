@@ -8,11 +8,10 @@ $this->layout('template', ['title' => 'KLJ in KLJ - KLJ Wiekevorst', 'id' => 'in
 	</h1>
 
 	<div class="col-md-10 offset-md-1">
-		<p>KLJ Wiekevorst wordt nationaal ondersteund door de nationale koepel die in Oud-Heverlee gevestigd is. Ook zijn er voor de provincie Antwerpen twee vrijgestelden om de Antwerpse afdelingen te begeleiden. Tot slot behoort KLJ Wiekevorst tot een regionaal gewest: het gewest Zuiderkempen. Het gewest Zuiderkempen omvat andere KLJ's uit de omgeving van Wiekevorst. Het gaat hier om Noorderwijk, Houtvenne, Voortkapel, Herenthout en Tongerlo. Elke afdeling heeft zijn vertegenwoordiging in het gewest.
+		<p>KLJ Wiekevorst is niet zomaar een jeugdbeweging. Wij horen tot de koepel KLJ Nationaal die gevestigd is in Leuven. Om genoeg steun te bieden aan alle afdelingen van KLJ in Vlaanderen en Oost-België werkt men met regio’s en gewesten. Wij behoren tot de regio Antwerpen en het gewest Groot-Zuiderkempen. Binnen dit gewest zitten andere KLJ’s uit de omgeving. Zo vind je hier Noorderwijk, Houtvenne, Voortkapel, Herenthout en Tongerlo terug. Het gewest organiseert regelmatig activiteiten voor de verschillende afdelingen samen. Verder vergaderen zij maandelijks om de stand van zaken van onze naburige KLJ’s te bespreken en op de hoogte te blijven van nieuws vanuit KLJ nationaal.
 			<br>
-			Vanuit het gewest worden er regelmatig activiteiten georganiseerd voor de +16 en de leiding. Maandelijks wordt er vergaderd om de stand van zaken in onze naburige KLJ's te bespreken.
-		</p>
-		<p>Voor meer informatie kan u terecht op de website van <a href="http://www.klj.be/">KLJ nationaal</a>.</p>
+			Verder worden wij ondersteund door het pedagogisch team van de regio Antwerpen die hun kantoor in Herentals hebben. Zo zie je maar, KLJ is meer dan enkel Wiekevorst, je vind KLJ terug in heel het land!</p>
+		<p>Voor meer informatie kan u terecht op de website van <a href="https://www.klj.be/">KLJ nationaal</a>.</p>
 	</div>
 </div>
 </div>
