@@ -108,6 +108,12 @@ $menu = Menu::new()
 			->addParentClass('nav-item')
 	)
 	->add(
+		Link::to('/kampverhuur', 'Kampverhuur')
+                        ->addClass('nav-link')
+                        ->addParentClass('nav-item')
+
+	)
+	->add(
 		Link::to('/bouw', 'Bouw')
 			->addClass('nav-link')
 			->addParentClass('nav-item')
