@@ -139,7 +139,7 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 	</div><!-- /row -->
 	*/
 	?>
-
-
+	<div class="responsiveCal">
+		<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=2&amp;bgcolor=%23D50000&amp;ctz=Europe%2FBrussels&amp;src=ZzFnOTJnaWxtaWZyanVkNm82bTlncjdqbTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23a2845e&amp;showTitle=0&amp;showNav=0&amp;title=Verhuur%20kalender%20KLJ%20Wiekevorst&amp;showDate=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;showTz=0&amp;mode=MONTH&amp;hl=nl" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	</div>
 </div><!-- /container -->
-
