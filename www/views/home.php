@@ -11,13 +11,6 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-4" id="start-reclam">
-			<p>
-				<a class="popup thumb mfp-link" href="/static/img/start2019.jpeg">
-					<img class="img-fluid w-100" src="/static/img/start2019.jpeg" alt="Affiche startactiviteit 2019-2020">
-				</a>
-			</p>
-		</div>
 		<div class="col-md-8">
 			<div id="fb-root"></div>
 			<script>(function(d, s, id) {
