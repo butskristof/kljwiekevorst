@@ -1,0 +1,13 @@
+.photo_huur {
+  max-width: 75%;
+  margin: 25px auto; }
+  @media (min-width: 992px) {
+    .photo_huur {
+      max-width: 60%; } }
+  .photo_huur img {
+    width: 100%; }
+
+#lokaal_picture {
+  width: 40%;
+  float: right;
+  margin: 10px; }

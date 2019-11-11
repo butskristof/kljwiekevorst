@@ -26,6 +26,9 @@ switch ($request_uri[0]) {
 	case '/huur':
 		echo $templates->render('huur');
 		break;
+	case '/kampverhuur':
+		echo $templates->render('kampverhuur');
+		break;
 	case '/bouw':
 		echo $templates->render('bouw');
 		break;
@@ -58,8 +61,8 @@ switch ($request_uri[0]) {
 	case '/info/wiezijnwij':
 		echo $templates->render('info/wiezijnwij');
 		break;
-	case '/info/bestuur':
-		echo $templates->render('info/bestuur');
+	case '/info/werking':
+		echo $templates->render('info/werking');
 		break;
 	case '/info/geschiedenis':
 		echo $templates->render('info/geschiedenis');

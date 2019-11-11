@@ -187,22 +187,20 @@ if(isset($_GET["action"]))
 		</div>
 		</div>
 		<br />
-	</body>
-</html>
-
-<div class="container">
-	<div class="content">
-		<?php
-			echo "<b>Kledij Stock</b>";
-			echo "<table border='1'>
-			<tr>
-			<th>Id</th>
-			<th>Item</th>
-			<th>Hoeveelheid</th>
-			<th>action</th>
-			</tr>";
-			foreach ($result2 as $r)
-			{?>
+	
+		<div class="container">
+			<div class="content">
+				<?php
+				echo "<b>Kledij Stock</b>";
+				echo "<table border='1'>
+				<tr>
+				<th>Id</th>
+				<th>Item</th>
+				<th>Hoeveelheid</th>
+				<th>action</th>
+				</tr>";
+				foreach ($result2 as $r)
+				{?>
 				<form method="post" action="kledij.php?action=update">
 				<?echo "<tr>";
 					echo "<td name='id'>" . $r[id] . "</td>";
@@ -213,14 +211,14 @@ if(isset($_GET["action"]))
 				<?php
 				echo "</tr>";
 				
-			}
-			echo "</table>";
-		?>
-	<input type="submit" name="update_stock" style="margin-top:5px;" class="btn btn-success" value="Update stock" />
-	</div>
+				}
+				echo "</table>";
+				?>
+				<input type="submit" name="update_stock" style="margin-top:5px;" class="btn btn-success" value="Update stock" />
+			</div>
 	
-	<div class="content">
-		<?php
+		<div class="content">
+			<?php
 			echo "<b>Kledij Logboek</b>";
 			echo "<table border='1'>
 			<tr>
@@ -239,6 +237,10 @@ if(isset($_GET["action"]))
 				echo "<tr>";
 			}
 			echo "</table>";
-		?>
-</div>
+			?>
+		</div>
+	</body>
+</html>
+
+
 

@@ -2,8 +2,7 @@
 
 <footer class="container">
 		<span class="float-right">
-				<p>&copy; <?= date('Y'); ?> KLJ Wiekevorst <br>
-				webdesign by <a href="https://kristofbuts.be" target="_blank">Kristof Buts</a></p>
+				<p>&copy; <?= date('Y'); ?> KLJ Wiekevorst
 			</span>
 </footer>
 
