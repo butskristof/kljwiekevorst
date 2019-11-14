@@ -25,7 +25,6 @@
 				<div class="fbheader">
 					<div class="fb-page" data-href="https://www.facebook.com/KLJWiekevorst/" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/KLJWiekevorst/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KLJWiekevorst/">KLJ Wiekevorst</a></blockquote></div>
 				</div>
-				<div class="taggbox-container" style=" width:100%;height:100%;overflow: auto;"><script defer src="//web.taggbox.com/app/js/embed.min.js" type="text/javascript"></script><div class="taggbox-socialwall" data-wall-id="12374" view-url="https://taggbox.com/w/12374">  </div></div>
 			</div>
 		</div>
 	</div>
