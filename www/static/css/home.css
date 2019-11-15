@@ -44,8 +44,36 @@ Styling specifically for home page
   margin-top: 20px;
 }
 #fbbox .fbheader {
+  display: block;
   max-width: 500px;
   margin: 0 auto;
+}
+#fbbox a.custom-card,
+#fbbox a.custom-card:hover {
+  color: inherit;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  #fbbox .card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+@media (min-width: 1200px) {
+  #fbbox .card-columns {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+  }
+}
+@media (max-width: 575px) {
+  #fbbox .card-columns a {
+    text-decoration: none;
+  }
+  #fbbox .card-columns img {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 
 #start-reclam {
