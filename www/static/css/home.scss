@@ -41,14 +41,52 @@ Styling specifically for home page
 
 #fbbox {
 	margin-top: 20px;
+
 	.fbheader {
 	//	width: 100%;
+		display: block;
 		max-width: 500px;
 		margin: 0 auto;
 	}
+
 	//iframe {
 	//	//margin: 0 auto;
 	//}
+
+	a.custom-card,
+	a.custom-card:hover {
+		color: inherit;
+	}
+
+	@media (min-width: 576px) and (max-width: 768px)
+	{
+		.card-columns {
+			-webkit-column-count: 2;
+			-moz-column-count: 2;
+			column-count: 2;
+		}
+	}
+
+	@media (min-width: 1200px)
+	{
+		.card-columns {
+			-webkit-column-count: 4;
+			-moz-column-count: 4;
+			column-count: 4;
+		}
+	}
+
+	@media (max-width: 575px) {
+		.card-columns {
+			a {
+				text-decoration: none;
+			}
+			img {
+				width: 75%;
+				margin: 0 auto;
+			}
+		}
+	}
 }
 
 #start-reclam {

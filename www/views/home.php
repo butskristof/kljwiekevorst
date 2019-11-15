@@ -1,5 +1,32 @@
 <?php $this->layout('template', ['title' => 'KLJ Wiekevorst', 'id' => 'home', 'extracss' => '/static/css/home.css']) ?>
 
+<?php
+
+// load config file as array
+$config = parse_ini_file('../private/secrets/social.ini');
+
+use RZ\MixedFeed\FacebookPageFeed;
+use RZ\MixedFeed\InstagramFeed;
+use RZ\MixedFeed\MixedFeed;
+
+$feed = new MixedFeed([
+	new InstagramFeed(
+		'17407113053',
+		$config["instagram"],
+		null // you can add a doctrine cache provider
+	),
+	new FacebookPageFeed(
+		'kljwiekevorst',
+		$config["facebook"],
+		null, // you can add a doctrine cache provider
+		[],    // And a fields array to retrieve too
+		null // A specific Graph API Endpoint URL
+	)
+]);
+$items = $feed->getAsyncCanonicalItems(8);
+
+?>
+
 <div class="hero-image">
 	<div class="hero-text">
 		<h2>KLJ Wiekevorst</h2>
@@ -10,22 +37,51 @@
 </div>
 
 <div class="container">
-	<div class="row">
-		<div class="col-md-8">
-			<div id="fb-root"></div>
-			<script>(function(d, s, id) {
-					var js, fjs = d.getElementsByTagName(s)[0];
-					if (d.getElementById(id)) return;
-					js = d.createElement(s); js.id = id;
-					js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=791162621043738&autoLogAppEvents=1';
-					fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));</script>
-
-			<div class="container" id="fbbox">
-				<div class="fbheader">
-					<div class="fb-page" data-href="https://www.facebook.com/KLJWiekevorst/" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/KLJWiekevorst/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KLJWiekevorst/">KLJ Wiekevorst</a></blockquote></div>
+	<h2 class="text-center">KLJ Wiekevorst op Facebook en Instagram</h2>
+	<div id="fbbox">
+		<div class="card-columns mt-3">
+			<?php
+			foreach ($items as $item) {
+				// format date
+				$date = $item->getDateTime();
+				$moment = new \Moment\Moment($date->getTimestamp());
+				$moment::setLocale("nl_NL");
+				$platform = $item->getPlatform();
+				$platformlogo = "";
+				switch ($platform) {
+					case "instagram":
+						$platformlogo = "fab fa-instagram";
+						break;
+					case "facebook_page":
+						$platformlogo = "fab fa-facebook-f";
+						break;
+				}
+				?>
+				<a href="<?= $item->getLink() ?>" class="custom-card" target="_blank">
+				<div class="card">
+					<?php
+						if(count($item->getImages()) > 0) {
+							echo '<img class="card-img-top" src="' . $item->getImages()[0]->getUrl() . '" alt="Card image cap">';
+						}
+					?>
+					<div class="card-body">
+						<p class="card-text"><?= mb_strimwidth($item->getMessage(), 0, 250, "..."); ?></p>
+					</div>
+					<div class="card-footer text-muted">
+						<div class="row">
+							<div class="col-2 col-sm-1">
+								<i class="<?= $platformlogo ?>"></i>
+							</div>
+							<div class="col">
+								<?= $moment->calendar() ?>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
+				</a>
+			<?php
+			}
+			?>
 		</div>
 	</div>
 </div>
