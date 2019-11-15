@@ -10,8 +10,6 @@ $db = new Db();
 $query = "SELECT * FROM `leiding`";
 $result = $db->select($query);
 shuffle($result);
-$query = "SELECT `name` FROM `agegroups`";
-$groups = $db->select($query);
 
 ?>
 
