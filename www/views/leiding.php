@@ -69,37 +69,6 @@ shuffle($result);
 		<?php
 		}
 		?>
-
-		<?php
-		foreach ($groups as $group) {
-		?>
-			<div class="group-block">
-				<h2><?=$group["name"]?></h2>
-				<div class="row">
-					<?php
-					$groupleaders = [];
-					foreach ($result as $leader) {
-						if (strpos($leader["leader_of"], $group["name"]) !== false) {
-							$groupleaders[] = $leader;
-						}
-					}
-					foreach ($groupleaders as $groupleader) {
-						$pic_location = $img_location . str_replace(' ', '', strtolower($groupleader["name"])) . $img_extension;
-					?>
-						<div class="col-6 col-sm-4 col-md-3 leader-block-wrapper">
-							<div class="leader-block">
-								<img src="<?= file_exists($pic_location) ? $pic_location : "https://via.placeholder.com/400" ?>" alt="<?=$groupleader["name"]?>">
-								<h3><?=$groupleader["name"]?></h3>
-							</div>
-						</div>
-					<?php
-					}
-					?>
-				</div>
-			</div>
-		<?php
-		}
-		?>
 	</div>
 </div>
 
