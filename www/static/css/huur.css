@@ -11,25 +11,16 @@
   width: 100%;
 }
 
-.responsiveCal {
-  position: relative;
-  padding-bottom: 75%;
-  height: 0;
-  overflow: hidden;
-}
-
-.responsiveCal iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 #lokaal_picture {
   width: 40%;
   float: right;
   margin: 10px;
+}
+
+@media (max-width: 400px) {
+  #calendar h2 {
+    font-size: 1.25em;
+  }
 }
 
 /*# sourceMappingURL=huur.css.map */

@@ -1,9 +1,9 @@
 <hr>
 
 <footer class="container">
-		<span class="float-right">
-				<p>&copy; <?= date('Y'); ?> KLJ Wiekevorst
-			</span>
+	<span class="float-right">
+		<p>&copy; <?= date('Y'); ?> KLJ Wiekevorst
+	</span>
 </footer>
 
 <script src="/static/js/vendor/modernizr-3.5.0.min.js"></script>
