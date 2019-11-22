@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: butskristof
- * Date: 2018-05-24
- * Time: 17:37
- */
 
 $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', 'extracss' => '/static/css/huur.css']) ?>
 
@@ -139,7 +133,27 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 	</div><!-- /row -->
 	*/
 	?>
-	<div class="responsiveCal">
-		<iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=2&amp;bgcolor=%23D50000&amp;ctz=Europe%2FBrussels&amp;src=ZzFnOTJnaWxtaWZyanVkNm82bTlncjdqbTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23a2845e&amp;showTitle=0&amp;showNav=0&amp;title=Verhuur%20kalender%20KLJ%20Wiekevorst&amp;showDate=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=1&amp;showTz=0&amp;mode=MONTH&amp;hl=nl" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-	</div>
+
+	<div id="calendar"></div>
+
+    <?php
+    require_once 'calendar.php';
+    $events = (new CalendarClient())->getCalendarEvents();
+    ?>
 </div><!-- /container -->
+
+<?php $this->start('extracss') ?>
+<link href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.3.1/main.min.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.3.0/main.min.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/@fullcalendar/list@4.3.0/main.min.css" rel="stylesheet" type="text/css" />
+<?php $this->stop() ?>
+
+<?php $this->start('extrajs') ?>
+<script>
+	const events = <?= json_encode($events) ?>;
+</script>
+<script async defer src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.3.1/main.min.js" type="text/javascript"></script>
+<script async defer src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.3.0/main.min.js" type="text/javascript"></script>
+<script async defer src="https://cdn.jsdelivr.net/npm/@fullcalendar/list@4.3.0/main.min.js" type="text/javascript"></script>
+<script src="/static/js/huur.js"></script>
+<?php $this->stop() ?>

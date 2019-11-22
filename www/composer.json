@@ -4,6 +4,7 @@
 		"spatie/menu": "^2.5",
 		"phpmailer/phpmailer": "^6.0",
 		"fightbulc/moment": "*",
-		"rezozero/mixedfeed": "^3.0"
+		"rezozero/mixedfeed": "^3.0",
+		"google/apiclient": "^2.0"
 	}
 }
