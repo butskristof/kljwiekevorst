@@ -79,6 +79,9 @@ switch ($request_uri[0]) {
 	case '/info/kamp':
 		echo $templates->render('info/kamp');
 		break;
+	case '/info/sportfeesten':
+		echo $templates->render('info/sportfeesten');
+		break;
 	case '/info/privacy':
 		echo $templates->render('info/privacy');
 		break;

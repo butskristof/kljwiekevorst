@@ -12,4 +12,3 @@ $this->layout('template', ['title' => 'Reglement - KLJ Wiekevorst', 'id' => 'inf
 		<p>Klik <a href="/static/files/reglement.pdf">hier</a> om het te downloaden</p>
 	</div>
 </div>
-</div>

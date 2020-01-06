@@ -72,10 +72,14 @@ namespace Spatie\Menu;
 		Link::to('/info/kamp', 'Kamp')
 			->addClass('dropdown-item')
 	)
-		->add(
-			Link::to('/info/privacy', 'Privacy')
-				->addClass('dropdown-item')
-		)
+	->add(
+		Link::to('/info/sportfeesten', 'Sportfeesten')
+			->addClass('dropdown-item')
+	)
+	->add(
+		Link::to('/info/privacy', 'Privacy')
+			->addClass('dropdown-item')
+	)
 	;
 
 $menu = Menu::new()
