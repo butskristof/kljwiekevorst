@@ -148,7 +148,6 @@ $db = new Db();
 
 								// recipients
 								$mailer->setFrom($config['username'], $config['name']);
-								$mailer->addAddress($config['username'], $config['username']);
                                 $mailer->addAddress($config['recipient'], $config['recipient']);
 
 								// content
