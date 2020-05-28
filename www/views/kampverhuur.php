@@ -221,7 +221,7 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 				foreach ($events as $event) {
 					$start = new \Moment\Moment($event["start"]);
 					$start::setLocale("nl_NL");
-					$end = new \Moment\Moment($event["end"]);
+					$end = (new \Moment\Moment($event["end"]))->subtractDays(1);
 					$end::setLocale("nl_NL");
 					echo "<li class='list-group-item'>{$start->format("dS F Y")} - {$end->format("dS F Y")}</li>";
 				}
