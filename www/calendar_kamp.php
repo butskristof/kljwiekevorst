@@ -9,11 +9,11 @@ class CalendarClient {
     {
         // load config file as array
         $config = parse_ini_file('../private/secrets/calendar.ini');
-        $this->calendarId = $config["calendarid"];
+        $this->calendarId = $config["kampcalendarid"];
         $client = new Google_Client();
-        $client->setApplicationName("KLJ Wiekevorst verhuurkalender");
+        $client->setApplicationName("KLJ Wiekevorst kampverhuurkalender");
         $client->setDeveloperKey($config["apikey"]);
-        $client->setScopes(Google_Service_Calendar::CALENDAR_READONLY);
+        $client->setScopes(Google_Service_Calendar::CALENDAR_EVENTS_READONLY);
 
         $this->service = new Google_Service_Calendar($client);
     }
@@ -22,16 +22,16 @@ class CalendarClient {
         $optParams = array(
             'orderBy' => 'startTime',
             'singleEvents' => true,
-            'timeMin' => (new DateTime('first day of this month'))->format('c'),
+            'timeMin' => (new DateTime('first day of this year'))->format('c'),
         );
         $result = $this->service->events->listEvents($this->calendarId, $optParams);
         $result->getItems();
 
         $output = [];
         foreach ($result as $event) {
-            $item = array("title" => "", "start" => "");
-            $item["title"] = $event->summary ?? "Verhuurd";
+            $item = array("title" => "", "start" => "", "end" => "");
             $item["start"] = $event->start->dateTime ?? $event->start->date;
+            $item["end"] = $event->end->dateTime ?? $event->end->date;
             array_push($output, $item);
         }
 

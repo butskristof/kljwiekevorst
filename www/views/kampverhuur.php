@@ -171,13 +171,13 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 		<p><b>Uitgaan en eten:</b></p>
 		<ul>
         		<li>Jeugdhuis Kwinten</li>
-        		<li>Café ’t groen Hofke</li>
-        		<li>Café ’t centrum</li>
+        		<li>Café ’t Groen Hofke</li>
+        		<li>Café ’t Centrum</li>
         		<li>Brasserie De Verwant</li>
-        		<li>Brasserie ’T straatje</li>
+        		<li>Brasserie ’t Straatje</li>
 			<li>Straatjeskermis: eerste weekend van augustus</li>
-			<li><i>Wiekevorst is een levendig dorp waar om de haverklap activiteiten worden georganiseerd.</i></li>
 		</ul>
+		<em>Wiekevorst is een levendig dorp waar om de haverklap activiteiten worden georganiseerd.</em>
 
 		<h2>Prijzen</h2>
 		<table>
@@ -209,6 +209,25 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 				<td colspan="2"><i>Vanaf september 2020 wordt ons lokaal ook terug verhuurd voor feesten en weekends. Nu al interesse? Neem dan contact met ons op.</i></td>
 			</tr>
 		</table>
+
+		<h2>Verhuurkalender</h2>
+		<p>Voor kampverhuur zijn volgende periodes nog beschikbaar:</p>
+
+		<div id="calendar">
+			<ul class="list-group">
+				<?php
+				require_once 'calendar_kamp.php';
+				$events = (new CalendarClient())->getCalendarEvents();
+				foreach ($events as $event) {
+					$start = new \Moment\Moment($event["start"]);
+					$start::setLocale("nl_NL");
+					$end = (new \Moment\Moment($event["end"]))->subtractDays(1);
+					$end::setLocale("nl_NL");
+					echo "<li class='list-group-item'>{$start->format("dS F Y")} - {$end->format("dS F Y")}</li>";
+				}
+				?>
+			</ul>
+		</div>
 	
 		<h2>Contact</h2>
 		 <dl>
@@ -227,4 +246,3 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
                 </dl>
 	</div>
 </div><!-- /container -->
-
