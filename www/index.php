@@ -101,6 +101,10 @@ switch ($request_uri[0]) {
 	case '/leiding/kledij.php':
 		echo $templates->render('leiding/kledij');
 		break;
+	// Hoevefeesten 2020
+	case '/Hoevefeesten':
+		echo $templates->render('Hoevefeesten');
+		break;
 	default:
 		header('HTTP/1.0 404 Not Found');
 		echo $templates->render('404');

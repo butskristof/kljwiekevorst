@@ -123,6 +123,11 @@ $menu = Menu::new()
 			->addParentClass('nav-item')
 	)
 	->add(
+		Link::to('/Hoevefeesten', 'Hoevefeesten')
+			->addClass('nav-link')
+			->addParentClass('nav-item')
+	)
+	->add(
 		Link::to('/contact', 'Contact')
 			->addClass('nav-link')
 			->addParentClass('nav-item')

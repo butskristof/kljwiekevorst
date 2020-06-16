@@ -19,12 +19,12 @@ $this->layout('template', ['title' => 'Kamp - KLJ Wiekevorst', 'id' => 'info/kam
 		</ol>
 		<p>In beide gevallen is het best om bij twijfel contact op te nemen met de arts!</p>
 		
-		<p>Zoals elk jaar gelden er ook algemene regels op kamp, deze vindt je hier:<a href="/static/files/kampreglement.pdf">kampreglement</a>.</p>
+		<p>Zoals elk jaar gelden er ook algemene regels op kamp, deze vind je hier:<a href="/static/files/kampreglement.pdf">kampreglement</a>.</p>
 	
 		<p>COMMING SOON! <i>Stuur een online brief naar het kamp</i></p>
 		
 		<p><b>Inschrijven voor het kamp gebeurt dit jaar online, dit kan via onderstaand inschrijvingsformulier:</b></p>
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfA0jM2lS01vi-fUwMBa6PfXjFojWiz5m-OVUYqDD2gKRpRzQ/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfA0jM2lS01vi-fUwMBa6PfXjFojWiz5m-OVUYqDD2gKRpRzQ/viewform?embedded=true" width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 	</div>
 </div>
 </div>
