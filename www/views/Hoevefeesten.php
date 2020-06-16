@@ -46,5 +46,5 @@ Wil jij ook dit jaar kunnen proeven van ons overheerlijke eten, leg dan snel je 
 
 		<p class="lead">Tot op de hoevefeesten!</p>
 	</div>
-	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetq0t2EXPJICwJENOtX-24_iSd4sJ8p8M3dg0HfX-D_tTvvw/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+	<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetq0t2EXPJICwJENOtX-24_iSd4sJ8p8M3dg0HfX-D_tTvvw/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 </div><!-- /container -->
