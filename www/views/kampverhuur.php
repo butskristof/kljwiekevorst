@@ -25,8 +25,7 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 			</ul>
 
 		<h2>Foto's</h2>
-			<p><i>Foto’s komen spoedig op onze website vanaf het lokaal afgewerkt is.</i></p>
-
+			<p>Foto’s en beschrijving van ons lokaal vindt u in dit document: <a href="/static/files/kampverhuur/Kamplaats_KLJ_Wiekevorst.pdf" target="_blank">Beschrijving kamplaats</a></p>
 		<h2>Gebouwen</h2>
 			<table>
 				<col width="50%">
@@ -104,23 +103,27 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 					<th colspan="2"><b>Keuken</b></th>
 				</tr>
 				<tr>
-					<td>Gasbekken</td><td>3</td>
+					<td>Industrieel gasfornuis met 4 bekken en oven</td><td>1</td>
 				</tr>
 				<tr>
-					<td>Gasvuur</td><td>5 gasbekken</td>
+					<td>Grote gasbranders</td><td>3</td>
 				</tr>
 				<tr>
-					<td>Oven</td><td>1</td>
+					<td>Friteuse</td><td>2 x 15 liter</td>
 				</tr>
 				<tr>
-					<td>Microgolf</td><td>1</td>
+					<td>Microgolfoven</td><td>1</td>
 				</tr>
 				<tr>
-					<td>Friteuse</td><td>1</td>
+					<td>Ijskast</td><td>1</td>
 				</tr>
 				<tr>
-				<td colspan="2"><i>De keuken is momenteel nog in opbouw, meer details kunnen hier voorlopig niet gegeven worden. De gegeven aantallen zijn ook richtgetallen. Deze kunnen ook nog wijzigen. Voor vragen mag je ons gerust contacteren.</i></td>
+					<td>Diepvriezer</td><td>3 schuiven</td>
 				</tr>
+				<tr>
+					<td>Perculator</td><td>1</td>
+				</tr>
+				
 				<tr><td><td></tr>	
 				<tr>
 					<th colspan="2"><b>Buitenterrein</b></th>
@@ -185,28 +188,31 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 				<th  colspan="2"><b>Zomer</b></th>
 			</tr>
 			<tr>
-				<td>1 juli - 11 juli</td><td>€350 per 24 uur</td>
+				<td>1 juli - 11 juli</td><td>maximaal €350 per 24 uur*</td>
 			</tr>
 			<tr>
-				<td>11 juli - 21 juli</td><td>€350 per 24 uur</td>
+				<td>11 juli - 21 juli</td><td>maximaal €350 per 24 uur*</td>
 			</tr>
 			<tr>
-				<td>21 juli - 31 juli</td><td>€350 per 24 uur</td>
+				<td>21 juli - 31 juli</td><td>maximaal €350 per 24 uur*</td>
 			</tr>
 			<tr>
-				<td>31 juli - 10 aug</td><td>€350 per 24 uur</td>
+				<td>31 juli - 10 aug</td><td>maximaal €350 per 24 uur*</td>
 			</tr>
 			<tr>
-				<td>10 aug - 20 aug</td><td>€350 per 24 uur</td>
+				<td>10 aug - 20 aug</td><td>maximaal €350 per 24 uur*</td>
 			</tr>
 			<tr>
-				<td>20 aug - 30 aug</td><td>€350 per 24 uur</td>
+				<td>20 aug - 30 aug</td><td>maximaal €350 per 24 uur*</td>
+			</tr>
+			<tr>
+				<td colspan="2"><i>*Het basistarief voor de huur van de Kampplaats bedraagt EUR 5 per overnachting per persoon. Indien de prijs per overnachting minder bedraagt dan EUR 250 per overnachting zal het minimumbedrag per overnachting EUR 250 bedragen. Indien de prijs per overnachting meer bedraagt dan EUR 350, zal het maximumbedrag van EUR 350 per nacht van toepassing zijn. Daarenboven wordt er een minimum totaal bedrag van EUR 2.000 gehanteerd voor de ganse huurperiode</i></td>
 			</tr>
 			<tr>
 				<th  colspan="2"><b>Weekendverhuur</b></th>
 			</tr>
 			<tr>
-				<td colspan="2"><i>Vanaf september 2020 wordt ons lokaal ook terug verhuurd voor feesten en weekends. Nu al interesse? Neem dan contact met ons op.</i></td>
+				<td colspan="2"><i>U kan ons lokaal ook huren voor weekends en feesten, meer informatie hierover vindt u <a href="/huur">hier</a></i></td>
 			</tr>
 		</table>
 
