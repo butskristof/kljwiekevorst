@@ -3,86 +3,98 @@
 $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', 'extracss' => '/static/css/huur.css']) ?>
 
 <div class="container">
-	<h1>Huur</h1>
+	<h1>Verhuur van lokaal KLJ Wiekevorst</h1>
 
-	<p class="lead" id="geennieuweaanvragen">Omdat er momenteel druk gewerkt wordt aan onze nieuwbouw zullen er vanaf heden geen nieuwe huuraanvragen meer worden aangenomen.
-		<br>Alle geplande huren gaan wel door zoals afgesproken.</p>
+	<p class = "lead">U kan ons lokaal huren voor weekends en feestgelegenheden</p>
 
-	<?php
-	/*
-
-	<p class="lead">Ons lokaal is te huur voor familiefeesten, communiefeesten, barbecues, ... </p>
-
-	<figure id="lokaal_picture" class="photo_huur">
+	<!--<figure id="lokaal_picture" class="photo_huur">
 		<a href="/static/img/huur/lokaal.jpg" class="mfp-link">
 			<img src="/static/img/huur/lokaal.jpg" alt="Straataanzicht lokaal KLJ Wiekevorst" class="img-responsive">
 		</a>
 		<figcaption>Straataanzicht lokaal KLJ Wiekevorst</figcaption>
-	</figure>
+	</figure>-->
 
-	<h2>Verhuurmogelijkheden</h2>
+	<h2>Wat bieden wij u?</h2>
+	<ul>
+		<li>Huren voor <strong>feestgelegenheden</strong>:
+			<ul>
+				<li>1 grote dagzaal op gelijkvloers</li>
+				<li>Een groot buiten terrein met grasveld</li>
+				<li>Tafels en stoelen:
+					<ul>
+						<li>8 tafels</li>
+						<li>50 stoelen</li>
+						<li>10 schragen</li>
+						<li>4 banken</li>
+					</ul>
+				</li>
+				<li>Keuken (<strong>Zelf vaatdoeken, afwasmiddel, aardappelmesjes, keukenmessen, mixer, ... te voorzien</strong>)
+					<ul>
+						<li>1 industrieel gasfornuis met 4 bekken en oven</li>
+						<li>3 grote gasbranders</li>
+						<li>Friteuse (2X15liter; olie zelf mee te bregen)</li>
+						<li>Ijskast</li>
+						<li>Diepvriezer met 3 schuiven</li>
+						<li>Ijskast</li>
+						<li>Microgolfoven</li>
+						<li>Perculator</li>
+						<li>Pannen, potten, snijplanken</li>
+						<li>Bestek, borden, soepborden, kommen</li>
+						<li>Glazen en tassen</li>
+					</ul>
+				</li>
+				<li>Sanitair (tot 50 personen) (<strong>zelf toiletpapier te voorzien</strong>):
+					<ul>
+						<li>Damestoiletten: 4 toiletten en 2 lavabo’s</li>
+						<li>Herentoiletten: 3 toiletten heren, 3 urnioirs en 2 lavabo’s</li>
+						<li>Sanitair aangepast voor rolstoelgebruikers met 1 toilet en 1 lavabo</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li> Huren voor <strong>weekends</strong>, bovenop het bovengenoemde bieden wij u voor weekends:
+			<ul>
+				<li>Sanitair (tot 50 personen) <strong>zelf toiletpapier te voorzien</strong>:
+					<ul>
+						<li>Gemeenschappelijke doucheruimte met 5 douches en kleedkamer</li>
+						<li>Damestoiletten: 4 toiletten en 2 lavabo’s</li>
+						<li>Herentoiletten: 3 toiletten heren, 3 urnioirs en 2 lavabo’s</li>
+						<li>Sanitair aangepast voor rolstoelgebruikers met 1 toilet, 1 douche en 1 lavabo</li>
+					</ul>
+				</li>
+			
+				<li>Extra sanitair (indien meer dan 50 personen) <strong>zelf toiletpapier te voorzien</strong>:
+					<ul>
+						<li>Dames: 2 toiletten,1 lavabo en 1 douche</li>
+						<li>Heren: 1 toilet (ook toegankelijk voor rolstoelen), 3 urinoirs en 1 lavabo</li>
+					</ul>
+				</li>
+				<li>Bovenverdieping:
+					<ul>
+						<li>2 dagzalen</li>
+						<li>5 slaapkamers (<strong>zelf veldbedden, slappzak en kussens mee te nemen</strong></li>
+						<li>Wasgoot met 5 kraantjes</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
 
-	<p>
-		Wij bieden u twee formules aan:
-
-		<ul>
-			<li>Zonder keuken kan u beschikken over:
-
-				<ul>
-					<li>-16-lokaal (8,5m x 9,5m) met deftige tafels en stoelen</li>
-					<li>Herentoiletten: drie urinoirs, één toilet (tevens toegankelijk voor rolstoelgebruikers), lavabo</li>
-					<li>Damestoiletten: twee toiletten, lavabo</li>
-					<li>Inkomhal</li>
-					<li>Opbergruimte onder de trap met het nodige poetsgerief, toiletpapier en vuilniszakken</li>
-					<br>
-					<li><strong>TARIEF: &euro; 100 + poetswaarborg van &euro; 50</strong></li>
-				</ul>
-			</li>
-
-			<br>
-
-			<li>Met keuken komt daar nog onze ruime en volledig uitgeruste keuken (5,5m x 4m) bij. Deze is verder voorzien van:
-				<ul>
-					<li>Grote gasbek</li>
-					<li>Gasfornuis met vijf bekkens</li>
-					<li>Oven</li>
-					<li>Microgolfoven</li>
-					<li>Huishoudelijke koelkast met vriesvakje</li>
-					<li>Afwasbak</li>
-					<li>Bij de documenten onderaan deze pagina kan u de inventaris van ons keukenmateriaal vinden</li>
-					<br>
-					<li><strong>TARIEF: &euro; 175 + poetswaarborg van &euro; 75</strong></li>
-				</ul>
-			</li>
-		</ul>
-	</p>
-
-	<p></p>
-
+	<h2>Kostprijs:</h2>
+	<ul>
+		<li>Feestgelegenheden: <strong> &euro; 150 + poetswaarborg van &euro; 75 </strong></li>
+		<li>Weekends: <strong> &euro; 5 per per persoon per weekend, met een minimum bedrag van &euro; 250 per weekend + poetswaarborg van &euro; 75 </strong></li>
+	</ul>
 
 	<h2>Enkele opmerkingen</h2>
 
 		<ul>
 			<li>Vuilniszakken zijn in het lokaal voorhanden, maar <u><b>dient u zelf mee te nemen naar huis</b></u>.</li>
 			<li>Voor springkastelen of grote tenten, vragen wij een extra waarborg voor de staat van ons gras. Deze bedraagt dan &euro; 200 in plaats van &euro; 75.</li>
-			<li>Er is 1 koelkast ter beschikking voor de huurders. </li>
 			<li>Het lokaal dient te worden opgeleverd vòòr 12h30 op de dag na het gebruik.</li>
-			<li>Parkeren kan op de voorziene parkeerplaatsen. Indien er te weinig plaats is, moet er achter de haag worden geparkeerd, zoals aangeduid op onderstaand plan.</li>
+			<li>Parkeren kan op de voorziene parkeerplaatsen. </li>
 			<li><strong>Voor speciale gelegenheden is het aangeraden tijdig de huurverantwoordelijken in te lichten!</strong></li>
 		</ul>
-
-	<p>
-		<figure class="photo_huur">
-			<a href="/static/img/huur/grondplan.jpg" class="mfp-link">
-				<img src="/static/img/huur/grondplan.jpg" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
-			</a>
-			<figcaption>Grondplan terrein KLJ Wiekevorst</figcaption>
-		</figure>
-	</p>
-
-	<p>Verder kan u bij documenten ons volledig huisreglement doornemen. Wij vragen ook aan iedere huurder die bij ons het lokaal vastlegt dit door te nemen en te respecteren.</p>
-
-	<p>Wegens geplande bouwwerken nemen we momenteel enkel verhuurmogelijkheden aan die voor eind 2018 vallen.</p>
 
 	<h2>Contact</h2>
 
@@ -91,48 +103,90 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 	<div class="row">
 		<div class="col-md-3">
 			<address>
-				<strong>Lander Van den Sande</strong> <br>
-				+32 471 41 35 58‬ <br>
+				<strong>Joppe Van den Sande</strong> <br>
+				+32 470 51 16 50‬ <br>
 			</address>
 		</div><!-- /col-md-3 -->
 		<div class="col-md-3">
 			<address>
-				<strong>Volker Goossens</strong> <br>
-				‭+32 468 15 74 27‬
+				<strong><!--naam--></strong> <br>
+				<!--telefoonnumer -->
 			</address>
 		</div><!-- /col-md-3 -->
 	</div><!-- /row -->
 
 	<h2>Documenten</h2>
 	<ul>
-		<li><a href="files/HUURREGLEMENT-KLJ-WIEKEVORST.pdf" target="_blank">Huurreglement</a></li>
-		<li><a href="/static/files/verhuur/huisregels.pdf" target="_blank">Huisregels</a></li>
-		<li><a href="/static/files/verhuur/inventaris_keuken.pdf" target="_blank">Inventaris keuken</a></li>
-		<li><a href="/static/files/verhuur/grondplan.pdf" target="_blank">Plan van het lokaal</a></li>
+		<!--<li><a href="files/HUURREGLEMENT-KLJ-WIEKEVORST.pdf" target="_blank">Huurreglement</a></li>-->
+		<!--<li><a href="/static/files/verhuur/huisregels.pdf" target="_blank">Huisregels</a></li>-->
+		<!--<li><a href="/static/files/verhuur/inventaris_keuken.pdf" target="_blank">Inventaris keuken</a></li>-->
+		<!--<li><a href="/static/files/verhuur/grondplan.pdf" target="_blank">Plan van het lokaal</a></li>-->
 	</ul>
 
 
 	<h2>Foto's</h2>
+
 	<div class="row">
-		<div class="col-md-6">
-			<figure class="photo_huur">
-				<a href="/static/img/huur/grondplan.jpg" class="mfp-link">
-					<img src="/static/img/huur/grondplan.jpg" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
+		<div class="col-md-4">
+			<p>
+				<a href="/static/img/huur/voorgevel.png" class="popup thumb mfp-link">
+					<img src="/static/img/huur/voorgevel.png" alt="Voorgevel lokaal KLJ Wiekevorst">
 				</a>
-				<figcaption>Grondplan terrein KLJ Wiekevorst</figcaption>
-			</figure>
-		</div><!-- /col-md-6 -->
-		<div class="col-md-6">
-			<figure class="photo_huur">
-				<a href="/static/img/huur/keuken.jpg" class="mfp-link">
-					<img src="/static/img/huur/keuken.jpg" alt="Grondplan terrein KLJ Wiekevorst" class="img-responsive">
+				<figcaption>Voorgevel lokaal KLJ Wiekevorst</figcaption>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<p>
+				<a href="/static/img/huur/achtergevel.png" class="popup thumb mfp-link">
+					<img src="/static/img/huur/achtergevel.png" alt="Achtergevel lokaal KLJ Wiekevorst">
 				</a>
-				<figcaption>Keuken: 5,5m x 4m</figcaption>
-			</figure>
-		</div><!-- /col-md-6 -->
-	</div><!-- /row -->
-	*/
-	?>
+				<figcaption>Achtergevel lokaal KLJ Wiekevorst</figcaption>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<p>
+				<a href="/static/img/huur/zijgevel.png" class="popup thumb mfp-link">
+					<img src="/static/img/huur/zijgevel.png" alt="Aijgevel lokaal KLJ Wiekevorst">
+				</a>
+				<figcaption>Zijgevel lokaal KLJ Wiekevorst</figcaption>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<p>
+				<a href="/static/img/huur/grasveld.png" class="popup thumb mfp-link">
+					<img src="/static/img/huur/grasveld.png" alt="Grasveld lokaal KLJ Wiekevorst">
+				</a>
+				<figcaption>Buiten terrein KLJ Wiekevorst</figcaption>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<p>
+				<a href="/static/img/huur/Sanitair.png" class="popup thumb mfp-link">
+					<img src="/static/img/huur/Sanitair.png" alt="Sanitair lokaal KLJ Wiekevorst" width="715px">
+				</a>
+				<figcaption>Sanitair</figcaption>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<p>
+				<a href="/static/img/huur/slaapzaal.png" class="popup thumb mfp-link">
+					<img src="/static/img/huur/slaapzaal.png" alt="Slaapzaal lokaal KLJ Wiekevorst">
+				</a>
+				<figcaption>Slaapzaal lokaal KLJ Wiekevorst</figcaption>
+			</p>
+		</div>
+	</div>	
+
 
 	<div id="calendar"></div>
 
