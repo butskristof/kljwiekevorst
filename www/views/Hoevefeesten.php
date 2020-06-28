@@ -40,11 +40,13 @@ $this->layout('template', ['title' => 'Hoevefeesten 2020', 'id' => 'Hoevefeesten
 		<p class="lead">Door deze uitzonderlijke tijden zullen er dit jaar geen normale hoevefeesten georganiseerd worden. Maar we voorzien wel een waardig alternatief. KLJ, KFOW en LG slaan de handen in mekaar (figuurlijk we blijven uiteraard op 1,5m afstand) om iedereen een veilig alternatief te bieden.</p>
 
 		<p class="lead">Dit jaar vinden de hoevefeesten plaats op zaterdag 11 juli en zondag 12 juli en organiseren we als het ware een echte drive-in. Je kan er mosselen, stoofvlees, curryworst en koude schotel verkrijgen. Dit alles aangevuld met een heerlijk flesje wijn.
-Wil jij ook dit jaar kunnen proeven van ons overheerlijke eten, leg dan snel je bestelling vast via <b>onderstaand bestelformulier</b> (INSCHRIJVINGEN WORDEN BINNENKORT GEOPEND). Bestellen kan tot en met Woensdag 8 juli 2020. Afhalen in onze drive-in is aan boerderij <b>“De Witte Lelie” (Itegemseweg 98, 2222 Wiekevorst)</b> op het door u gekozen uur. </p>	
+Wil jij ook dit jaar kunnen proeven van ons overheerlijke eten, leg dan snel je bestelling vast via <b>onderstaand bestelformulier</b>. Bestellen kan tot en met Woensdag 8 juli 2020. Afhalen in onze drive-in is aan boerderij <b>“De Witte Lelie” (Itegemseweg 98, 2222 Wiekevorst)</b> op het door u gekozen uur. </p>	
 
 		<p class="lead">Meer interesse in onze hoevefeesten? Houd dan zeker onze website en facebookpagina in de gaten onder andere voor info over de alternatieve wandeling.</p>
 
 		<p class="lead">Tot op de hoevefeesten!</p>
+
+		<p><b>Via onderstaand formulier kan je je bestelling maken, gelieve te bestellen <u>voor woensdag 8 juli</u>!</b></p>
 	</div>
-	<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetq0t2EXPJICwJENOtX-24_iSd4sJ8p8M3dg0HfX-D_tTvvw/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetq0t2EXPJICwJENOtX-24_iSd4sJ8p8M3dg0HfX-D_tTvvw/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div><!-- /container -->
