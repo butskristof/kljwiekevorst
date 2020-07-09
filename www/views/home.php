@@ -10,11 +10,11 @@ use RZ\MixedFeed\InstagramFeed;
 use RZ\MixedFeed\MixedFeed;
 
 $feed = new MixedFeed([
-	new InstagramFeed(
-		'17407113053',
-		$config["instagram"],
-		null // you can add a doctrine cache provider
-	),
+//	new InstagramFeed(
+//		'17407113053',
+//		$config["instagram"],
+//		null // you can add a doctrine cache provider
+//	),
 	new FacebookPageFeed(
 		'kljwiekevorst',
 		$config["facebook"],
