@@ -42,11 +42,12 @@ $this->layout('template', ['title' => 'Hoevefeesten 2020', 'id' => 'Hoevefeesten
 		<p class="lead">Dit jaar vinden de hoevefeesten plaats op zaterdag 11 juli en zondag 12 juli en organiseren we als het ware een echte drive-in. Je kan er mosselen, stoofvlees, curryworst en koude schotel verkrijgen. Dit alles aangevuld met een heerlijk flesje wijn.
 Wil jij ook dit jaar kunnen proeven van ons overheerlijke eten, leg dan snel je bestelling vast via <b>onderstaand bestelformulier</b>. Bestellen kan tot en met Woensdag 8 juli 2020. Afhalen in onze drive-in is aan boerderij <b>“De Witte Lelie” (Itegemseweg 98, 2222 Wiekevorst)</b> op het door u gekozen uur. </p>	
 
-		<p class="lead">Meer interesse in onze hoevefeesten? Houd dan zeker onze website en facebookpagina in de gaten onder andere voor info over de alternatieve wandeling.</p>
+		<h2> Wandeling </h2>
+		<p class="lead">Zoals elk jaar hoort er bij de Hoevefeesten een wandeling. Dit jaar hebben wij voor u een wandeling van ongeveer 12 km uitgestippeld langs verschillende Wiekevorstse landbouwbedrijven. Bij sommige van deze landbouwbedrijven (aangeduid op de kaart met een microfoontje) zal u naar geluidsfragmenten kunnen luisteren, waarin het landbouwbedrijf wordt voorgesteld. U kan deze fragmenten downloaden op uw smartphone als één enkel audiobestand via deze <a href='https://kljwiekevorst.be/static/files/Audiogids_wandeling_Hoevefeesten2020.mp3'>link</a>. Wanneer u bij een landbouwbedrijf bent aangekomen moet u vooruitspoelen naar het tijdstip aangegeven in de routebeschrijving. </p>
 
 		<p class="lead">Tot op de hoevefeesten!</p>
 
-		<p><b>Via onderstaand formulier kan je je bestelling maken, gelieve te bestellen <u>voor woensdag 8 juli</u>!</b></p>
+		<p><b>Via onderstaand formulier kan je je bestelling maken</b></p>
 	</div>
 	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetq0t2EXPJICwJENOtX-24_iSd4sJ8p8M3dg0HfX-D_tTvvw/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div><!-- /container -->
