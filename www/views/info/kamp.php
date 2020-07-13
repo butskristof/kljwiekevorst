@@ -21,10 +21,10 @@ $this->layout('template', ['title' => 'Kamp - KLJ Wiekevorst', 'id' => 'info/kam
 		
 		<p>Zoals elk jaar gelden er ook algemene regels op kamp, deze vind je hier:<a href="/static/files/kampreglement.pdf">kampreglement</a>.</p>
 	
-		<p>COMING SOON! <i>Stuur een online brief naar het kamp</i></p>
-		
-		<p><b>De inschrijvingen van het kamp zijn afgelopen, BEDANKT aan iedereen die is ingeschreven!</b></p>
-		
+		<h2>Stuur een (online) berichtje naar het kamp</h2>
+		<p>Omdat de post dit jaar misschien wat vertraging kan oplopen voorzien we een online alternatief.</p>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeB58Nr9yYeqbvRbP_dMM5YvT33AuoX_5e1Q7WV2Wf77W84Mw/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 	</div>
 </div>
 </div>
