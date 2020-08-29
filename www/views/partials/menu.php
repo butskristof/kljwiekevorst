@@ -81,6 +81,22 @@ namespace Spatie\Menu;
 			->addClass('dropdown-item')
 	)
 	;
+	
+	$Verhuur = Menu::new()
+		->setWrapperTag('div')
+		->withoutParentTag()
+		->addClass('dropdown-menu')
+		->setActiveClassOnLink(true)
+		->add(
+			Link::to('/verhuur/kampverhuur', 'Kampverhuur')
+				->addClass('dropdown-item')
+		)
+		->add(
+			Link::to('/verhuur/huur', 'Weekend- en feest verhuur')
+				->addClass('dropdown-item')
+		);
+
+	
 
 $menu = Menu::new()
 	->addClass('navbar-nav mr-auto')
@@ -106,27 +122,13 @@ $menu = Menu::new()
 			->addClass('nav-link')
 			->addParentClass('nav-item')
 	)
-	->add(
-		Link::to('/huur', 'Huur')
-			->addClass('nav-link')
-			->addParentClass('nav-item')
+	->submenu(
+		Link::to('#', 'Verhuur')
+			->addClass('nav-link dropdown-toggle')
+			->setAttribute('data-toggle', 'dropdown'),
+		$Verhuur->addParentClass('nav-item dropdown')
 	)
-	->add(
-		Link::to('/kampverhuur', 'Kampverhuur')
-                        ->addClass('nav-link')
-                        ->addParentClass('nav-item')
-
-	)
-	->add(
-		Link::to('/bouw', 'Bouw')
-			->addClass('nav-link')
-			->addParentClass('nav-item')
-	)
-	->add(
-		Link::to('/Hoevefeesten', 'Hoevefeesten')
-			->addClass('nav-link')
-			->addParentClass('nav-item')
-	)
+	
 	->add(
 		Link::to('/contact', 'Contact')
 			->addClass('nav-link')

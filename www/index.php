@@ -23,14 +23,11 @@ switch ($request_uri[0]) {
 	case '/home':
 		echo $templates->render('home');
 		break;
-	case '/huur':
-		echo $templates->render('huur');
+	case '/verhuur/huur':
+		echo $templates->render('verhuur/huur');
 		break;
-	case '/kampverhuur':
-		echo $templates->render('kampverhuur');
-		break;
-	case '/bouw':
-		echo $templates->render('bouw');
+	case '/verhuur/kampverhuur':
+		echo $templates->render('verhuur/kampverhuur');
 		break;
 	case '/leiding':
 		echo $templates->render('leiding');
@@ -100,10 +97,6 @@ switch ($request_uri[0]) {
 		break;
 	case '/leiding/kledij.php':
 		echo $templates->render('leiding/kledij');
-		break;
-	// Hoevefeesten 2020
-	case '/Hoevefeesten':
-		echo $templates->render('Hoevefeesten');
 		break;
 	default:
 		header('HTTP/1.0 404 Not Found');
