@@ -35,6 +35,9 @@ switch ($request_uri[0]) {
 	case '/contact':
 		echo $templates->render('contact');
 		break;
+	case '/contacttracing':
+		echo $templates->render('contacttracing');
+		break;
 	// ACTS
 	case '/-9':
 		echo $templates->render('acts/acts_template', ['id' => '-9', 'groep' => '-9', 'normalday' => 0, 'normalhour' => 14]);
