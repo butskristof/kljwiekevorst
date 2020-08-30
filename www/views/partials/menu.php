@@ -134,6 +134,11 @@ $menu = Menu::new()
 			->addClass('nav-link')
 			->addParentClass('nav-item')
 	)
+	->add(
+		Link::to('/covid', 'Covid-19 Maatregelen')
+			->addClass('nav-link')
+			->addParentClass('nav-item')
+	)
 	->setActive('/' . $this->e($id)); // '/' + id form the url
 
 

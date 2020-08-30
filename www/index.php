@@ -29,6 +29,9 @@ switch ($request_uri[0]) {
 	case '/verhuur/kampverhuur':
 		echo $templates->render('verhuur/kampverhuur');
 		break;
+	case '/covid':
+		echo $templates->render('covid');
+		break;
 	case '/leiding':
 		echo $templates->render('leiding');
 		break;
