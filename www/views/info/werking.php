@@ -9,22 +9,31 @@ $this->layout('template', ['title' => 'Werking - KLJ Wiekevorst', 'id' => 'info/
 
 		<p>In onze werking zetelen</p>
 		<ul>
-			<li>Hoofdleiding: Joppe Van den Sande en Michelle Cuylaerts</li>
+			<li>Hoofdleiding: Rune Deckers en Michelle Cuylaerts</li>
 			<li>Secretaris: Lander Van den Sande</li>
 			<li>Volwassenbegeleider: Kurt Vets</li>
 			<li>
 				Bestuur:
 				<ul>
-					<li>Astrid Bries</li>
-					<li>Sarah Broeckx</li>
-					<li>Kristof Buts</li>
-					<li>Lisa Cools</li>
-					<li>Leticia Cornelis</li>
-					<li>Maaike Daneels</li>
-					<li>Seppe De Winter</li>
 					<li>Lien Gysels</li>
-					<li>Senne Hoefkens</li>
-					<li>Julie Vermeulen</li>
+					<li>Leticia Cornelis</li>
+					<li>Joppe Van den Sande</li>
+					<li>Seppe De Winter</li>
+					<li>Sarah Broeckx</li>
+					<li>Laura Smits</li>
+					<li>Maaike Daneels</li>
+					<li>Lisa Cools</li>
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+					
 				</ul>
 			</li>
 			<li>
@@ -39,16 +48,18 @@ $this->layout('template', ['title' => 'Werking - KLJ Wiekevorst', 'id' => 'info/
 					<li>Jelle Hermans</li>
 					<li>Casimir Horemans</li>
 					<li>Yels Meyes</li>
-					<li>Tine Naegels</li>
 					<li>Laura Smits</li>
 					<li>Elise Smits</li>
 					<li>Jens Van Doorslaer</li>
 					<li>Miel Van Houdt</li>
 					<li>Ben Van Oevelen</li>
-					<li>Kato Vandermaesen</li>
 					<li>Jo Vankerckhoven</li>
 					<li>Jeffrey Vermeulen</li>
 					<li>Sander Vermeulen</li>
+					<li>Astrid Bries</li>
+					<li>Julie Vermeulen</li>
+					<li>Michiel Hoefkens</li>
+					<li>Brent Slaets</li>
 				</ul>
 			</li>
 		</ul>
