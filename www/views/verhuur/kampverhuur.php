@@ -11,7 +11,7 @@ $this->layout('template', ['title' => 'Kampverhuur - KLJ Wiekevorst', 'id' => 'K
 <div class="container">
 	<h1>Kampverhuur KLJ-lokaal Wiekevorst</h1>
 	
-	<p class="lead">In de zomer van 2020 verhuurt KLJ Wiekevorst zijn gloednieuwe lokalen voor de eerste keer.
+	<p class="lead">Sinds de zomer van 2020 verhuurt KLJ Wiekevorst zijn gloednieuwe lokalen.
 Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je interesse of vragen, neem dan zeker contact met ons op.</p>
 	<div class="col-md-10 offset-md-1">	
 		<h2>Onze troeven</h2>

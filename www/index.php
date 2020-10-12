@@ -23,20 +23,23 @@ switch ($request_uri[0]) {
 	case '/home':
 		echo $templates->render('home');
 		break;
-	case '/huur':
-		echo $templates->render('huur');
+	case '/verhuur/huur':
+		echo $templates->render('verhuur/huur');
 		break;
-	case '/kampverhuur':
-		echo $templates->render('kampverhuur');
+	case '/verhuur/kampverhuur':
+		echo $templates->render('verhuur/kampverhuur');
 		break;
-	case '/bouw':
-		echo $templates->render('bouw');
+	case '/covid':
+		echo $templates->render('covid');
 		break;
 	case '/leiding':
 		echo $templates->render('leiding');
 		break;
 	case '/contact':
 		echo $templates->render('contact');
+		break;
+	case '/contacttracing':
+		echo $templates->render('contacttracing');
 		break;
 	// ACTS
 	case '/-9':
@@ -100,10 +103,6 @@ switch ($request_uri[0]) {
 		break;
 	case '/leiding/kledij.php':
 		echo $templates->render('leiding/kledij');
-		break;
-	// Hoevefeesten 2020
-	case '/Hoevefeesten':
-		echo $templates->render('Hoevefeesten');
 		break;
 	default:
 		header('HTTP/1.0 404 Not Found');
