@@ -7,64 +7,45 @@ $this->layout('template', ['title' => 'Covid-19 Veiligheidsvoorschriften - KLJ W
 
 	<p>Zoals overal, gelden er dit jaar bij KLJ Wiekevorst een aantal Covid-19 veiligheidsvoorschriften zodat we onze activiteiten op een veilige manier kunnen organiseren. Hieronder vind je een kort overzicht van deze maatregelen. Uiteraard kunnen deze door de loop van het jaar nog veranderen. Houd dus regelmatig deze pagina en onze Facebook pagina in het oog voor de laatste informatie en updates.</p>
 
-	<h2>Fase oranje [UPDATE]:</h2>
+	<h2><u>FASE ROOD:</u></h2>
 
-	<p>Sinds begin september werkt ook het jeugdwerk met kleurcodes. De codes worden op dezelfde manier bepaald als in het onderwijs.</p>
-
-	<p>Vanaf woensdag 14 oktober schakelden we van fase geel over naar <b>fase oranje.</b> <br>
-	Hierdoor worden de jeugdwerkregels verstrengt. Hieronder een kort overzicht:</p>
+	<p>Op 23 oktober verstrengde de overheid de maatregelen. Hierdoor worden de jeugdwerkregels verstrengt. Hieronder een kort overzicht:</p>
 
 	<ul>
 		<li>
 			Voor de -9 en de -12:
 			<ul>
 				<li>Bubbels van maximum 50 personen (incl. leiding)</li>
+				<li>Bubbels per week</li>
 				<li>Binnen de bubbel geen social distancing of mondmasker</li>
-				<li>Hygiëne blijft belangrijk</li>
+				<li>Leiding altijd mondmasker</li>
+				<li>Activiteiten met intensief fysiek contact vermijden</li>
+				<li>Contactenlogboek</li>
+				<li>Hygiëne blijft heel belangrijk</li>
 				<li>Apart materiaal, lokaal en terrein per bubbel</li>
 			</ul>
 		</li>
 		<li>
-			Voor de -14 en de +14:
+			Voor de -14, +14, +16 en +20:
 			<ul>
-				<li>Buiten: bubbels van maximum 50 personen (incl. leiding)</li>
-				<li>Binnen: bubbels van maximum 50 personen (incl. leiding)</li>
-				<li>Binnen de bubbel geen social distancing</li>
-				<li>Indien de activiteit binnen doorgaat is mondmasker verplicht</li> 
+				<li>Buitenactiviteiten is de regel! Enkel als het echt niet kan, mag dit binnen.</li>
+				<li><u>Buiten:</u> Iedereen draagt mondmasker OF social distancing, Max 50 personen.</li>
+				<li><u>Binnen:</u> Iedereen draagt mondmasker, max. 20 personen</li>
+				<li>Leiding altijd mondmasker</li>
+				<li>Bubbels per week</li>
+				<li>Activiteiten met intensief fysiek contact vermijden</li>
+				<li>Intensief fysieke spellen mogen zonder mondmasker (cfr. sport)</li>
+				<li>Contactenlogboek</li>
+				<li>Eten en drinken aanbieden is verboden</li>
+			</ul>	
+		</li>
+		<li>
+			<b>opgelet: voor iedereen</b>
+			<ul>
+				<li>Ziek = niet toegelaten op activiteiten</li>
+				<li>Ziek op/na een activiteit = noodplan volgen</li>
+				<li>Contact gehad met besmet persoon = 7 dagen geen KLJ</li>
 				<li>Hygiëne blijft belangrijk</li>
-				<li>Apart materiaal, lokaal en terrein per bubbel</li>
-			</ul>
-		</li>
-		<li>
-			Voor +16 <b>leden</b>:
-			<ul>
-				<li>Buiten: bubbels van maximum 50 personen (incl. leiding)</li>
-				<li>Binnen: bubbels van maximum 50 personen (incl. leiding)</li>
-				<li>Buiten: geen social distancing en geen mondmasker, tenzij er drinken wordt geschonken</li>
-				<li>Binnen: Wel social distancing OF mondmasker</li>
-				<li>Hygiëne heel belangrijk blijft.</li>
-				<li>Apart materiaal, lokalen en terreinen zullen worden gebruikt per bubbel.</li>
-				<li>Bij het serveren van eten en/of drinken gelden de <a href = "https://www.info-coronavirus.be/nl/faq/#winkels">horecaregels</a>.</li>
-			</ul>
-		</li>
-		<li>
-			Voor +20 <b>leden</b>:
-			<ul>
-				<li>geen bubbels meer</li>
-				<li>ALTIJD social distancing of mondmasker</li>
-				<li>Hygiëne heel belangrijk blijft.</li>
-				<li>Apart materiaal, lokalen en terreinen zullen worden gebruikt per bubbel.</li>
-				<li>Bij het serveren van eten en/of drinken de <a href = "https://www.info-coronavirus.be/nl/faq/#winkels">horecaregels</a> gelden.</li>
-			</ul>
-		</li>
-	</ul>
-
-	<h2>Wie mag er meedoen met de activiteiten? [UPDATE]</h2>
-	<p>Iedereen mag naar de activiteiten komen behalve:</p>
-	<ul>
-		<li>Als je ziek bent of ziek bent geweest <u>3 dagen</u> voor de activiteit.</li>
-		<li>Als je in contact bent geweest met een besmet persoon. Dan mag je <u>7 dagen</u> niet deelnemen aan de activiteiten.</li>
-		<li>Als je tot een risicogroep behoort. Dan mag je deelnemen mits toestemming van een arts.</li>
 	</ul>
 
     <h2>Bubbels:</h2>
@@ -123,7 +104,7 @@ $this->layout('template', ['title' => 'Covid-19 Veiligheidsvoorschriften - KLJ W
     <p>De bubbels zullen uit maximaal 50 personen bestaan (leiding inbegrepen) en gelden per week van 7 dagen (start op maandag en eindigt op zondag).<br>
 	OPGELET: Indien de activiteit binnen doorgaat worden de +12-jarigen opgesplitst in bubbels van 20 personen.</p>
 
-	<p>Door het hoog aantal besmettingen vragen wij aan onze leiding om ook bij de -16-groepen een mondmasker te dragen tijdens de activiteiten.</p>
+	<p>Door het hoog aantal besmettingen vragen wij aan onze leiding om ook bij de -9 en -12 een mondmasker te dragen tijdens de activiteiten.</p>
 
     <p>Moest er voor een bepaalde reden toch contact tussen de bubbels nodig zijn, gebeurt dit met de nodige afstand (1,5 m) en een mondmasker.</p>
 
