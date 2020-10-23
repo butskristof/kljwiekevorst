@@ -9,7 +9,7 @@ $this->layout('template', ['title' => 'Covid-19 Veiligheidsvoorschriften - KLJ W
 
 	<h2><u>FASE ROOD:</u></h2>
 
-	<p>Op 23 oktober verstrengde de overheid de maatregelen. Hierdoor worden de jeugdwerkregels verstrengt. Hieronder een kort overzicht:</p>
+	<p>Op 23 oktober verstrengde de overheid de maatregelen. Hierdoor zijn ook de jeugdwerkingsregels verstrengd. Hieronder een kort overzicht:</p>
 
 	<ul>
 		<li>
@@ -40,7 +40,7 @@ $this->layout('template', ['title' => 'Covid-19 Veiligheidsvoorschriften - KLJ W
 			</ul>	
 		</li>
 		<li>
-			<b>opgelet: voor iedereen</b>
+			<b>Opgelet: voor iedereen</b>
 			<ul>
 				<li>Ziek = niet toegelaten op activiteiten</li>
 				<li>Ziek op/na een activiteit = noodplan volgen</li>
@@ -89,7 +89,7 @@ $this->layout('template', ['title' => 'Covid-19 Veiligheidsvoorschriften - KLJ W
 		</div><!-- /col-md-3 -->
 	</div><!-- /row -->
 
-	<p>Elke bubbel zal een aparte toegang hebben tot ons terrein (zoals aangeduid op het plannetje). Omdat de +16 en +20 niet op zondag activteit hebben, kunnen zij gewoon naar het lokaal komen</p>
+	<p>Elke bubbel zal een aparte toegang hebben tot ons terrein (zoals aangeduid op het plannetje). Omdat de +16 en +20 niet op zondag activiteit hebben, kunnen zij gewoon naar het lokaal komen</p>
 
     <div class="row">
 		<div class="col-md-4">
@@ -118,7 +118,7 @@ $this->layout('template', ['title' => 'Covid-19 Veiligheidsvoorschriften - KLJ W
 
     <p>Aan alle ingangen van onze gebouwen en toegangen tot onze terreinen zal ontsmettingsmiddel aanwezig zijn. In het sanitair zal telkens handzeep voorzien worden. Het is de bedoeling dat iedereen steeds voor en na de activiteiten en na een toiletbezoek zijn of haar handen wast en ontsmet.</p>
 
-    <p>Wij volgen steeds de protocollen van de <a href="https://ambrassade.be/nl/kennis/corona-en-jeugdwerk">Ambrassade</a> en de richtlijnen van <a href="https://www.klj.be/corona">KLJ Nationaal</a>. Zo zijn wij er zeker van dat we op een veilige en gezonden manier onze activiteiten kunnen organiseren.</p>
+    <p>Wij volgen steeds de protocollen van de <a href="https://ambrassade.be/nl/kennis/corona-en-jeugdwerk">Ambrassade</a> en de richtlijnen van <a href="https://www.klj.be/corona">KLJ Nationaal</a>. Zo zijn wij er zeker van dat we op een veilige en gezonde manier onze activiteiten kunnen organiseren.</p>
 
     <p>Voor meer info kan je steeds contact opnemen via:</p>
 
