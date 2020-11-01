@@ -12,6 +12,7 @@ $this->layout('template', ['title' => 'Covid-19 Veiligheidsvoorschriften - KLJ W
 	<p>Tot en met <u>15 november</u> zullen er geen activiteiten doorgaan aan onze lokalen. Wij zorgen wel voor een digitaal alternatief. Hou hiervoor onze facebookpagina in de gaten. Wij volgen steeds de geldende maatregelen op en evalueren week per week. Hopelijk zien we mekaar snel terug.<br>
 	Groetjes Leiding KLJ Wiekevorst</p>	
 
+
     <div class="row">
 		<div class="col-md-3 leftmargin">
 			<p>
