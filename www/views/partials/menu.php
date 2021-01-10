@@ -144,6 +144,11 @@ $menu = Menu::new()
 			->addClass('nav-link')
 			->addParentClass('nav-item')
 	)
+	->add(
+		Link::to('/restodag', 'Restaurant Dag')
+			->addClass('nav-link')
+			->addParentClass('nav-item')
+	)
 	->setActive('/' . $this->e($id)); // '/' + id form the url
 
 

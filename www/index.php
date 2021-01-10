@@ -44,6 +44,9 @@ switch ($request_uri[0]) {
 	case '/soepverkoop':
 		echo $templates->render('soepverkoop');
 		break;
+	case '/restodag':
+		echo $templates->render('Restodag');
+		break;
 	// ACTS
 	case '/-9':
 		echo $templates->render('acts/acts_template', ['id' => '-9', 'groep' => '-9', 'normalday' => 0, 'normalhour' => 14]);
