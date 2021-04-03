@@ -41,11 +41,8 @@ switch ($request_uri[0]) {
 	case '/contacttracing':
 		echo $templates->render('contacttracing');
 		break;
-	case '/soepverkoop':
-		echo $templates->render('soepverkoop');
-		break;
-	case '/restodag':
-		echo $templates->render('Restodag');
+	case '/bier':
+		echo $templates->render('bier');
 		break;
 	// ACTS
 	case '/-9':
