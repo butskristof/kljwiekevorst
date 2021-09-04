@@ -15,51 +15,25 @@ $this->layout('template', ['title' => 'Werking - KLJ Wiekevorst', 'id' => 'info/
 			<li>
 				Bestuur:
 				<ul>
-					<li>Lien Gysels</li>
-					<li>Leticia Cornelis</li>
-					<li>Joppe Van den Sande</li>
-					<li>Seppe De Winter</li>
-					<li>Sarah Broeckx</li>
+					<li>Lander Van den Sande</li>
+					<li>Robbe Helsen</li>
 					<li>Laura Smits</li>
-					<li>Maaike Daneels</li>
+					<li>Leticia Cornelis</li>
 					<li>Lisa Cools</li>
-					
-
-					
-					
-
-					
-					
-					
-					
-					
+					<li>Senne Hoefkens</li>
+					<li>Senne Hoefkens</li>
+					<li>kurt Vets</li>
+					<li>Maaike Daneels</li>
+					<li>Sarah Broeckx</li>
+					<li>Rune Deckers</li>
+					<li>Noor Bens</li>
 					
 				</ul>
 			</li>
 			<li>
 				Leiding:
 				<ul>
-					<li>Noor Bens</li>
-					<li>Viktor Bries</li>
-					<li>Rune Deckers</li>
-					<li>Kobe Dercon</li>
-					<li>Jef Doms</li>
-					<li>Jielker Goossens</li>
-					<li>Jelle Hermans</li>
-					<li>Casimir Horemans</li>
-					<li>Yels Meyes</li>
-					<li>Laura Smits</li>
-					<li>Elise Smits</li>
-					<li>Jens Van Doorslaer</li>
-					<li>Miel Van Houdt</li>
-					<li>Ben Van Oevelen</li>
-					<li>Jo Vankerckhoven</li>
-					<li>Jeffrey Vermeulen</li>
-					<li>Sander Vermeulen</li>
-					<li>Astrid Bries</li>
-					<li>Julie Vermeulen</li>
-					<li>Michiel Hoefkens</li>
-					<li>Brent Slaets</li>
+					<li>Ontdek het op de startact!</li>
 				</ul>
 			</li>
 		</ul>

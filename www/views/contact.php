@@ -36,8 +36,8 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 		</div><!-- /col-md-3 -->
 		<div class="col-md-3 leftmargin">
 			<p>
-				<strong>Michelle Cuylaerts</strong> <br>
-				+32 492 55 86 83‬
+				<strong>Maaike Daneels</strong> <br>
+				+32 497 21 22 14
 			</p>
 		</div><!-- /col-md-3 -->
 	</div><!-- /row -->

@@ -8,7 +8,7 @@ $this->layout('template', ['title' => 'Kamp - KLJ Wiekevorst', 'id' => 'info/kam
 	</h1>
 
 	<div class="col-md-10 offset-md-1">
-		<h2> Meer info over kamp 2021 volgt.</h2>
+		<h2> Meer info over kamp 2022 volgt.</h2>
 
 	</div>
 </div>

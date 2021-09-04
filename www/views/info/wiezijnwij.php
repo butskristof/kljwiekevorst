@@ -16,7 +16,7 @@
 			<li>-14 (12- en 13- jarigen)</li>
 			<li>+14 (14- en 15-jarigen)</li>
 		</ul>
-		<p>Per leeftijdsgroep staat er een team van ongeveer zes à zeven leiders/leidsters uit onze 31-koppige leidingsploeg paraat om elke week een spetterende activiteit te voorzien. De creativiteit van onze leiders en leidster is eindeloos en ze zorgen dan ook elke week opnieuw voor een namiddag vol plezier. Een greep uit ons aanbod: pleinspelen, bosspel, reactietocht, ... </p>
+		<p>Per leeftijdsgroep staat er een team van ongeveer zes à zeven leiders/leidsters uit onze 33-koppige leidingsploeg paraat om elke week een spetterende activiteit te voorzien. De creativiteit van onze leiders en leidster is eindeloos en ze zorgen dan ook elke week opnieuw voor een namiddag vol plezier. Een greep uit ons aanbod: pleinspelen, bosspel, reactietocht, ... </p>
 		<p>Ook voor de oudere jeugd is er een plaatsje bij KLJ Wiekevorst. Naast de vier groepen op zondag, verwelkomen we op vrijdagavond vanaf 20u onze +16’ers (vanaf 16 jaar). Ook op het programma van de +16 staat een brede waaier aan activiteiten: caféspelen, race-avond, casinoavond, klassieke pleinspelen, of gewoon een gezellig avondje in ons +16-lokaal onder vrienden. </p>
 		<p>Sinds kort zijn we ook opnieuw gestart met de +20. Voor onze oudste leeftijdsgroep voorzien we elke maand een activiteit. Zij kunnen genieten van een brouwerijbezoek, Schlagerfestival, … </p>
 		<p>Ook in de zomermaanden blijven we actief: zo gaan we jaarlijks op kamp van 12 tot 20 juli en in augustus zetten we ons beste beentje voor op de Sportfeesten. (Waar we trouwens deze sportzomer mooie resultaten behaalden!)</p>

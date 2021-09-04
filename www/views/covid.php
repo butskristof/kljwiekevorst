@@ -5,35 +5,31 @@ $this->layout('template', ['title' => 'Covid-19 Veiligheidsvoorschriften - KLJ W
 <div class="container">
 	<h1>Veiligheidsvoorschriften Covid-19 KLJ Wiekevorst</h1>
 
-	<p>Zoals overal, gelden er dit jaar bij KLJ Wiekevorst een aantal Covid-19 veiligheidsvoorschriften zodat we onze activiteiten op een veilige manier kunnen organiseren. Hieronder vind je een kort overzicht van deze maatregelen. Uiteraard kunnen deze door de loop van het jaar nog veranderen. Houd dus regelmatig deze pagina en onze Facebook pagina in het oog voor de laatste informatie en updates.</p>
+	<p>Laatst bijgewerkt op 2 september 2021</p>
 
-	<h2><u>tijdelijke activiteiten stop:</u></h2>
+	<ul>
+		<li><b>activiteiten</b>
+		<ul>
+			<li>Ben je ziek, voel je je niet goed of ben je een risico contact? Blijf dan thuis.</li>
+			<li>Leden en leiding dragen een mondmasker bij contact met externen. (bv. ouders)</li>
+			<li>Activiteiten gaan bij voorkeur buiten door.</li>
+			<li>Extra aandacht voor de basis hygiëneregels blijft belangrijk.</li>
+			<li>Bubbels worden niet langer gesplitst.</li>
+		</ul>
+		</li>
 
-	<p>Tot en met <u>15 november</u> zullen er geen activiteiten doorgaan aan onze lokalen. Wij zorgen wel voor een digitaal alternatief. Hou hiervoor onze facebookpagina in de gaten. Wij volgen steeds de geldende maatregelen op en evalueren week per week. Hopelijk zien we mekaar snel terug.<br>
-	Groetjes Leiding KLJ Wiekevorst</p>	
+		<li><b>voor ouders</b>
+		<ul>
+			<li>Bij het afzetten en ophalen van uw kinderen wordt er steeds een mondmasker gedragen. </li>
+			<li>U bent verantwoordelijk om er op toe te kijken dat uw kind niet ziek naar een activiteit komt.</li>
+		</ul>
+		</li>
 
+		<li><b>Toch ziek na een activiteit?</b>
+		<ul>
+			<li>contacteer Joppe Van den Sande (coronacoördinator) op 0470 51 16 50 of via <a href="#">joppe.vds@hotmail.com</a>. Hij zal jullie verder helpen.</li>
+			<li>Word je gecontacteerd door de contacttracing, geef dan steeds de contactgegevens van de coronacoördinator door.</li>
 
-    <div class="row">
-		<div class="col-md-3 leftmargin">
-			<p>
-				<strong>Coronaverantwoordelijke: Joppe Van den Sande</strong> <br>
-				+32 470 51 16 50
-			</p>
-		</div><!-- /col-md-3 -->
-		<div class="col-md-3 leftmargin">
-			<p>
-				<strong>Hoofdleidster: Michelle Cuylaerts</strong> <br>
-                +32 492 55 86 83‬
-                <a href="mailto:hoofdleiding@kljwiekevorst.be">hoofdleiding@kljwiekevorst.be</a>
-			</p>
-        </div><!-- /col-md-3 -->
-        <div class="col-md-3 leftmargin">
-			<p>
-				<strong>Hoofdleider: Rune Deckers</strong> <br>
-                +32 494 25 71 20
-                <a href="mailto:hoofdleiding@kljwiekevorst.be">hoofdleiding@kljwiekevorst.be</a>
-			</p>
-		</div><!-- /col-md-3 -->
-	</div><!-- /row -->
+	</ul>
 
 </div>
