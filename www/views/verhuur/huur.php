@@ -115,14 +115,14 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 		</div><!-- /col-md-3 -->
 	</div><!-- /row -->
 
-	<h2>Documenten</h2>
+	<!--<h2>Documenten</h2>
 	<ul>
-		<!--<li><a href="files/HUURREGLEMENT-KLJ-WIEKEVORST.pdf" target="_blank">Huurreglement</a></li>-->
-		<!--<li><a href="/static/files/verhuur/huisregels.pdf" target="_blank">Huisregels</a></li>-->
-		<!--<li><a href="/static/files/verhuur/inventaris_keuken.pdf" target="_blank">Inventaris keuken</a></li>-->
-		<!--<li><a href="/static/files/verhuur/grondplan.pdf" target="_blank">Plan van het lokaal</a></li>-->
+		<li><a href="files/HUURREGLEMENT-KLJ-WIEKEVORST.pdf" target="_blank">Huurreglement</a></li>
+		<li><a href="/static/files/verhuur/huisregels.pdf" target="_blank">Huisregels</a></li>
+		<li><a href="/static/files/verhuur/inventaris_keuken.pdf" target="_blank">Inventaris keuken</a></li>
+		<li><a href="/static/files/verhuur/grondplan.pdf" target="_blank">Plan van het lokaal</a></li>
 	</ul>
-
+-->
 
 	<h2>Foto's</h2>
 
@@ -190,24 +190,26 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 
 	<div id="calendar"></div>
 
-    <?php
+	<!-- AGENDA (delete the spaces between < and ? when putting this back)
+    < ?php
     require_once 'calendar.php';
     $events = (new CalendarClient())->getCalendarEvents();
     ?>
-</div><!-- /container -->
+</div> /container
 
-<?php $this->start('extracss') ?>
+< ?php $this->start('extracss') ?>
 <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.3.1/main.min.css" rel="stylesheet" type="text/css" />
 <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.3.0/main.min.css" rel="stylesheet" type="text/css" />
 <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/list@4.3.0/main.min.css" rel="stylesheet" type="text/css" />
-<?php $this->stop() ?>
+< ?php $this->stop() ?>
 
-<?php $this->start('extrajs') ?>
+< ?php $this->start('extrajs') ?>
 <script>
-	const events = <?= json_encode($events) ?>;
+	const events = < ?= json_encode($events) ?>;
 </script>
 <script async defer src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.3.1/main.min.js" type="text/javascript"></script>
 <script async defer src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.3.0/main.min.js" type="text/javascript"></script>
 <script async defer src="https://cdn.jsdelivr.net/npm/@fullcalendar/list@4.3.0/main.min.js" type="text/javascript"></script>
 <script src="/static/js/huur.js"></script>
-<?php $this->stop() ?>
+< ?php $this->stop() ?>
+-->

@@ -20,7 +20,7 @@ shuffle($result);
 	<h1>Leiding</h1>
 
 	<p class="lead">
-		Ook het werkjaar 2020-2021 staat er weer een sterke leidingsploeg klaar om elke week het beste van zichzelf te geven. Hieronder kom je alles te weten over onze <?= count($result) ?> leid(st)ers!
+		Ook het werkjaar 2021-2022 staat er weer een sterke leidingsploeg klaar om elke week het beste van zichzelf te geven. Hieronder kom je alles te weten over onze <?= count($result) ?> leid(st)ers!
 		<br>
 	</p>
 

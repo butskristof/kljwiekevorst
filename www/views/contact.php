@@ -34,12 +34,6 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 				+32 494 25 71 20
 			</p>
 		</div><!-- /col-md-3 -->
-		<div class="col-md-3 leftmargin">
-			<p>
-				<strong>Michelle Cuylaerts</strong> <br>
-				+32 492 55 86 83‬
-			</p>
-		</div><!-- /col-md-3 -->
 	</div><!-- /row -->
 
 	<p>Je kan hen beide bereiken via mail op <a href="#">hoofdleiding@kljwiekevorst.be</a>.</p>
@@ -48,12 +42,10 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 	<div class="row">
 		<div class="col-md-3 leftmargin">
 			<address>
-				<strong>Lander Van den Sande</strong> <br>
-				Lindestraat 13<br>
+				<strong>Robbe Helsen</strong> <br>
+				Pompoenstraat 30<br>
 				2222 Wiekevorst <br>
-				<a href="#">
-					secretaris@kljwiekevorst.be
-				</a>
+				<a href="#">secretaris@kljwiekevorst.be</a>
 			</address>
 		</div><!-- /col-md-3 offset-md-3 -->
 	</div><!-- /row -->

@@ -69,10 +69,6 @@ namespace Spatie\Menu;
 			->addClass('dropdown-item')
 	)
 	->add(
-		Link::to('/info/kamp', 'Kamp')
-			->addClass('dropdown-item')
-	)
-	->add(
 		Link::to('/info/sportfeesten', 'Sportfeesten')
 			->addClass('dropdown-item')
 	)
@@ -122,6 +118,11 @@ $menu = Menu::new()
 			->addClass('nav-link')
 			->addParentClass('nav-item')
 	)
+	->add(
+		Link::to('/KLJke', 'KLJke')
+			->addClass('nav-link')
+			->addParentClass('nav-item')
+	)	
 	->submenu(
 		Link::to('#', 'Verhuur')
 			->addClass('nav-link dropdown-toggle')
@@ -131,21 +132,6 @@ $menu = Menu::new()
 	
 	->add(
 		Link::to('/contact', 'Contact')
-			->addClass('nav-link')
-			->addParentClass('nav-item')
-	)
-	->add(
-		Link::to('/covid', 'Covid-19 Maatregelen')
-			->addClass('nav-link')
-			->addParentClass('nav-item')
-	)
-	->add(
-		Link::to('/bier', 'BIER: Wikkedeusje')
-			->addClass('nav-link')
-			->addParentClass('nav-item')
-	)
-	->add(
-		Link::to('/kamp', 'Kamp')
 			->addClass('nav-link')
 			->addParentClass('nav-item')
 	)

@@ -215,11 +215,12 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 				<td colspan="2"><i>U kan ons lokaal ook huren voor weekends en feesten, meer informatie hierover vindt u <a href="/huur">hier</a></i></td>
 			</tr>
 		</table>
-<!--
+
+		<!--
 		<h2>Verhuurkalender</h2>
 		<p>Voor kampverhuur zijn volgende periodes nog beschikbaar:</p>
-
-		<div id="calendar">
+		
+		<d//iv id="calendar">
 			<ul class="list-group">
 				<?php
 				require_once 'calendar_kamp.php';
@@ -234,7 +235,9 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 				?>
 			</ul>
 		</div>
--->	
+			-->
+		
+
 		<h2>Contact</h2>
 		 <dl>
                         <dt>Adres</dt>
@@ -243,10 +246,12 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
                                 Dalstraat 22a <br>
                                 2222 Wiekevorst</address>
                         </dd>
-			<dt>Contactpersonen</dt>
-			<dd>Joppe Van den Sande(+32 470 51 16 50), Seppe De Winter (+32 487 46 00 46) of Kurt Vets (+32 473 91 03 27)</dd>
+			<dt>Contactpersoon</dt>
+			<dd>Joppe Van den Sande</dd>
 			<dt>E-mail</dt>
 			<dd>verhuur@kljwiekevorst.be</dd>
+                        <dt>GSM</dt>
+                        <dd>+32 470 51 16 50</dd>
                 </dl>
 	</div>
 </div><!-- /container -->

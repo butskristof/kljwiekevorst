@@ -34,7 +34,7 @@ $this->layout('template', ['title' => 'Privacy - KLJ Wiekevorst', 'id' => 'info/
 
 		<p>Wijzigingen aan deze privacyverklaring kunnen digitaal gebeuren via onze website. De actuele versie is steeds terug te vinden op deze pagina.</p>
 
-		<p>Voor alle vragen die je omtrent privacy of de behandeling van je persoonsgegevens hebt kan je terecht bij Kristof Buts op
+		<p>Voor alle vragen die je omtrent privacy of de behandeling van je persoonsgegevens hebt kan je terecht bij Rune Deckers op
 			<a href="mailto:hoofdleiding@kljwiekevorst.be">hoofdleiding@kljwiekevorst.be</a>.</p>
 
 	</div>

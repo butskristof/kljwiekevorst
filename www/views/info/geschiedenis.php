@@ -27,6 +27,7 @@ $this->layout('template', ['title' => 'Geschiedenis - KLJ Wiekevorst', 'id' => '
 		<li>2018: Feestweekend 90 jaar KLJ Wiekevorst</li>
 		<li>2019: Start bouw extra lokalen in de Dalstraat</li>
 		<li>2020: Nieuwe lokalen in de dalstraat worden voor de eerste keer verhuurd voor zomerkampen</li>
+		<li>2021: Organisatie landjuweel</li>
 	</ul>
 	<p>Natuurlijk heeft KLJ Wiekevorst een veel rijkere geschiedenis dan deze data. Het is echter onbegonnen werk om al deze data op te sommen. Denk maar aan de sportfeesten waar reeds al vele prijzen gewonnen zijn en aan alle kampen, evenementen, ...</p>
 	<p>Wij trachten een archief bij te houden van documenten, foto's, voorwerpen, ... van KLJ Wiekevorst. Heb je hierover vragen of ben je in het bezit van foto's neem dan zeker contact op!</p>
