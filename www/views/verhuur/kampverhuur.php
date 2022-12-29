@@ -197,6 +197,21 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 				<td colspan="2"><i>U kan ons lokaal ook huren voor weekends en feesten, meer informatie hierover vindt u <a href="/huur">hier</a></i></td>
 			</tr>
 		</table>
+		<h2>Drank</h2>
+		<p>U kan er voor kiezen om bij ons drank af te nemen.</p>
+		<p>Wij rekenen volgende prijzen aan:</p>
+		<ul>
+			<li>Plat en bruis water   &euro; 0,30 / flesje</li>
+			<li>Cola en Cola Zero     &euro; 0,70 / flesje</li>
+			<li>Fanta en Sprite       &euro; 0,75 / flesje </li>
+			<li>Fuze Tea              &euro; 0,70 / flesje</li>
+			<li>Lipton Ice Tea        &euro; 0,75 / flesje</li>
+			<li>Stella                &euro; 0,80 / flesje</li>
+			<li>Duvel en Leffe        &euro; 1,70 / flesje</li>
+			<li>Wijn                  &euro; 7,50 / fles</li>
+			<li>Cava                  &euro; 10,00 / fles</li>
+			<li>Vat 50l bier + CO2    &euro; 205</li>
+		</ul>
 
 		<!--
 		<h2>Verhuurkalender</h2>

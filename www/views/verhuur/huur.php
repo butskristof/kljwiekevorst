@@ -86,6 +86,23 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 		<li>Weekends: <strong> &euro; 350,00 per weekend (incl. &euro; 100,00 energie en normale hoeveelheid afval) </strong></li>
 	</ul>
 
+	<h2>Drank</h2>
+		<p>Voor dagverhuren vragen wij om de dranken te gebruiken die aanwezig zijn in het lokaal.</p>
+		<p>Voor weekend verhuren bent u vrij om de dranken te gebruiken die aanwezig zijn in het lokaal, maar mag u ook uw eigen drank meenemen.</p>
+		<p>Gelieve bij reservatie te melden welke dranken u wenst, en voor welke hoeveelheid personen</p>
+		<p>Wij rekenen volgende prijzen aan:</p>
+		<ul>
+			<li>Plat en bruis water   &euro; 0,30 / flesje</li>
+			<li>Cola en Cola Zero     &euro; 0,70 / flesje</li>
+			<li>Fanta en Sprite       &euro; 0,75 / flesje </li>
+			<li>Fuze Tea              &euro; 0,70 / flesje</li>
+			<li>Lipton Ice Tea        &euro; 0,75 / flesje</li>
+			<li>Stella                &euro; 0,80 / flesje</li>
+			<li>Duvel en Leffe        &euro; 1,70 / flesje</li>
+			<li>Wijn                  &euro; 7,50 / fles</li>
+			<li>Cava                  &euro; 10,00 / fles</li>
+			<li>Vat 50l bier + CO2    &euro; 205</li>
+		</ul>
 	<h2>Enkele opmerkingen</h2>
 
 		<ul>
