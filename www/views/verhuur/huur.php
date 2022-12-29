@@ -82,14 +82,14 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 
 	<h2>Kostprijs:</h2>
 	<ul>
-		<li>Feestgelegenheden: <strong> &euro; 150 + poetswaarborg van &euro; 75 </strong></li>
-		<li>Weekends: <strong> &euro; 5 per per persoon per weekend, met een minimum bedrag van &euro; 250 per weekend + poetswaarborg van &euro; 75 </strong></li>
+		<li>Feestgelegenheden: <strong> &euro; 200,00 (incl. energie en afval) </strong></li>
+		<li>Weekends: <strong> &euro; 350,00 per weekend (incl. &euro; 100,00 energie en normale hoeveelheid afval) </strong></li>
 	</ul>
 
 	<h2>Enkele opmerkingen</h2>
 
 		<ul>
-			<li>Vuilniszakken zijn in het lokaal voorhanden, maar <u><b>dient u zelf mee te nemen naar huis</b></u>.</li>
+			<li>Vuilniszakken zijn in het lokaal voorhanden.</li>
 			<li>Voor springkastelen of grote tenten, vragen wij een extra waarborg voor de staat van ons gras. Deze bedraagt dan &euro; 200 in plaats van &euro; 75.</li>
 			<li>Het lokaal dient te worden opgeleverd vòòr 12h30 op de dag na het gebruik.</li>
 			<li>Parkeren kan op de voorziene parkeerplaatsen. </li>
@@ -98,13 +98,12 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 
 	<h2>Contact</h2>
 
-	<p>Contacteer één van onze huurverantwoordelijken</p>
+	<p>Contact kan via mail</p>
 
 	<div class="row">
 		<div class="col-md-3">
 			<address>
-				<strong>Joppe Van den Sande</strong> <br>
-				+32 470 51 16 50‬ <br>
+				verhuur@kljwiekevorst.be <br>
 			</address>
 		</div><!-- /col-md-3 -->
 		<div class="col-md-3">
@@ -130,7 +129,7 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 		<div class="col-md-4">
 			<p>
 				<a href="/static/img/huur/voorgevel.png" class="popup thumb mfp-link">
-					<img src="/static/img/huur/voorgevel.png" alt="Voorgevel lokaal KLJ Wiekevorst">
+					<img src="/static/img/huur/voorgevel.png" alt="Voorgevel lokaal KLJ Wiekevorst" width="715">
 				</a>
 				<figcaption>Voorgevel lokaal KLJ Wiekevorst</figcaption>
 			</p>
@@ -140,7 +139,7 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 		<div class="col-md-4">
 			<p>
 				<a href="/static/img/huur/achtergevel.png" class="popup thumb mfp-link">
-					<img src="/static/img/huur/achtergevel.png" alt="Achtergevel lokaal KLJ Wiekevorst">
+					<img src="/static/img/huur/achtergevel.png" alt="Achtergevel lokaal KLJ Wiekevorst" width="715">
 				</a>
 				<figcaption>Achtergevel lokaal KLJ Wiekevorst</figcaption>
 			</p>
@@ -150,7 +149,7 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 		<div class="col-md-4">
 			<p>
 				<a href="/static/img/huur/zijgevel.png" class="popup thumb mfp-link">
-					<img src="/static/img/huur/zijgevel.png" alt="Aijgevel lokaal KLJ Wiekevorst">
+					<img src="/static/img/huur/zijgevel.png" alt="Aijgevel lokaal KLJ Wiekevorst" width="715">
 				</a>
 				<figcaption>Zijgevel lokaal KLJ Wiekevorst</figcaption>
 			</p>
@@ -160,7 +159,7 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 		<div class="col-md-4">
 			<p>
 				<a href="/static/img/huur/grasveld.png" class="popup thumb mfp-link">
-					<img src="/static/img/huur/grasveld.png" alt="Grasveld lokaal KLJ Wiekevorst">
+					<img src="/static/img/huur/grasveld.png" alt="Grasveld lokaal KLJ Wiekevorst" width="715">
 				</a>
 				<figcaption>Buiten terrein KLJ Wiekevorst</figcaption>
 			</p>
@@ -170,7 +169,7 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 		<div class="col-md-4">
 			<p>
 				<a href="/static/img/huur/Sanitair.png" class="popup thumb mfp-link">
-					<img src="/static/img/huur/Sanitair.png" alt="Sanitair lokaal KLJ Wiekevorst" width="715px">
+					<img src="/static/img/huur/Sanitair.png" alt="Sanitair lokaal KLJ Wiekevorst" width="715">
 				</a>
 				<figcaption>Sanitair</figcaption>
 			</p>
@@ -180,7 +179,7 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 		<div class="col-md-4">
 			<p>
 				<a href="/static/img/huur/slaapzaal.png" class="popup thumb mfp-link">
-					<img src="/static/img/huur/slaapzaal.png" alt="Slaapzaal lokaal KLJ Wiekevorst">
+					<img src="/static/img/huur/slaapzaal.png" alt="Slaapzaal lokaal KLJ Wiekevorst" width="715">
 				</a>
 				<figcaption>Slaapzaal lokaal KLJ Wiekevorst</figcaption>
 			</p>

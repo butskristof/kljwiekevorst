@@ -175,7 +175,7 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 		<ul>
         		<li>Jeugdhuis Kwinten</li>
         		<li>Café ’t Groen Hofke</li>
-        		<li>Café ’t Centrum</li>
+        		<li>Café De Compagnon</li>
         		<li>Brasserie De Verwant</li>
         		<li>Brasserie ’t Straatje</li>
 			<li>Straatjeskermis: eerste weekend van augustus</li>
@@ -188,25 +188,7 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 				<th  colspan="2"><b>Zomer</b></th>
 			</tr>
 			<tr>
-				<td>1 juli - 11 juli</td><td>maximaal €350 per 24 uur*</td>
-			</tr>
-			<tr>
-				<td>11 juli - 21 juli</td><td>maximaal €350 per 24 uur*</td>
-			</tr>
-			<tr>
-				<td>21 juli - 31 juli</td><td>maximaal €350 per 24 uur*</td>
-			</tr>
-			<tr>
-				<td>31 juli - 10 aug</td><td>maximaal €350 per 24 uur*</td>
-			</tr>
-			<tr>
-				<td>10 aug - 20 aug</td><td>maximaal €350 per 24 uur*</td>
-			</tr>
-			<tr>
-				<td>20 aug - 30 aug</td><td>maximaal €350 per 24 uur*</td>
-			</tr>
-			<tr>
-				<td colspan="2"><i>*Het basistarief voor de huur van de Kampplaats bedraagt EUR 5 per overnachting per persoon. Indien de prijs per overnachting minder bedraagt dan EUR 250 per overnachting zal het minimumbedrag per overnachting EUR 250 bedragen. Indien de prijs per overnachting meer bedraagt dan EUR 350, zal het maximumbedrag van EUR 350 per nacht van toepassing zijn. Daarenboven wordt er een minimum totaal bedrag van EUR 2.000 gehanteerd voor de ganse huurperiode</i></td>
+				<td colspan="2">Het basistarief voor de huur van de Kampplaats bedraagt EUR 5 per overnachting per persoon. Indien de prijs per overnachting minder bedraagt dan EUR 250 per overnachting zal het minimumbedrag per overnachting EUR 250 bedragen. Daarenboven wordt er een minimum totaal bedrag van EUR 2.000 gehanteerd voor de ganse huurperiode</td>
 			</tr>
 			<tr>
 				<th  colspan="2"><b>Weekendverhuur</b></th>
@@ -246,12 +228,8 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
                                 Dalstraat 22a <br>
                                 2222 Wiekevorst</address>
                         </dd>
-			<dt>Contactpersoon</dt>
-			<dd>Joppe Van den Sande</dd>
 			<dt>E-mail</dt>
 			<dd>verhuur@kljwiekevorst.be</dd>
-                        <dt>GSM</dt>
-                        <dd>+32 470 51 16 50</dd>
                 </dl>
 	</div>
 </div><!-- /container -->
