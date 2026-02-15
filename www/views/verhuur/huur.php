@@ -95,13 +95,12 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 			<li>Plat en bruis water</li>
 			<li>Cola en Cola Zero</li>
 			<li>Fanta en Sprite</li>
-			<li>Fuze Tea/li>
+			<li>Fuze Tea/li</li>
 			<li>Lipton Ice Tea</li>
 			<li>Stella</li>
 			<li>Duvel en Leffe</li>
 			<li>Wijn</li>
 			<li>Cava</li>
-			<li>Vat 50l bier + CO2</li>
 		</ul>
 	<h2>Enkele opmerkingen</h2>
 
