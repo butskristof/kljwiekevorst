@@ -16,13 +16,12 @@ $prices = $db->select("SELECT price FROM `kledij_prijs` WHERE (id = 1) OR (id = 
 
 	<div class="col-md-10 offset-md-1">
 
-		<p>In de toekomst kan je enkel nog een uniform kopen op bepaalde dagen voor en na de activiteit. Deze dagen zullen gecommuniceerd worden via het KLJ'ke, de website en Facebook. <br />
-			Indien mogelijk vragen we om zo veel mogelijk met gepast geld te betalen.</p>
+		<p>In de toekomst kan je enkel nog een uniform kopen op bepaalde dagen voor en na de activiteit. Deze dagen zullen gecommuniceerd worden via het KLJ'ke, de website en Facebook.</p>
 		<ul>
-			<li>T-shirt jongens/meisjes: <?=$prices[1][price]?> EUR - <b>verplicht!</b></li>
-			<li>Sjaaltje: <?=$prices[0][price]?> EUR - <b>verplicht!</b></li>
-			<li>Trui: <?=$prices[2][price]?> EUR</li>
-			<li>Hoodie +16 (trui met kap): <?=$prices[3][price]?> EUR</li>
+			<li>T-shirt jongens/meisjes - <b>verplicht!</b></li>
+			<li>Sjaaltje - <b>verplicht!</b></li>
+			<li>Trui</li>
+			<li>Hoodie +16 (trui met kap)</li>
 		</ul>
 
 		<div class="row">

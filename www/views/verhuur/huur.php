@@ -20,12 +20,12 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 			<ul>
 				<li>1 grote dagzaal op gelijkvloers</li>
 				<li>Een groot buiten terrein met grasveld</li>
-				<li>Tafels en stoelen:
+				<li>Meubels:
 					<ul>
-						<li>8 tafels</li>
-						<li>50 stoelen</li>
-						<li>10 schragen</li>
-						<li>4 banken</li>
+						<li>tafels</li>
+						<li>stoelen</li>
+						<li>schragen</li>
+						<li>banken</li>
 					</ul>
 				</li>
 				<li>Keuken (<strong>Zelf vaatdoeken, afwasmiddel, aardappelmesjes, keukenmessen, mixer, ... te voorzien</strong>)
@@ -82,26 +82,26 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 
 	<h2>Kostprijs:</h2>
 	<ul>
-		<li>Feestgelegenheden: <strong> &euro; 200,00 (incl. energie en afval) </strong></li>
-		<li>Weekends: <strong> &euro; 350,00 per weekend (incl. &euro; 100,00 energie en normale hoeveelheid afval) </strong></li>
+		<li>Feestgelegenheden: <strong> &euro; 250,00 (incl. energie en afval) </strong></li>
+		<li>Weekends: <strong> &euro; 500,00 per weekend (incl. &euro; 100,00 energie en normale hoeveelheid afval) </strong></li>
 	</ul>
 
 	<h2>Drank</h2>
 		<p>Voor dagverhuren vragen wij om de dranken te gebruiken die aanwezig zijn in het lokaal.</p>
 		<p>Voor weekend verhuren bent u vrij om de dranken te gebruiken die aanwezig zijn in het lokaal, maar mag u ook uw eigen drank meenemen.</p>
 		<p>Gelieve bij reservatie te melden welke dranken u wenst, en voor welke hoeveelheid personen</p>
-		<p>Wij rekenen volgende prijzen aan:</p>
+		<p>De volgende dranken kan u bij ons afnemen:</p>
 		<ul>
-			<li>Plat en bruis water   &euro; 0,30 / flesje</li>
-			<li>Cola en Cola Zero     &euro; 0,70 / flesje</li>
-			<li>Fanta en Sprite       &euro; 0,75 / flesje </li>
-			<li>Fuze Tea              &euro; 0,70 / flesje</li>
-			<li>Lipton Ice Tea        &euro; 0,75 / flesje</li>
-			<li>Stella                &euro; 0,80 / flesje</li>
-			<li>Duvel en Leffe        &euro; 1,70 / flesje</li>
-			<li>Wijn                  &euro; 7,50 / fles</li>
-			<li>Cava                  &euro; 10,00 / fles</li>
-			<li>Vat 50l bier + CO2    &euro; 205</li>
+			<li>Plat en bruis water</li>
+			<li>Cola en Cola Zero</li>
+			<li>Fanta en Sprite</li>
+			<li>Fuze Tea/li>
+			<li>Lipton Ice Tea</li>
+			<li>Stella</li>
+			<li>Duvel en Leffe</li>
+			<li>Wijn</li>
+			<li>Cava</li>
+			<li>Vat 50l bier + CO2</li>
 		</ul>
 	<h2>Enkele opmerkingen</h2>
 
@@ -141,7 +141,7 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 -->
 
 	<h2>Foto's</h2>
-
+<!--
 	<div class="row">
 		<div class="col-md-4">
 			<p>
@@ -201,7 +201,62 @@ $this->layout('template', ['title' => 'Huur - KLJ Wiekevorst', 'id' => 'huur', '
 				<figcaption>Slaapzaal lokaal KLJ Wiekevorst</figcaption>
 			</p>
 		</div>
-	</div>	
+	</div> -->
+
+<div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/static/img/huur/voorgevel.png" class="d-block w-100" alt="Image 1">
+            <div class="carousel-caption d-none d-md-block">
+               <h5>Voorgevel</h5>
+            </div>
+        </div>
+        <div class="carousel-item ">
+            <img src="/static/img/huur/achtergevel.png" class="d-block w-100" alt="Image 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Achtergevel</h5>
+            </div>
+        </div>
+
+        <div class="carousel-item ">
+            <img src="/static/img/huur/zijgevel.png" class="d-block w-100" alt="Image 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Zijgevel</h5>
+            </div>
+        </div>
+
+        <div class="carousel-item ">
+            <img src="/static/img/huur/grasveld.png" class="d-block w-100" alt="Image 4">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Grasveld</h5>
+            </div>
+        </div>
+
+        <div class="carousel-item ">
+                    <img src="/static/img/huur/Sanitair.png" class="d-block w-100" alt="Image 5">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sanitair</h5>
+             </div>
+        </div>
+
+        <div class="carousel-item ">
+             <img src="/static/img/huur/slaapzaal.png" class="d-block w-100" alt="Image 6">
+             <div class="carousel-caption d-none d-md-block">
+                   <h5>slaapzaal</h5>
+             </div>
+        </div>
+
+        <!-- Add more carousel items as needed -->
+    </div>
+    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
 
 	<div id="calendar"></div>

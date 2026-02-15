@@ -14,12 +14,12 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="KLJ Wiekevorst is een jeugdbeweging voor jongeren van 5 tot 35 jaar.">
-	<meta name="author" content="Kristof Buts">
+	<meta name="author" content="Ben Van Oevelen">
 
 	<meta property="og:url" content="https://www.kljwiekevorst.be/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="KLJ Wiekevorst" />
-	<meta property="og:description" content="KLJ Wiekevorst is een bruisende jeugdbeweging die reeds 90 jaar bestaat, waar kinderen en jongeren van 6 tot 35 zich kunnen uitleven en plezier maken, week na week." />
+	<meta property="og:description" content="KLJ Wiekevorst is een bruisende jeugdbeweging die reeds 95 jaar bestaat, waar kinderen en jongeren van 6 tot 35 zich kunnen uitleven en plezier maken, week na week." />
 	<meta property="og:image" content="https://kljwiekevorst.be/static/img/header.jpg" />
 
 	<!-- TITLE -->
@@ -51,6 +51,15 @@
 		<link rel="stylesheet" href="<?=$this->e($extracss)?>">
 	<?php }
 	?>
+
+<!-- Bootstrap CSS -->
+<link href="path/to/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS with Popper.js and jQuery -->
+<script src="path/to/jquery.min.js"></script>
+<script src="path/to/popper.min.js"></script>
+<script src="path/to/bootstrap/js/bootstrap.min.js"></script>
+
 
 
 

@@ -7,13 +7,12 @@
 	<div class="hero-text">
 		<h2>KLJ Wiekevorst</h2>
 		<p class="lead">
-			KLJ Wiekevorst is een bruisende jeugdbeweging die al meer dan 90 jaar bestaat, waar kinderen en jongeren van 6 tot 35 jaar zich kunnen uitleven en plezier maken, week na week. Vandaag de dag telt onze vereniging zo’n 200 leden.
+			KLJ Wiekevorst is een bruisende jeugdbeweging die al meer dan 95 jaar bestaat, waar kinderen en jongeren van 6 tot 35 jaar zich kunnen uitleven en plezier maken, week na week. Vandaag de dag telt onze vereniging zo’n 200 leden.
 		</p>
 	</div>
 </div>
 
 <div class="container">
-	<h2 class="text-center">KLJ Wiekevorst op Facebook en Instagram</h2>
         <!--nieuwe instagramplugin als er op de website staat rate exceeded zijn ze aan de plugin aan het werken plugin komt van https://embedsocial.com/-->
         <div class="embedsocial-hashtag" data-ref="3c5585eb395c01f97a23e1a8da2d89c661d1f438"> <a class="feed-powered-by-es feed-powered-by-es-feed-new" href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Widget by EmbedSocial"> Widget by EmbedSocial<span>→</span> </a> </div> <script> (function(d, s, id) { var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialHashtagScript")); </script>
         <!--originele instagramplugin-->
@@ -21,8 +20,5 @@
         <!--facebookplugin zonder sorry something went wrong-->
         <!--<div class="fb-page"  data-href="https://www.facebook.com/kljwiekevorst" width="1000"></div>-->
         <!--facebookplugin met sorry something went wrong (staat daarom in commentaar)-->
-        <div class="centering">
-            <div class="fb-page" style="alignme" data-href="https://www.facebook.com/kljwiekevorst" data-tabs="timeline" data-width="10000" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/kljwiekevorst" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/kljwiekevorst">KLJ Wiekevorst</a></blockquote></div>
-	    </div>
 	</div>
 </div>

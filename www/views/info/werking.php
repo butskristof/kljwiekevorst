@@ -9,10 +9,12 @@ $this->layout('template', ['title' => 'Werking - KLJ Wiekevorst', 'id' => 'info/
 
 		<p>In onze werking zetelen</p>
 		<ul>
+		    <li>Alle leiding</li>
 			<li>Hoofdleiding: Rune Deckers</li>
+			<li>Hoofdleiding: Wies Verlinden</li>
 			<li>Secretaris: Robbe Helsen</li>
 			<li>Volwassenbegeleider: Kurt Vets</li>
-			<li>Bestuurslid: Joppe Van den Sande	</li>
+			<li>Volwassenbegeleider: Joppe Van den Sande</li>
 		</ul>
 		<p>Wil je meer te weten komen over onze leiding? Kijk dan op de <a href="/leiding">leidingspagina</a>!</p>
 		<br />

@@ -7,7 +7,7 @@
 
 	<div class="col-md-10 offset-md-1">
 
-		<p>KLJ Wiekevorst is een bruisende jeugdbeweging die al meer dan 90 jaar bestaat, waar kinderen en jongeren van 6 tot 35 jaar zich kunnen uitleven en plezier maken, week na week. Vandaag de dag telt onze vereniging zo’n 200 leden. </p>
+		<p>KLJ Wiekevorst is een bruisende jeugdbeweging die al meer dan 95 jaar bestaat, waar kinderen en jongeren van 6 tot 35 jaar zich kunnen uitleven en plezier maken, week na week. Vandaag de dag telt onze vereniging zo’n 200 leden. </p>
 		<p>We verwelkomen onze leden elke week op zondag van 14u tot 17u aan ons lokaal in de Dalstraat. Dan laten we even alle remmen los en leven we ons uit in sport en spel. Samen plezier maken staat daarbij centraal. KLJ Wiekevorst is bovenal een plaats waar we vrienden maken en samen onze jeugd beleven.</p>
 		<p>Op zondag verdelen we de leden over vier groepen: </p>
 		<ul>

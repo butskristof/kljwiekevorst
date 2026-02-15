@@ -16,13 +16,11 @@ $this->layout('template', ['title' => 'Sportfeesten - KLJ Wiekevorst', 'id' => '
 			</p>
 
 			<p>
-				Voor meer info over sportfeesten 2023; contacteer één van de sportverantwoordelijken:
+				Voor meer info over sportfeesten 2024; contacteer één van de sportverantwoordelijken:
 			<ul>
-				<li>Lander Van den Sande (0471/41.35.58)</li>
-				<li>Julie Vermeulen (0473/36.66.46)</li>
-				<li>Jeffrey Vermeulen (0468/17.61.46)</li>
-				<li>Joppe Van den Sande (0470/51.16.50)</li>
-				<li>Alana Vermeulen (0476/29.47.00)</li>
+				<li>Jeffrey Vermeulen (+32 468 17 61 46)</li>
+				<li>Alana Vermeulen (+32 476 29 47 00)</li>
+				<li>Kaat De Vel (+32 468 40 95 33)
 			</ul>
 			</p>
 			<div class="row">

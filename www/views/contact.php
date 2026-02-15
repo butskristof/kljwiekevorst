@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: butskristof
- * Date: 24/05/2018
- * Time: 21:08
- */
+
 
 $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'contact', 'extracss' => '/static/css/contact.css']) ?>
 
@@ -30,11 +25,20 @@ $this->layout('template', ['title' => 'Contact - KLJ Wiekevorst', 'id' => 'conta
 	<div class="row">
 		<div class="col-md-3 leftmargin">
 			<p>
-				<strong>Rune Deckers</strong> <br>
-				+32 494 25 71 20
+				<strong>Kaat De Vel</strong> <br>
+				+32 468 40 95 33
 			</p>
 		</div><!-- /col-md-3 -->
 	</div><!-- /row -->
+	<div class="row">
+		<div class="col-md-3 leftmargin">
+			<p>
+				<strong>Wies Verlinden</strong> <br>
+				+32 471 58 39 81
+			</p>
+		</div><!-- /col-md-3 -->
+	</div><!-- /row -->
+
 
 	<p>Je kan hen beide bereiken via mail op <a href="#">hoofdleiding@kljwiekevorst.be</a>.</p>
 

@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: butskristof
- * Date: 2018-05-24
- * Time: 17:37
- */
+
 
 $this->layout('template', ['title' => 'Kampverhuur - KLJ Wiekevorst', 'id' => 'Kampverhuur', 'extracss' => '/static/css/kampverhuur.css']) ?>
 
@@ -70,7 +65,7 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 					<td>Slaapzaal 5</td><td>28 m<sup>2</sup> (12 pers.)</td>
 				</tr>				
 				<tr>
-					<td>Slaapzolder (enkel indieen deze niet als dagzaal wordt gebruikt)</td><td>72 m<sup>2</sup> (20 pers.)</td>
+					<td>Slaapzolder (enkel indien deze niet als dagzaal wordt gebruikt)</td><td>72 m<sup>2</sup> (20 pers.)</td>
 				</tr>
 
 				<tr>
@@ -145,22 +140,23 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 		<h2>De buurt</h2>
 		<p><b>Winkels in het dorp:</b></p>
 		<ul>
-        		<li>2 bakkers</li>
-        		<li>1 beenhouwerij</li>
-        		<li>1 hoevewinkel</li>
-        		<li>1 aardbeienautomaat</li>
-        		<li>3 frituren</li>
-        		<li>1 dagbladhandel</li>
-                        <li>1 nachtwinkel</li>
-                        <li>2 broodjeszaken</li>
-                        <li>1 kebab/pizzazaak</li>
-                        <li>1 apotheker</li>
-	                <li>1 dokterspraktijk</li>
+        		<li>bakkers</li>
+        		<li>Spar</li>
+        		<li>hoevewinkel</li>
+        		<li>aardbeienautomaat</li>
+        		<li>frituren</li>
+        		<li>dagbladhandel</li>
+                <li>nachtwinkel</li>
+                <li>broodjeszaken</li>
+                <li>kebab/pizzazaak</li>
+                <li>apotheker</li>
+	            <li>dokterspraktijk</li>
 		</ul>
 		
 		<p><b>Supermarkten</b></p>
 		<ul>
-        		<li>Aldi op 3km</li>
+        		<li>Spar op 1.5km</li>
+				<li>Aldi op 3km</li>
         		<li>Delhaize op 3km</li>
         		<li>Colruyt op 10km</li>
 		</ul>
@@ -174,7 +170,6 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 		<p><b>Uitgaan en eten:</b></p>
 		<ul>
         		<li>Jeugdhuis Kwinten</li>
-        		<li>Café ’t Groen Hofke</li>
         		<li>Café De Compagnon</li>
         		<li>Brasserie De Verwant</li>
         		<li>Brasserie ’t Straatje</li>
@@ -198,19 +193,18 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 			</tr>
 		</table>
 		<h2>Drank</h2>
-		<p>U kan er voor kiezen om bij ons drank af te nemen.</p>
-		<p>Wij rekenen volgende prijzen aan:</p>
+		<p>U kan er voor kiezen om bij ons volgende drank af te nemen.</p>
 		<ul>
-			<li>Plat en bruis water   &euro; 0,30 / flesje</li>
-			<li>Cola en Cola Zero     &euro; 0,70 / flesje</li>
-			<li>Fanta en Sprite       &euro; 0,75 / flesje </li>
-			<li>Fuze Tea              &euro; 0,70 / flesje</li>
-			<li>Lipton Ice Tea        &euro; 0,75 / flesje</li>
-			<li>Stella                &euro; 0,80 / flesje</li>
-			<li>Duvel en Leffe        &euro; 1,70 / flesje</li>
-			<li>Wijn                  &euro; 7,50 / fles</li>
-			<li>Cava                  &euro; 10,00 / fles</li>
-			<li>Vat 50l bier + CO2    &euro; 205</li>
+			<li>Plat en bruis water</li>
+			<li>Cola en Cola Zero</li>
+			<li>Fanta en Sprite</li>
+			<li>Fuze Tea</li>
+			<li>Lipton Ice Tea</li>
+			<li>Stella</li>
+			<li>Duvel en Leffe</li>
+			<li>Wijn</li>
+			<li>Cava</li>
+			<li>Vat 50l bier + CO2</li>
 		</ul>
 
 		<!--
@@ -237,12 +231,12 @@ Hier vind je alle informatie over de lokalen, terreinen en de omgeving. Heb je i
 
 		<h2>Contact</h2>
 		 <dl>
-                        <dt>Adres</dt>
-                        <dd>
-                                <address>Katholieke Landelijke Jeugd Wiekevorst Lokaal vzw<br>
-                                Dalstraat 22a <br>
-                                2222 Wiekevorst</address>
-                        </dd>
+            <dt>Adres</dt>
+            <dd>
+            	<address>Katholieke Landelijke Jeugd Wiekevorst Lokaal vzw<br>
+                Dalstraat 22a <br>
+                2222 Wiekevorst</address>
+            </dd>
 			<dt>E-mail</dt>
 			<dd>verhuur@kljwiekevorst.be</dd>
                 </dl>

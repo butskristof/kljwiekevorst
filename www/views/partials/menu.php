@@ -1,43 +1,6 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: butskristof
- * Date: 24/05/2018
- * Time: 14:23
- */
 
 namespace Spatie\Menu;
-
-	$acts = Menu::new()
-		->setWrapperTag('div')
-		->withoutParentTag()
-		->addClass('dropdown-menu')
-		->setActiveClassOnLink(true)
-		->add(
-			Link::to('/-9', '-9')
-				->addClass('dropdown-item')
-		)
-		->add(
-			Link::to('/-12', '-12')
-				->addClass('dropdown-item')
-		)
-		->add(
-			Link::to('/-14', '-14')
-				->addClass('dropdown-item')
-		)
-		->add(
-			Link::to('/+14', '+14')
-				->addClass('dropdown-item')
-		)
-		->add(
-			Link::to('/+16', '+16')
-				->addClass('dropdown-item')
-		)
-		->add(
-			Link::to('/+20', '+20')
-				->addClass('dropdown-item')
-		)
-	;
 
 	$info = Menu::new()
 	->setWrapperTag('div')
@@ -101,12 +64,13 @@ $menu = Menu::new()
 		->addClass('nav-link')
 		->addParentClass('nav-item')
 	)
-	->submenu(
-		Link::to('#', 'Activiteiten')
-			->addClass('nav-link dropdown-toggle')
-			->setAttribute('data-toggle', 'dropdown'),
-		$acts->addParentClass('nav-item dropdown')
-	)
+
+	->add(
+		Link::to('/KLJke', 'KLJke')
+			->addClass('nav-link')
+			->addParentClass('nav-item')
+	)	
+	
 	->submenu(
 		Link::to('#', 'Info')
 			->addClass('nav-link dropdown-toggle')
@@ -118,11 +82,7 @@ $menu = Menu::new()
 			->addClass('nav-link')
 			->addParentClass('nav-item')
 	)
-	->add(
-		Link::to('/KLJke', 'KLJke')
-			->addClass('nav-link')
-			->addParentClass('nav-item')
-	)	
+
 	->submenu(
 		Link::to('#', 'Verhuur')
 			->addClass('nav-link dropdown-toggle')
@@ -135,6 +95,20 @@ $menu = Menu::new()
 			->addClass('nav-link')
 			->addParentClass('nav-item')
 	)
+
+
+	->add(
+    		Link::to('static/files/Zomerkrant.pdf', 'Zomerkrant')
+    		->addClass('nav-link')
+    		->addParentClass('nav-item')
+    	)
+/*
+    ->add(
+    		Link::to('https://docs.google.com/forms/d/e/1FAIpQLSeLLlyK4ib6I0Ug0RTiafokfbb9prFSuTdYEL30fyMF7Qx1EQ/viewform', 'Foto & BBQ')
+    			->addClass('nav-link')
+    			->addParentClass('nav-item')
+    	)
+    	*/
 	->setActive('/' . $this->e($id)); // '/' + id form the url
 
 
